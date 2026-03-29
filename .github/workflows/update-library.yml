@@ -1,53 +1,47 @@
 name: Update Library and create manifest
 
 on:
-  push:
-    paths:
-      - "Ben-YehudaToOtzaria/ספרים/אוצריא/**"
-      - "DictaToOtzaria/ערוך/ספרים/אוצריא/**"
-      - "DictaToOtzaria/לא ערוך/ספרים/אוצריא/**"
-      - "OnYourWayToOtzaria/ספרים/אוצריא/**"
-      - "OraytaToOtzaria/ספרים/אוצריא/**"
-      - "tashmaToOtzaria/ספרים/אוצריא/**"
-      - "sefariaToOtzaria/sefaria_export/ספרים/אוצריא/**"
-      - "sefariaToOtzaria/sefaria_api/ספרים/אוצריא/**"
-      - "MoreBooks/ספרים/אוצריא/**"
-      - "ToratEmetToOtzaria/ספרים/אוצריא/**"
-      - "wikiJewishBooksToOtzaria/ספרים/אוצריא/**"
-      - "wikisourceToOtzaria/ספרים/אוצריא/**"
-      - "pninimToOtzaria/ספרים/אוצריא/**"
-
-      - "Ben-YehudaToOtzaria/links/**"
-      - "DictaToOtzaria/links/**"
-      - "OnYourWayToOtzaria/links/**"
-      - "OraytaToOtzaria/links/**"
-      - "tashmaToOtzaria/links/**"
-      - "sefariaToOtzaria/sefaria_export/links/**"
-      - "sefariaToOtzaria/sefaria_api/links/**"
-      - "MoreBooks/links/**"
-      - "ToratEmetToOtzaria/links/**"
-      - "wikiJewishBooksToOtzaria/links/**"
-      - "wikisourceToOtzaria/links/**"
-      - "DictaToOtzaria/לא ערוך/links/**"
-      - "DictaToOtzaria/ערוך/links/**"
-      - "pninimToOtzaria/links/**"
-      
+  schedule:
+    - cron: '0 22 * * 4'  # כל יום חמישי בשעה 22:00 UTC = 01:00 ליל שישי שעון ישראל קיץ (IDT, UTC+3)
   workflow_dispatch:
+
+# הטריגר הישן - push על שינויים בנתיבים ספציפיים
+#   push:
+#     paths:
+#       - "Ben-YehudaToOtzaria/ספרים/אוצריא/**"
+#       - "DictaToOtzaria/ערוך/ספרים/אוצריא/**"
+#       - "DictaToOtzaria/לא ערוך/ספרים/אוצריא/**"
+#       - "OnYourWayToOtzaria/ספרים/אוצריא/**"
+#       - "OraytaToOtzaria/ספרים/אוצריא/**"
+#       - "tashmaToOtzaria/ספרים/אוצריא/**"
+#       - "sefariaToOtzaria/sefaria_export/ספרים/אוצריא/**"
+#       - "sefariaToOtzaria/sefaria_api/ספרים/אוצריא/**"
+#       - "MoreBooks/ספרים/אוצריא/**"
+#       - "ToratEmetToOtzaria/ספרים/אוצריא/**"
+#       - "wikiJewishBooksToOtzaria/ספרים/אוצריא/**"
+#       - "wikisourceToOtzaria/ספרים/אוצריא/**"
+#       - "pninimToOtzaria/ספרים/אוצריא/**"
+#       - "Ben-YehudaToOtzaria/links/**"
+#       - "DictaToOtzaria/links/**"
+#       - "OnYourWayToOtzaria/links/**"
+#       - "OraytaToOtzaria/links/**"
+#       - "tashmaToOtzaria/links/**"
+#       - "sefariaToOtzaria/sefaria_export/links/**"
+#       - "sefariaToOtzaria/sefaria_api/links/**"
+#       - "MoreBooks/links/**"
+#       - "ToratEmetToOtzaria/links/**"
+#       - "wikiJewishBooksToOtzaria/links/**"
+#       - "wikisourceToOtzaria/links/**"
+#       - "DictaToOtzaria/לא ערוך/links/**"
+#       - "DictaToOtzaria/ערוך/links/**"
+#       - "pninimToOtzaria/links/**"
 permissions:
   contents: write
-
-
-# שמירת הטריגר הישן כתגובה כדי שלא יפעל בפועל
-# on:
-#   schedule:
-#     - cron: '0 6 * * 5'  # מפעיל את ה-Workflow כל יום שישי בשעה 8:00 שעון ישראל (3:00 UTC)
-#
-#   workflow_dispatch:  # מאפשר הפעלה ידנית
 
 jobs:
   update-manifest:
     runs-on: ubuntu-latest
-    if: github.actor != 'github-actions[bot]' && github.actor != 'github-actions'
+    # if: github.actor != 'github-actions[bot]' && github.actor != 'github-actions'
 
     steps:
       - name: Checkout repository
