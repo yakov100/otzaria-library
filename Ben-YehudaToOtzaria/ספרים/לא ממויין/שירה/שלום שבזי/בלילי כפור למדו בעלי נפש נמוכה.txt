@@ -85,4 +85,4 @@
 <blockquote><p>וְיוֹסִיף מֵימֵי נְהָרִים</p></blockquote>
 <blockquote><p>מֵעֶלְיוֹנֵי בְּרֵכָה.</p></blockquote>
 <blockquote><p>כִּי שָׁם צִוָּה ה' אֶת הַבְּרָכָה.</p></blockquote>
-<ol><li id="fn:1"><p>פירוש: מַכְרוּה (נִתְעָב). <a href="#fnref:1" title="return to body"> ↩</a></p></li></ol>
+<ol><li id="fn:1"><p>פירוש: מַכְרוּה (נִתְעָב). <a href="#fnref:1" title="return to body"> ↩</a></p></li></ol>

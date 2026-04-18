@@ -4,7 +4,7 @@
 <blockquote><p>                      א</p> <br/></blockquote>
 <blockquote><p>נִשְׁמַת                  נ</p> <p>ינ וּ בָאָרֶץ               נ</p></blockquote>
 <blockquote><p>                      נ</p> <br/></blockquote>
-<blockquote><p>נִשְׁמַת                 י</p> <p>יי וּ בַשַּׁחַק             י</p></blockquote>
+<blockquote><p>נִשְׁמַת                 י</p> <p>יי וּ בַשַּׁחַק             י</p></blockquote>
 <blockquote><p>                    י</p> <br/></blockquote>
 <blockquote><p>נִשְׁמַת בָאָרֶץ         שׁ</p> <p>יֵשׁ וּ               שׁ</p> <p>                  שׁ</p> <br/></blockquote>
 <blockquote><p>נִשְׁמַת              ל</p> <p>יל וּ בַשַּׁחַק          ל</p></blockquote>

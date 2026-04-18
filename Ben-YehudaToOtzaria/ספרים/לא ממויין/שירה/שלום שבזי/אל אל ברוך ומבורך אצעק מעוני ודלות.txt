@@ -101,4 +101,4 @@
 <blockquote><p>אַל תָּרִימֵינִי כְּזֻלּוּת.</p></blockquote>
 <blockquote><p>שָׁלוֹם לָך חַזְמַק וְדוֹרָך,</p></blockquote>
 <blockquote><p>בַּעְלֵי הַאְמָנָה וְיַשְׁרוּת.</p></blockquote>
-<ol><li id="fn:1"><p>נוסח מתחת לכתוב: וּרְצֵה. <a href="#fnref:1" title="return to body"> ↩</a></p></li></ol>
+<ol><li id="fn:1"><p>נוסח מתחת לכתוב: וּרְצֵה. <a href="#fnref:1" title="return to body"> ↩</a></p></li></ol>

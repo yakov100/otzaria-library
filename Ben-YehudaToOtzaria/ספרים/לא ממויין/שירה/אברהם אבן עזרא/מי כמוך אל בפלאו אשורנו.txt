@@ -13,7 +13,7 @@
 <blockquote><p>וְעַל כְּנַף חַסְדּוֹ נְשָׂאַנִי,</p></blockquote>
 <blockquote><p>עַל כֵּן אוֹחִיל לוֹ.</p> <br/> <p>מִי כָמוֹךָ הִנְחַלְתָּ עַמְּךָ תְּעוּדָה</p></blockquote>
 <blockquote><p>וַתִּבְחַר שֵׁבֶט יְהוּדָה –</p></blockquote>
-<blockquote><p>תַּאֲוַת לִבּוֹ נָתַתָּה לוֹ.</p> <br/> <p>מִי כָמוֹךָ אָמוֹן לִבּוֹ שִׁלָּם</p></blockquote>
+<blockquote><p>תַּאֲוַת לִבּוֹ נָתַתָּה לוֹ.</p> <br/> <p>מִי כָמוֹךָ אָמוֹן לִבּוֹ שִׁלָּם</p></blockquote>
 <blockquote><p>הָבִין בְּנִרְאֶה וְנֶעֱלָם,</p></blockquote>
 <blockquote><p>בִּקֵּשׁ סוֹד הָעוֹלָם –</p></blockquote>
 <blockquote><p>וַיַּרְא רֵאשִׁית לוֹ.</p> <br/> <p>בַּמֶּה לְדַעְתּוֹ יִתְרַצֶּה –</p></blockquote>
@@ -88,7 +88,7 @@
 <blockquote><p>פְּלֵיטָה לֹא הָיְתָה לוֹ.</p> <br/> <p>יוֹנָה בֵּאֲרָה תַעֲלוּמָה,</p></blockquote>
 <blockquote><p>כִּי יָבְשָׁה הָאֲדָמָה,</p></blockquote>
 <blockquote><p>וְאַחַר שָׁנָה תְמִימָה</p></blockquote>
-<blockquote><p>הַגֶּשֶׁם חָלַף הָלַךְ לוֹ.</p> <br/> <p>הִשְׁחִיתוּ בְנֵי אִישׁ עֲלִילוֹת,</p></blockquote>
+<blockquote><p>הַגֶּשֶׁם חָלַף הָלַךְ לוֹ.</p> <br/> <p>הִשְׁחִיתוּ בְנֵי אִישׁ עֲלִילוֹת,</p></blockquote>
 <blockquote><p>לַעֲשׂוֹת בְּמִגְדָּל גְּדוֹלוֹת,</p></blockquote>
 <blockquote><p>הֵמָּה בִקְּשׁוּ לַעֲלוֹת –</p></blockquote>
 <blockquote><p>וְצוּרָם לְבַלּוֹת שְׁאוֹל מִזְּבֻל לוֹ.</p> <br/> <p>וְאָב, מִנְּעוּרָיו תָּמִים,</p></blockquote>
@@ -105,7 +105,7 @@
 <blockquote><p>וּבוֹ יִקָּרֵא זַרְעוֹ –</p></blockquote>
 <blockquote><p>וַיִּתֶּן לוֹ אֶת כָּל אֲשֶׁר לוֹ.</p> <br/> <p>נוֹלְדוּ לַנֶּעֱקָד תְּאוֹמִים,</p></blockquote>
 <blockquote><p>הַצָּעִיר – אִישׁ תָּמִים,</p></blockquote>
-<blockquote><p>וְהָרַב – אִישׁ דָּמִים,</p></blockquote>
+<blockquote><p>וְהָרַב – אִישׁ דָּמִים,</p></blockquote>
 <blockquote><p>וּמְתַלְּעוֹת לָבִיא לוֹ.</p> <br/> <p>כַּאֲשֶׁר רַבּוּ הַיָּמִים,</p></blockquote>
 <blockquote><p>אָמַר לִבְזוּי עַמִּים:</p></blockquote>
 <blockquote><p>׳קוּם, עֲשֵׂה לִי מַטְעַמִּים!׳</p></blockquote>
@@ -156,7 +156,7 @@
 <blockquote><p>וְאָבוֹת בְּעַבְדוּת נִמְשָׁכוּ,</p></blockquote>
 <blockquote><p>וְלִישׁוּעַת אֵל חָכוּ –</p></blockquote>
 <blockquote><p>אַשְׁרֵי כָּל חוֹכֵי לוֹ!</p> <br/> <p>נָאֲקוּ זֶרַע יְשָׁרִים</p></blockquote>
-<blockquote><p>וְאִישׁ אֶל רֵעֵהוּ אוֹמְרִים:</p></blockquote>
+<blockquote><p>וְאִישׁ אֶל רֵעֵהוּ אוֹמְרִים:</p></blockquote>
 <blockquote><p>׳קְחוּ עִמָּכֶם דְּבָרִים,</p></blockquote>
 <blockquote><p>וְאַל תִּתְּנוּ דֳמִי לוֹ!׳</p> <br/> <p>כִּמְעַט יְשׁוּרוּן נֶעְכָּר –</p></blockquote>
 <blockquote><p>וְחֶסֶד אָבוֹת נִזְכָּר,</p></blockquote>
@@ -165,7 +165,7 @@
 <blockquote><p>וְהֶרְאָם תּוֹרוֹת אֱלֹהֵיהֶם,</p></blockquote>
 <blockquote><p>וַיֹּאמְרוּ בְּמֹעַל יְדֵיהֶם:</p></blockquote>
 <blockquote><p>׳זֶה אֲדֹנָי קִוִּינוּ לוֹ!׳</p> <br/> <p>וַיְמַלֲּלוּ צִירִים לְצָר:</p></blockquote>
-<blockquote><p>׳שְׁלָחָנוּ אֲשֶׁר כֹּל יָצַר,</p></blockquote>
+<blockquote><p>׳שְׁלָחָנוּ אֲשֶׁר כֹּל יָצַר,</p></blockquote>
 <blockquote><p>שַׁלַּח עַמּוֹ מִמַּעֲצָר!</p></blockquote>
 <blockquote><p>הוֹדִיעֵנוּ, מַה נֹּאמַר לוֹ?׳</p> <br/> <p>דִּבֶּר תַּנִּין בְּזַעְמוֹ:</p></blockquote>
 <blockquote><p>׳מִי אֲדֹנָי וּמַה שְּׁמוֹ?</p></blockquote>

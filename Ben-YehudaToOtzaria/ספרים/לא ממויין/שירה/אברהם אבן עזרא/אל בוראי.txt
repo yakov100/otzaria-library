@@ -36,7 +36,7 @@
 <blockquote><p>סוֹף דָּבָר לַהֶרֶג אִנָּטֶה.</p> <br/> <p>זֶה יִשְׁחַט וְזֶה יִתְּלֶה,</p></blockquote>
 <blockquote><p>זֶה יִפְשַׁט וְזֶה יִצְלֶה,</p></blockquote>
 <blockquote><p>זֶה יִשְׂמַח בִּבְשָׂרִי,</p></blockquote>
-<blockquote><p>וְזֶה יִלְבַּשׁ אֶת עוֹרִי.</p> <br/> <p>הֵן חָרַץ גַּם הַכֶּלֶב לָשׁוֹן,</p></blockquote>
+<blockquote><p>וְזֶה יִלְבַּשׁ אֶת עוֹרִי.</p> <br/> <p>הֵן חָרַץ גַּם הַכֶּלֶב לָשׁוֹן,</p></blockquote>
 <blockquote><p>מִי יִתֵּן יִגְרֹף נַחַל קִישׁוֹן</p></blockquote>
 <blockquote><p>אֶת חַוָּה עִם אָדָם הָרִאשׁוֹן;</p></blockquote>
 <blockquote><p>זַרְעָם לַיְלָה אֶשְׁמוֹר מֵאִישׁוֹן,</p></blockquote>

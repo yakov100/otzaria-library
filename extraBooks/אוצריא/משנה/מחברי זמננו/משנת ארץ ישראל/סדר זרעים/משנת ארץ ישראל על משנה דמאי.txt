@@ -1227,7 +1227,7 @@ x x x x x x x x x x
 פוס, המגזר הכפרי – Foss, C., 1996, Cities, Fortresses, and Villages of Byzantine Asia Minor, Variorum.
 פוקסהל, האריס המשועבד – Foxhall, L., 1990, "The Depended Tennant, Land Leasing and Labour in Italy and Greece", JRS 80, pp. 97-114.
 פורת, אבן גבול – Porat, Y., 1898-1990, "A New Boundry Stone from the Southern Golan", Scripta Classica Israelica 10, pp. 130-133.
-פורת, יריחו – פורת, י', תשמ"ו, "חקלאות השלחין ביריחו ועין-גדי בתקופת הבית השני (המאה השנייה לפני הספירה – המאה הראשונה לספירה)", בתוך: אופנהיימר, א' ואחרים (עורכים),  אדם ואדמה בארץ ישראל הקדומה, ירושלים, עמ' 141-127. 
+פורת, יריחו – פורת, י', תשמ"ו, "חקלאות השלחין ביריחו ועין-גדי בתקופת הבית השני (המאה השנייה לפני הספירה – המאה הראשונה לספירה)", בתוך: אופנהיימר, א' ואחרים (עורכים),  אדם ואדמה בארץ ישראל הקדומה, ירושלים, עמ' 141-127. 
 פילון, כתבים – דניאל-נטף, ס' ועמיר, י' (עורכים ומתרגמים), תשמ"ו-תשנ"ז, כתבי פילון האלכסנדרוני, א-ד, ירושלים.
 פילון, על החוקים – פילון, כתבים ב, עמ' 307-220; ג, עמ' 181-9. 
 פילון, על המידות הטובות – פילון, כתבים ג, עמ' 202-183.
@@ -1272,7 +1272,7 @@ x x x x x x x x x x
 רבינוביץ, שערי תורת בבל – רבינוביץ, ז"ו, תשכ"א, שערי תורת בבל, ירושלים.
 רבן, סקר נהלל – רבן, א', תשמ"ג, סקר ארכיאולוגי של ישראל, מפת נהלל (28), ירושלים, מס' 82, עמ' 69.
 רוולנדסון, בעלי קרקע – Rowlandson, J., 1996, Landowners and Tenants in the Roman Egypt, Oxford.
-רוזנפלד, אלכסא מלוד – רוזנפלד, ב"צ, תשנ"א, "תולדות התיישבותן של שתי משפחות מהכהונה הגדולה בימי הבית השני", בתוך: כץ, י' ואחרים (עורכים), מחקרים בגיאוגרפיה היסטורית-יישובית של ארץ-ישראל, ב, עמ' 218-206.
+רוזנפלד, אלכסא מלוד – רוזנפלד, ב"צ, תשנ"א, "תולדות התיישבותן של שתי משפחות מהכהונה הגדולה בימי הבית השני", בתוך: כץ, י' ואחרים (עורכים), מחקרים בגיאוגרפיה היסטורית-יישובית של ארץ-ישראל, ב, עמ' 218-206.
 רוזנפלד, פונדק – רוזנפלד, ב', 2004, "שווקים קבועים בארץ-ישראל בתקופת המשנה והתלמוד ביחס למקביליהם באימפריה הרומית" , סידרא יט, עמ' 175-161. 
 רוזפיו, עבדים – Rosafio, R., 1994, "Slaves and Coloni in the Villa System", in: Carlsen, J. (ed.), Landuse in the Roman Empire, Rome, pp. 145-158.
 רוסטובצף, האחוזה הגדולה – Rostovzeff, M., 1922, A Large Estate in the Third Century BC: A Study in Economic History, Madison.
@@ -1282,7 +1282,7 @@ x x x x x x x x x x
 רטבונה, כפרים – Rathbone, D.W., 1990, "Villages, Land and Population in Greco-Roman Egypt", PCPS 36, pp. 103-142.
 ריבט, הווילה הרומית – Rivet, A.L.F. (ed.), 1969, The Roman Villa in Britain, London.
 ריטב"א, חדושים למסכת שבת, מהדורת גולדשטיין, מ', ירושלים, תש"ן.
-רייך, תחום גזר – Reich, R., 2002, "Another 'Boundary of Gezer' Inscription Found Recently", Israel Exploration Journal 52, pp. 58-63.
+רייך, תחום גזר – Reich, R., 2002, "Another 'Boundary of Gezer' Inscription Found Recently", Israel Exploration Journal 52, pp. 58-63.
 ר"ן בפירושו לרי"ף, הודפס בתלמוד ש"ס וילנא.
 רשב"א, חדושים למסכת מגילה, מהדורת דימיטרובסקי, ח"ז, נויארק, תשט"ז.
 שאגת אריה, שו"ת אריה בן אשר ממץ, ירושלים, תש"ך.
@@ -1290,14 +1290,14 @@ x x x x x x x x x x
 שבלי הלקט, מהדורת באבר, ש', וילנא, תרמ"ו.
 שגיב, עבר הירדן – שגיב, נ', תשס"ד, היישוב היהודי בפראיה (עבר הירדן) בתקופה ההלניסטית והרומית, עבודת דוקטור בשכפול, אוניברסיטת בר-אילן, רמת גן. 
 שוורץ, יהודה – שוורץ, י', תשמ"ו, היישוב היהודי ביהודה: מלאחר מלחמת בר-כוכבא ועד לכיבוש הערבי (640-135 לספירה), ירושלים. 
-שוורץ, תחום גזר – Schwartz, J., 1988, "The 'Boundary of Gezer' Inscriptions and the History of Gezer at the End of the Second Temple Period", Israel Exploration Journal 38, pp. 235-245.
+שוורץ, תחום גזר – Schwartz, J., 1988, "The 'Boundary of Gezer' Inscriptions and the History of Gezer at the End of the Second Temple Period", Israel Exploration Journal 38, pp. 235-245.
 שיאון, חפירות – שיאון, ד', תשנ"ח, "בית גיתות רומי באכזיב", עתיקות 34, עמ' 99-85. 
 שיידל, חיטה – Scheidel, W., 1994, "Grain Cultivation in the Villa Economy of Roman Italy", in: Carlsen, J. (ed.), Landuse in the Roman Empire, Rome, pp. 159-167.
 שיידל, עבודת האדמה – Scheidel, W., 1994, Grundpacht und Lohnarbeit in der Landwirtschaft des Römischen Italian, Frankfurt.
 שכטר, קטעי גניזה – Schechter, S., 1898, "Genizah Fragments", JQR X, p. 636.
 שערי צדק, מהדורת מודעי, נ', שאלוניקי, תקנ"ב.
 שערי תשובה, מהדורת הירש, י"מ, לייפציג, תרפ"ח. 
-שפרבר, אגורנומוס – Sperber, D., 1977, "On the office of the agoranomos in Roman Palestine", Zeitschrift der Deutschen Morgenländischen Gesellschaft 127, pp. 227-243.
+שפרבר, אגורנומוס – Sperber, D., 1977, "On the office of the agoranomos in Roman Palestine", Zeitschrift der Deutschen Morgenländischen Gesellschaft 127, pp. 227-243.
 שפרבר, הקרקע – Sperber, D., 1978, Roman Palestine 200-400: The Land Crisis and Change in Agrarian Society as Reflected in Rabbinic Sources, Ramat Gan.
 שפרבר, תרבות חומרית – שפרבר, ד', תשנ"ד, תרבות חומרית בארץ-ישראל בימי התלמוד, רמת גן.
 שרידי ירושלמי – ראו גינצבורג.
