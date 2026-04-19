@@ -36,7 +36,7 @@
 <blockquote><p>וְאֵיךְ יִיטַב בְּיוֹם טוֹבָה לְבָבִי,</p></blockquote>
 <blockquote><p>וְלֹא אֵדַע – הֲיִיטַב מָחֳרָתִי?</p></blockquote>
 <blockquote><p>וְהַיָּמִים וְהַלֵּילוֹת עֲרֵבִים</p></blockquote>
-<blockquote><p>לְכַלּוֹת אֶת­‑ שְׁאֵרִי עַד כְּלוֹתִי.</p></blockquote>
+<blockquote><p>לְכַלּוֹת אֶת‑ שְׁאֵרִי עַד כְּלוֹתִי.</p></blockquote>
 <blockquote><p>וְלָרוּחַ יְזָרוּן מַחֲצִיתִי,</p></blockquote>
 <blockquote><p>וּלֶעָפָר יְשִׁיבוּן מַחֲצִיתִי.</p></blockquote>
 <blockquote><p>וּמַה אֹמַר – וְיִצְרִי יִרְדְּפֵנִי</p></blockquote>

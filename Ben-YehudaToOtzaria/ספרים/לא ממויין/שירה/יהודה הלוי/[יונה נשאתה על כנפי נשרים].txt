@@ -4,7 +4,7 @@
 <blockquote><p>וְקִנֲנָה בְּחֵיקְךָ / תּוֹךְ חַדְרֵי חֲדָרִים</p></blockquote>
 <blockquote><p>לָמָּה נְטַשְׁתָּהּ / נוֹדֲדָה בַיְעָרִים</p></blockquote>
 <blockquote><p>וּמִכֹּל עֲבָרִים / פּוֹרְשֵׂי מַכְמוֹרִים?</p></blockquote>
-<blockquote><p>יְסִיתוּהָ זָרִים / בֵּאלֹהִים אֲחֵרִים ­–</p></blockquote>
+<blockquote><p>יְסִיתוּהָ זָרִים / בֵּאלֹהִים אֲחֵרִים –</p></blockquote>
 <blockquote><p>וְהִיא בְּמִסְתָּרִים / תִּבְכֶּה לְבַעַל נְעוּרִים.</p></blockquote>
 <blockquote><p>וּבֶן‑דִּישָׁן וְדִשׁוֹן / יַחֲלִיק לָהּ לָשׁוֹן –</p></blockquote>
 <blockquote><p>וְתִשָּׂא אִישׁוֹן / לְאִישָׁהּ הָרִאשׁוֹן.</p></blockquote>
@@ -40,5 +40,5 @@
 <blockquote><p>וְגַלֶּה לְעֵינֵי / כְּבוֹדךָ כִּמִסִּינָי</p></blockquote>
 <blockquote><p>וְהָשֵׁב לִשְׁכֵנַי / גְּמוּל עַל יְגוֹנַי</p></blockquote>
 <blockquote><p>וּבְטַל יֶשַׁע רֵד / עַל יָרֵא וְחָרֵד,</p></blockquote>
-<blockquote><p>וּמִכִּסְאוֹ הוֹרֵד / בֶּן­‑הָאָָמָה מוֹרֵד,</p></blockquote>
+<blockquote><p>וּמִכִּסְאוֹ הוֹרֵד / בֶּן‑הָאָָמָה מוֹרֵד,</p></blockquote>
 <blockquote><p>מְהֵרָה, פֶּן אֵרֵד / בְּיָגוֹן אֶל שְׁאוֹל! <br/></p></blockquote>
