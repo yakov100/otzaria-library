@@ -918,7 +918,7 @@ A copy of the license is included in the section entitled “GNU Free Documentat
 <small style="color: gray;"><sup>485</sup> טורח גדול הדבר בשבילו.</small>
 <small style="color: gray;"><sup>486</sup> שאילת יעבץ, קונטרס “עשרה הלחם“: “על היושב בטח עמו חרש רעה…”.</small>
 <small style="color: gray;"><sup>487</sup> נדפס וואנזבעק, תפ״ח.</small>
-<small style="color: gray;"><sup>488</sup> עפ״י	קהלת ט, ו. משחק-מלים, כסף-כוסף.</small>
+<small style="color: gray;"><sup>488</sup> עפ״י קהלת ט, ו. משחק-מלים, כסף-כוסף.</small>
 <sup style="color: gray;">585</sup> לא חפץ.
 <small style="color: gray;"><sup>489</sup> עפ״י קהלת ט, ו.</small>
 <small style="color: gray;"><sup>490</sup> עפ״י משלי טז, כה.</small>
@@ -1729,7 +1729,7 @@ A copy of the license is included in the section entitled “GNU Free Documentat
 מלחמות 205,26.
 משכנות 202, 204, 205, 210.
 מסחר 38, 39. 40, 41. 112, 113 114, 115, 122, 123, 190 211, 212.
-מעים, ראה חולי.	
+מעים, ראה חולי. 
 נסיונות 19. 109, 277.
 נסים 41, 24, 25, 26, 108, 109, 237, 273, 274.
 נצרות 246,120,54.
@@ -1784,7 +1784,7 @@ A copy of the license is included in the section entitled “GNU Free Documentat
 הורודנה 17.
 הנובר 267,58.
 ווילנא 22.
-ווין 120.		
+ווין 120.  
 זאלקוואה 90,77.
 חאטין 263.
 חברון 28.
