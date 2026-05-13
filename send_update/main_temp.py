@@ -94,12 +94,9 @@ print(modified_files)
 print(deleted_files)
 print(renamed_files)
 
-info_folder_path = Path(__file__).parent.parent / "MoreBooks" / "ספרים" / "אוצריא" / "אודות התוכנה"
-ver_file_path = info_folder_path / "גירסת ספריה.txt"
-with ver_file_path.open("r", encoding="utf-8") as f:
-    library_ver = int(f.read()) + 1
 
 if any([added_files, modified_files, deleted_files, renamed_files]):
+    content_forum = f"## **עדכון {date}**\n"
     date_yemot = f"עדכון {date}\n"
     content_yemot = {}
     if added_files:
@@ -130,17 +127,14 @@ if any([added_files, modified_files, deleted_files, renamed_files]):
     yemot_path = "ivr2:/1"
     tzintuk_list_name = "books update"
 
-    content_text = f"# גירסת ספרייה {library_ver} \n" + f"\n**עדכון {date}**\n" + content_forum
-    if (info_folder_path / "עדכוני ספריה_temp.md").exists():
-        content_text += (info_folder_path / "עדכוני ספריה_temp.md").read_text(encoding="utf-8").lstrip("\ufeff")
-        info_folder_path.joinpath("עדכוני ספריה_temp.md").unlink()
-    content_forum = f"# גירסת ספרייה {library_ver} \n" + f"\n**עדכון {date}**\n" + content_forum
-    md_file_path = info_folder_path / "עדכוני ספריה.md"
+    md_file_path = info_folder_path / "עדכוני ספריה_temp.md"
     existing_text = ""
     if md_file_path.exists():
         existing_text = md_file_path.read_text(encoding="utf-8").lstrip("\ufeff")
-    md_file_path.write_text(f"{content_text}\n---\n" + existing_text, encoding="utf-8")
+    md_file_path.write_text(f"{content_forum}\n---\n" + existing_text, encoding="utf-8")
+
     requests.post(google_chat_url, json={"text": content_forum})
+
     client = OtzariaForumClient(username.strip().replace(" ", "+"), password.strip())
 
     try:

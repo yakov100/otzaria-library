@@ -1,0 +1,91 @@
+name: Update Library on Push
+
+on:
+  push:
+    paths:
+      - "Ben-YehudaToOtzaria/ספרים/אוצריא/**"
+      - "DictaToOtzaria/ערוך/ספרים/אוצריא/**"
+      - "DictaToOtzaria/לא ערוך/ספרים/אוצריא/**"
+      - "OnYourWayToOtzaria/ספרים/אוצריא/**"
+      - "OraytaToOtzaria/ספרים/אוצריא/**"
+      - "tashmaToOtzaria/ספרים/אוצריא/**"
+      - "sefariaToOtzaria/sefaria_export/ספרים/אוצריא/**"
+      - "sefariaToOtzaria/sefaria_api/ספרים/אוצריא/**"
+      - "MoreBooks/ספרים/אוצריא/**"
+      - "ToratEmetToOtzaria/ספרים/אוצריא/**"
+      - "wikiJewishBooksToOtzaria/ספרים/אוצריא/**"
+      - "wikisourceToOtzaria/ספרים/אוצריא/**"
+      - "pninimToOtzaria/ספרים/אוצריא/**"
+      - "Ben-YehudaToOtzaria/links/**"
+      - "DictaToOtzaria/links/**"
+      - "OnYourWayToOtzaria/links/**"
+      - "OraytaToOtzaria/links/**"
+      - "tashmaToOtzaria/links/**"
+      - "sefariaToOtzaria/sefaria_export/links/**"
+      - "sefariaToOtzaria/sefaria_api/links/**"
+      - "MoreBooks/links/**"
+      - "ToratEmetToOtzaria/links/**"
+      - "wikiJewishBooksToOtzaria/links/**"
+      - "wikisourceToOtzaria/links/**"
+      - "DictaToOtzaria/לא ערוך/links/**"
+      - "DictaToOtzaria/ערוך/links/**"
+      - "pninimToOtzaria/links/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-library:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          lfs: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 2
+
+      - name: Pull LFS objects
+        run: |
+          git lfs pull
+          git lfs checkout
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install bs4 requests pyluach tzdata
+
+      - name: Run update script
+        env:
+          USER_NAME: ${{ secrets.USER_NAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          TOKEN_YEMOT: ${{ secrets.TOKEN_YEMOT }}
+          GOOGLE_CHAT_URL: ${{ secrets.GOOGLE_CHAT_URL }}
+        run: |
+          python send_update/main_temp.py
+
+      - name: Commit only עדכוני ספריה.md
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          FILE="MoreBooks/ספרים/אוצריא/אודות התוכנה/עדכוני ספריה_temp.md"
+          if [ -f "$FILE" ]; then
+            git add "$FILE"
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update עדכוני ספריה"
+          git push
