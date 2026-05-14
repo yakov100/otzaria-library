@@ -257,9 +257,11 @@ jobs:
             tar --use-compress-program=unzstd -tf "$archive_path" > /dev/null
           }
 
-          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
-            if git cat-file -e "${{ github.event.before }}^{commit}" 2>/dev/null; then
-              if git diff --quiet "${{ github.event.before }}" "${{ github.sha }}" -- "$SRC"; then
+          EVENT_BEFORE="$(jq -r '.before // empty' "$GITHUB_EVENT_PATH")"
+
+          if [ "$GITHUB_EVENT_NAME" = "push" ] && [ -n "$EVENT_BEFORE" ] && [ "$EVENT_BEFORE" != "0000000000000000000000000000000000000000" ]; then
+            if git cat-file -e "${EVENT_BEFORE}^{commit}" 2>/dev/null; then
+              if git diff --quiet "$EVENT_BEFORE" "$GITHUB_SHA" -- "$SRC"; then
                 echo "No Bavli PDF changes detected in this push."
                 REBUILD_ARCHIVE=0
               else
