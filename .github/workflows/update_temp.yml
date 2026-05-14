@@ -32,6 +32,10 @@ on:
       - "pninimToOtzaria/links/**"
   workflow_dispatch:
 
+concurrency:
+  group: update-temp
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -45,7 +49,7 @@ jobs:
         with:
           lfs: true
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 2
+          fetch-depth: 5
 
       - name: Pull LFS objects
         run: |
@@ -68,6 +72,8 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
           TOKEN_YEMOT: ${{ secrets.TOKEN_YEMOT }}
           GOOGLE_CHAT_URL: ${{ secrets.GOOGLE_CHAT_URL }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.event.after }}
         run: |
           python send_update/main_temp.py
 

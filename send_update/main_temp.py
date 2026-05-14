@@ -12,6 +12,26 @@ from pyluach import dates
 from yemot import split_and_send
 
 TZ = ZoneInfo("Asia/Jerusalem")
+BEFORE_SHA = os.getenv("BEFORE_SHA") or "HEAD^"
+AFTER_SHA = os.getenv("AFTER_SHA") or "HEAD"
+if set(BEFORE_SHA) == {"0"}:
+    BEFORE_SHA = "HEAD^"
+
+
+def ensure_sha_reachable(sha: str) -> str:
+    if sha in ("HEAD", "HEAD^"):
+        return sha
+    check = subprocess.run(["git", "cat-file", "-e", sha], capture_output=True)
+    if check.returncode == 0:
+        return sha
+    fetch = subprocess.run(["git", "fetch", "--depth=1", "origin", sha], capture_output=True, text=True)
+    if fetch.returncode == 0:
+        return sha
+    print(f"Warning: could not reach {sha}, falling back to HEAD^")
+    return "HEAD^"
+
+
+BEFORE_SHA = ensure_sha_reachable(BEFORE_SHA)
 folders = [
     "Ben-YehudaToOtzaria/ספרים/אוצריא",
     "DictaToOtzaria/ערוך/ספרים/אוצריא",
@@ -37,7 +57,7 @@ def decode_git_output_line(line: str) -> str:
 
 
 def get_moves_from_outside(folders: Sequence[str]) -> tuple[list[str], list[str], list[str]]:
-    cmd = ["git", "diff", "--name-status", "--diff-filter=R", "HEAD^", "HEAD"]
+    cmd = ["git", "diff", "--name-status", "--diff-filter=R", BEFORE_SHA, AFTER_SHA]
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
     raw_output = result.stdout.strip()
     from_external_moves = []
@@ -66,7 +86,7 @@ def get_moves_from_outside(folders: Sequence[str]) -> tuple[list[str], list[str]
 
 
 def get_changed_files(status_filter: str, folders: Sequence[str]) -> list[str]:
-    cmd = ["git", "diff", "--name-only", f"--diff-filter={status_filter}", "HEAD^", "HEAD", "--", *folders]
+    cmd = ["git", "diff", "--name-only", f"--diff-filter={status_filter}", BEFORE_SHA, AFTER_SHA, "--", *folders]
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
 
     raw_output = result.stdout.strip()
@@ -94,6 +114,7 @@ print(modified_files)
 print(deleted_files)
 print(renamed_files)
 
+info_folder_path = Path(__file__).parent.parent / "MoreBooks" / "ספרים" / "אוצריא" / "אודות התוכנה"
 
 if any([added_files, modified_files, deleted_files, renamed_files]):
     content_forum = f"## **עדכון {date}**\n"

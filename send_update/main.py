@@ -100,6 +100,7 @@ with ver_file_path.open("r", encoding="utf-8") as f:
     library_ver = int(f.read()) + 1
 
 if any([added_files, modified_files, deleted_files, renamed_files]):
+    content_forum = ""
     date_yemot = f"עדכון {date}\n"
     content_yemot = {}
     if added_files:
