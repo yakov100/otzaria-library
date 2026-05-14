@@ -123,10 +123,10 @@ if __name__ == "__main__":
     old_json_file_path = "toc.json"
     year, month = new_folder_name()
     num = 1
-    target_path = os.path.join("..", "sefaria_api", "ספרים", "לא ממויין", year, month)
+    target_path = os.path.join("..", "..", "extraBooks", "SefariaToOtzria", "sefaria_api", "ספרים", "לא ממויין", year, month)
     while os.path.exists(target_path):
         num += 1
-        target_path = os.path.join("..", "sefaria_api", "ספרים", "לא ממויין", year, f"{month}_{num}")
+        target_path = os.path.join("..", "..", "extraBooks", "SefariaToOtzria", "sefaria_api", "ספרים", "לא ממויין", year, f"{month}_{num}")
     eroor_file = os.path.join("eroor", f'{" ".join(target_path.split(os.sep)[-2:])}.log')
     os.makedirs("eroor", exist_ok=True)
     main(get_links, only_new, old_json_file_path, target_path, eroor_file)
