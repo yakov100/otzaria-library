@@ -29,10 +29,13 @@ class Book:
         self.links = defaultdict(list)
         self.shape = self.sefaria_api.get_shape(self.book_title)
         self.get_links = get_links
-        self.exists = isinstance(self.shape, list)
+        self.exists = isinstance(self.shape, list) and bool(self.shape)
         if self.exists:
             self.is_complex = bool(self.shape[0].get("isComplex"))
             self.index = self.sefaria_api.get_index(self.book_title)
+            if not isinstance(self.index, dict) or not isinstance(self.index.get("schema"), dict):
+                self.exists = False
+                return
             self.is_complex_and_simple = bool(
                 self.is_complex != bool(self.index["schema"].get("nodes"))
             )
@@ -113,7 +116,7 @@ class Book:
             if node_title is None and node.get("sharedTitle"):
                 node_title = self.parse_terms(node["sharedTitle"])
             node_level = self.add_heading(node_level + 1, node_title)
-            depth = node["depth"]
+            depth = node.get("depth", 1)
             if node["key"] == "default":
                 node_len = self.shape[0]["length"]
                 ref = ", ".join(key)
