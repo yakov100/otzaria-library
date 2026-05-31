@@ -1,0 +1,37 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, יג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 101,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 12,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק יג, יז",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 273,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 17,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ה, יח",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 22,
+    "heRef_2": "ספר קניין, הלכות עבדים, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות עבדים.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 27,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק יח, ב",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 159,
+    "Conection Type": "commentary"
+  }
+]

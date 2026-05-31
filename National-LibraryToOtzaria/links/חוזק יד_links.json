@@ -1,0 +1,2893 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 9,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ב",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 11,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 13,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ד",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 7,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 15,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ה",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 8,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 17,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ו",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 19,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ז",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 21,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ח",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 23,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ט",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 25,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, י",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 13,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 27,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, יא",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 14,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 30,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ב, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 17,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 33,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 35,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 37,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 39,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 61,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 41,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 62,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 43,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 63,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 46,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 68,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 48,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 70,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 50,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 54,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק א, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 57,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ב, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 59,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 13,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 62,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ג, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 64,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 66,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 22,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 69,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ד, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 71,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 25,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 73,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 26,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 75,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 77,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ד, ה",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 79,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 82,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 48,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 84,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 49,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 86,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 88,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 90,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 52,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 93,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ו, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 62,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 95,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 64,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 97,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ו, ד",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 65,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 99,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 66,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 102,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 73,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 104,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 106,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 110,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 112,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 114,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 116,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 7,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 118,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 8,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 120,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ו",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 122,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 125,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 18,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 127,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 19,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 129,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 132,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 26,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 134,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 136,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 138,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 140,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 30,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 142,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 31,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 144,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 146,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 148,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ט",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 34,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 150,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, י",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 35,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 152,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, יא",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 36,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 154,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, יב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 37,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 156,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, יג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 38,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 159,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 40,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 162,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 164,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 166,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 52,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 168,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 170,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 172,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 55,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 174,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 176,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 178,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ט",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 58,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 180,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, י",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 59,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 182,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, יא",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 184,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, יב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 61,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 186,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, יג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 62,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 189,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 64,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 191,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 65,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 193,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 66,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 195,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 67,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 197,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 71,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 199,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 72,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 201,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, י",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 73,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 203,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, יא",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 205,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, יב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 207,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, יג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 76,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 209,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, יד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 77,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 212,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 79,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 214,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 82,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 216,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 83,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 218,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, ו",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 84,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 220,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 85,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 224,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק א, א",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 226,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק א, ב",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 228,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק א, ג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 231,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, א",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 8,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 233,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 235,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 237,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 239,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 241,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ח",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 15,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 243,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 245,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, י",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 17,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 248,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, א",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 19,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 250,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 252,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 254,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 22,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 256,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 23,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 258,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 260,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ז",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 25,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 262,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 26,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 264,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ט",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 266,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, י",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 268,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, יא",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 271,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, א",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 31,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 273,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 275,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 277,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 34,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 279,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ה",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 35,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 281,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 36,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 283,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 37,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 285,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 38,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 287,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ט",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 39,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 289,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, י",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 40,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 291,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, יא",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 41,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 293,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, יג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 43,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 296,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ה, א",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 48,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 298,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 49,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 300,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 302,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 304,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 52,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 306,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 308,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ה, ט",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 310,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ה, י",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 313,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, א",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 315,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 61,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 317,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 62,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 319,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, ד",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 63,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 321,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 64,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 323,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, ו",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 65,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 325,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, ז",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 66,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 327,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 67,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 329,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 68,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 331,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ו, י",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 69,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 334,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, א",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 71,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 336,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 72,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 338,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 73,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 340,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 342,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 344,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ו",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 76,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 346,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 77,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 348,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ח",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 78,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 350,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ט",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 79,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 352,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, י",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 80,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 354,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, יא",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 81,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 358,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק א, א",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 360,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק א, ב",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 362,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 365,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ב, א",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 367,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 369,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 371,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 373,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 13,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 378,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, א",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 380,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ב",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 382,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ג",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 384,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ד",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 7,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 386,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ה",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 8,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 388,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ו",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 390,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ז",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 392,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ח",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 394,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ט",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 396,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, י",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 13,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 398,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, יא",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 14,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 400,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, יב",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 15,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 402,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, יג",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 405,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, א",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 18,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 407,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 19,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 409,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 411,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 413,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 22,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 415,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 417,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, ח",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 25,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 419,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 26,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 421,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, י",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 423,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, יא",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 425,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, יב",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 427,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, יג",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 30,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 429,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, יד",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 31,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 431,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, טו",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 433,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, טז",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 436,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, א",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 36,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 438,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 37,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 440,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 38,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 442,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 39,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 444,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 40,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 446,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 41,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 448,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ז",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 42,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 450,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 43,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 452,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ט",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 44,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 454,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, י",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 45,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 456,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, יא",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 46,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 458,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, יב",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 47,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 460,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, יג",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 48,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 462,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, יד",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 49,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 464,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, טו",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 466,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, טז",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 468,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, יז",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 52,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 470,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, יח",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 472,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, יט",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 475,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, א",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 477,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 479,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 58,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 481,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 59,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 483,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, ה",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 485,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 61,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 487,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 62,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 489,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 63,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 494,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 496,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 498,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 500,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 7,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 502,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 8,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 504,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 507,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 509,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 511,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 13,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 513,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 14,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 515,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 15,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 517,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 519,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 17,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 521,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 18,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 523,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 19,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 525,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, י",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 527,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, יא",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 529,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, יב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 22,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 532,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 534,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 25,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 536,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 26,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 538,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 540,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 542,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 544,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 30,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 546,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 31,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 548,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ט",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 550,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, י",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 553,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ד, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 35,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 555,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 36,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 557,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 37,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 559,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 38,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 561,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ד, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 39,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 563,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 40,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 565,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 41,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 567,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 42,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 570,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ה, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 44,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 572,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 45,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 574,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 46,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 576,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 47,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 578,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 48,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 580,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 49,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 582,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 584,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 587,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 589,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 591,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 55,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 593,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 595,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 597,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 58,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 599,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 59,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 601,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 603,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 61,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 605,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, י",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 62,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 607,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ו, יא",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 63,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 610,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ז, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 65,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 612,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 66,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 614,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 67,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 616,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 68,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 618,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 69,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 620,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ז, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 70,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 622,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 71,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 624,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ז, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 72,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 627,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 629,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 631,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 76,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 633,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 77,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 635,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 78,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 637,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 79,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 639,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 80,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 641,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 81,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 643,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ט",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 82,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 645,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, י",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 83,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 647,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, יא",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 84,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 649,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, יב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 85,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 651,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, יג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 86,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 653,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, יד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 87,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 656,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 89,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 658,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 90,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 660,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 91,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 662,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 92,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 664,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 93,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 666,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 94,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 668,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 95,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 670,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 96,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 672,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ט",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 97,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 674,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, י",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 98,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 676,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, יא",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 99,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 679,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 101,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 681,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 102,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 683,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 103,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 685,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 104,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 687,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 105,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 689,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 106,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 691,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 107,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 694,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 109,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 696,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 110,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 698,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 111,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 700,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 112,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 702,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 113,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 704,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 114,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 706,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 115,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 708,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 116,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 710,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, ט",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 117,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 713,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 119,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 715,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 120,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 717,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 121,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 719,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 122,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 721,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 123,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 723,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 124,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 725,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 125,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 727,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, ח",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 126,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 729,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, ט",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 127,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 731,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, י",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 128,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 733,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, יא",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 129,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 735,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, יב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 130,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 737,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, יג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 131,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 739,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, יד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 132,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 742,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יג, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 134,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 744,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יג, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 135,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 746,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יג, ג",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 136,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 748,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יג, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 137,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 750,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יג, ה",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 138,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 752,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יג, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 139,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 754,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יג, ז",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 140,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 758,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, א",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 760,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 762,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ג",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 764,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ד",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 7,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 766,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ה",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 8,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 768,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ו",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 770,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ז",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 772,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ח",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 774,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ט",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 776,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, י",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 13,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 779,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, א",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 15,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 781,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 783,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 17,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 785,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 18,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 787,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 19,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 789,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 791,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 793,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ח",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 22,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 795,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 23,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 797,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, י",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 799,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, יא",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 25,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 802,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ג, א",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 804,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 806,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 808,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 30,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 811,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, א",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 813,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 815,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 34,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 817,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 35,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 819,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ה",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 36,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 821,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 37,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 823,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 38,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 825,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 39,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 827,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ט",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 40,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 830,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, א",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 42,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 832,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 43,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 834,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 44,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 836,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 45,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 838,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 46,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 840,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 47,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 842,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 48,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 845,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ו, א",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 847,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 849,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 52,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 851,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ו, ד",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 853,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 856,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, א",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 858,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 860,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 58,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 862,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 59,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 864,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 866,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, ו",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 61,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 868,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 62,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 870,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, ח",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 63,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 872,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, ט",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 64,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 874,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, י",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 65,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 876,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, יא",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 66,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 878,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, יב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 67,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 881,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ח, א",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 69,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 883,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ח, ב",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 70,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 885,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ח, ג",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 71,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 887,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ח, ד",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 72,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 889,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ח, ה",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 73,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 891,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ח, ו",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  }
+]

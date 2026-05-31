@@ -51,7 +51,8 @@ folders = (
     "wikiJewishBooksToOtzaria/ספרים/אוצריא",
     "ToratEmetToOtzaria/ספרים/אוצריא",
     "wikisourceToOtzaria/ספרים/אוצריא",
-    "pninimToOtzaria/ספרים/אוצריא"
+    "pninimToOtzaria/ספרים/אוצריא",
+    # "National-LibraryToOtzaria/ספרים/אוצריא"
 )
 
 folders_path = [Path(folder) for folder in folders]

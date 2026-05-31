@@ -1,0 +1,128 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 12,
+    "heRef_2": "ספר אהבה, הלכות ברכות, פרק א, יט",
+    "path_2": "משנה תורה, הלכות ברכות.txt",
+    "line_index_2": 22,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 17,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טז, ז",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 382,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 22,
+    "heRef_2": "ספר הפלאה, הלכות ערכים וחרמין, פרק ו, לא",
+    "path_2": "משנה תורה, הלכות ערכים וחרמין.txt",
+    "line_index_2": 142,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 24,
+    "heRef_2": "ספר הפלאה, הלכות ערכים וחרמין, פרק ו, לג",
+    "path_2": "משנה תורה, הלכות ערכים וחרמין.txt",
+    "line_index_2": 144,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 29,
+    "heRef_2": "ספר זרעים, הלכות תרומות, פרק י, יא",
+    "path_2": "משנה תורה, הלכות תרומות.txt",
+    "line_index_2": 205,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 33,
+    "heRef_2": "ספר זרעים, הלכות מעשר שני ונטע רבעי, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות מעשר שני ונטע רבעי.txt",
+    "line_index_2": 64,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 37,
+    "heRef_2": "ספר זרעים, הלכות ביכורים ושאר מתנות כהונה שבגבולין, פרק ב, יט",
+    "path_2": "משנה תורה, הלכות ביכורים ושאר מתנות כהונה שבגבולין.txt",
+    "line_index_2": 39,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 42,
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק א, א",
+    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 45,
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
+    "line_index_2": 116,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 47,
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, ו",
+    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
+    "line_index_2": 117,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 51,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
+    "line_index_2": 76,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 53,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
+    "line_index_2": 79,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 57,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, ו",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 62,
+    "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק ט, יב",
+    "path_2": "משנה תורה, הלכות טומאת מת.txt",
+    "line_index_2": 124,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 66,
+    "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק ו, טז",
+    "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
+    "line_index_2": 102,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 71,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ט, ב",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 131,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 76,
+    "heRef_2": "ספר קניין, הלכות עבדים, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות עבדים.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  }
+]

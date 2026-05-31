@@ -1,0 +1,849 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 12,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 23,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 17,
+    "heRef_2": "ספר זמנים, הלכות שופר וסוכה ולולב, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות שופר וסוכה ולולב.txt",
+    "line_index_2": 59,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 22,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ח, א",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 175,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 27,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יג, יז",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 306,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 31,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק ד, יז",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 99,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 33,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק ד, יח",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 100,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 38,
+    "heRef_2": "ספר זרעים, הלכות כלאים, פרק א, ג",
+    "path_2": "משנה תורה, הלכות כלאים.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 42,
+    "heRef_2": "ספר זרעים, הלכות שמיטה ויובל, פרק א, יב",
+    "path_2": "משנה תורה, הלכות שמיטה ויובל.txt",
+    "line_index_2": 15,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 47,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ב, יב",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 50,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ט, ז",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 150,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 54,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יח",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 67,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 58,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, יז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 84,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 61,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יב, כ",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 228,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 65,
+    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, כ",
+    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
+    "line_index_2": 119,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 69,
+    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות מעילה.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 74,
+    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ו, ו",
+    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
+    "line_index_2": 78,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 79,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק א, א",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 81,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק א, ה",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 8,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 83,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק א, ו",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 85,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק א, ז",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 88,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 17,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 90,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 92,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 94,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, יד",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 96,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, טז",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 31,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 98,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, יז",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 100,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, יח",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 102,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, כ",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 35,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 105,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 40,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 107,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 44,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 109,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ג, י",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 46,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 111,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ג, יא",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 47,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 113,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ג, יב",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 48,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 115,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ג, יג",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 49,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 118,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ד, א",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 120,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 122,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 55,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 124,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 126,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 128,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ד, יד",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 66,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 131,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 70,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 134,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ו, א",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 79,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 136,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 81,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 138,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ו, ד",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 82,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 140,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ו, ז",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 85,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 142,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 86,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 144,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 87,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 147,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ז, א",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 93,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 149,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 94,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 151,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 95,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 153,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 96,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 155,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 99,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 158,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, א",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 107,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 160,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, ד",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 110,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 162,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, ה",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 111,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 164,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, ז",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 113,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 166,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, י",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 116,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 168,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, יא",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 117,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 171,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ט, א",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 122,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 173,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ט, ו",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 127,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 175,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ט, ט",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 130,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 177,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ט, י",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 131,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 179,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ט, יד",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 135,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 182,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק י, ג",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 139,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 184,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק י, ה",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 141,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 188,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ט, ו",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 135,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 192,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, ד",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 189,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 194,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, ה",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 190,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 196,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, ו",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 191,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 198,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, ז",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 192,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 200,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, ח",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 193,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 202,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, ט",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 194,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 204,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, י",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 195,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 205,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, י",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 195,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 208,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יג, א",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 202,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 210,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יג, ב",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 203,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 212,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יג, ג",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 204,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 214,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יג, יז",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 218,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 216,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יג, כ",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 221,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 219,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יד, א",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 223,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 221,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יד, ט",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 231,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 223,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יד, יא",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 233,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 225,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יד, יג",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 235,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 228,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, א",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 237,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 230,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, ה",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 241,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 232,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, ז",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 243,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 234,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, ח",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 244,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 236,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, ט",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 245,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 238,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, י",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 246,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 240,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, יא",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 247,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 242,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, יב",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 248,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 244,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, יג",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 249,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 246,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, יד",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 250,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 247,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, יד",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 250,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 249,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, טו",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 251,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 251,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, טז",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 252,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 254,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, א",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 256,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 256,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, ב",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 257,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 258,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, ד",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 259,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 260,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, ה",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 260,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 262,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, ז",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 262,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 264,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, ח",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 263,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 266,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, ט",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 264,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 268,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, י",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 265,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 270,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, יא",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 266,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 271,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, יא",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 266,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 274,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, א",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 268,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 276,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ב",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 269,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 278,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ג",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 270,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 279,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ג",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 270,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 281,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ד",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 271,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 283,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ה",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 272,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 285,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ז",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 274,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 287,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ח",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 275,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 289,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ט",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 276,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 291,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, י",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 277,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 293,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, יב",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 279,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 295,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, יג",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 280,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 300,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק י, א",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 135,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 305,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 19,
+    "Conection Type": "commentary"
+  }
+]

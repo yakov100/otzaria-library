@@ -1,0 +1,513 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 9,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 11,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 13,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 16,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 18,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 23,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 21,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 41,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 23,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 42,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 25,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 46,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 27,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 47,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 30,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ט",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 58,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 33,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 68,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 35,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 72,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 39,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ח, יא",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 101,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 44,
+    "heRef_2": "ספר אהבה, הלכות ברכות, פרק א, א",
+    "path_2": "משנה תורה, הלכות ברכות.txt",
+    "line_index_2": 4,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 46,
+    "heRef_2": "ספר אהבה, הלכות ברכות, פרק א, ב",
+    "path_2": "משנה תורה, הלכות ברכות.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 51,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 53,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 7,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 55,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 58,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 13,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 60,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 62,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 64,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, י",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 22,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 66,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יא",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 23,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 68,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, טו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 70,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, טז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 72,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 74,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 30,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 76,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 31,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 78,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, כב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 34,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 81,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 41,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 83,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 42,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 85,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 45,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 87,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 89,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 91,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, טו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 55,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 93,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, טז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 95,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 98,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 67,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 100,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 69,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 102,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ה",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 70,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 104,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 71,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 106,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 72,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 108,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 111,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 89,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 113,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 90,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 115,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 91,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 117,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 96,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 122,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ח, טו",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 176,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 127,
+    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ו, יב",
+    "path_2": "משנה תורה, הלכות שבועות.txt",
+    "line_index_2": 107,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 131,
+    "heRef_2": "ספר הפלאה, הלכות נדרים, פרק יא, ב",
+    "path_2": "משנה תורה, הלכות נדרים.txt",
+    "line_index_2": 193,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 135,
+    "heRef_2": "ספר הפלאה, הלכות ערכים וחרמין, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות ערכים וחרמין.txt",
+    "line_index_2": 113,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 140,
+    "heRef_2": "ספר זרעים, הלכות תרומות, פרק יב, יז",
+    "path_2": "משנה תורה, הלכות תרומות.txt",
+    "line_index_2": 267,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 144,
+    "heRef_2": "ספר זרעים, הלכות מעשרות, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות מעשרות.txt",
+    "line_index_2": 100,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 149,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ט, יג",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 156,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 153,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק א, ב",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 155,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק א, ג",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 157,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק א, ז",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 160,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 18,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 162,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 19,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 165,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ג, א",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 167,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 23,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 169,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 171,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 25,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 173,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ג, ז",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 176,
+    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ד, א",
+    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 180,
+    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ו, ו",
+    "path_2": "משנה תורה, הלכות מעילה.txt",
+    "line_index_2": 83,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 185,
+    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 190,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 47,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 195,
+    "heRef_2": "ספר קניין, הלכות עבדים, פרק ח, טו",
+    "path_2": "משנה תורה, הלכות עבדים.txt",
+    "line_index_2": 112,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 200,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 204,
+    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
+    "line_index_2": 48,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 208,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ח",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  }
+]

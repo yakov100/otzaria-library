@@ -1,0 +1,79 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, י",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 9,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, יט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 84,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 12,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ז, יב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 149,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 16,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 21,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ט, א",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 181,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 26,
+    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ט, ד",
+    "path_2": "משנה תורה, הלכות שבועות.txt",
+    "line_index_2": 150,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 31,
+    "heRef_2": "ספר זרעים, הלכות כלאים, פרק י, לב",
+    "path_2": "משנה תורה, הלכות כלאים.txt",
+    "line_index_2": 194,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 36,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ט, ג",
+    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
+    "line_index_2": 146,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 40,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, יח",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 52,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 45,
+    "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק ט, יב",
+    "path_2": "משנה תורה, הלכות טומאת מת.txt",
+    "line_index_2": 124,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 50,
+    "heRef_2": "ספר קניין, הלכות עבדים, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות עבדים.txt",
+    "line_index_2": 46,
+    "Conection Type": "commentary"
+  }
+]

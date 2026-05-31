@@ -1,0 +1,142 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק א, ו",
+    "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 12,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יא",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 15,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כג, ג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 507,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 17,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כג, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 508,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 21,
+    "heRef_2": "ספר נשים, הלכות נערה בתולה, פרק א, ט",
+    "path_2": "משנה תורה, הלכות נערה בתולה.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 24,
+    "heRef_2": "ספר נשים, הלכות נערה בתולה, פרק ב, יד",
+    "path_2": "משנה תורה, הלכות נערה בתולה.txt",
+    "line_index_2": 33,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 26,
+    "heRef_2": "ספר נשים, הלכות נערה בתולה, פרק ב, טו",
+    "path_2": "משנה תורה, הלכות נערה בתולה.txt",
+    "line_index_2": 34,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 29,
+    "heRef_2": "ספר נשים, הלכות נערה בתולה, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות נערה בתולה.txt",
+    "line_index_2": 39,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 33,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ב, ח",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 38,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יב, א",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 264,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 41,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק טז, א",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 363,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 46,
+    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
+    "line_index_2": 26,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 48,
+    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
+    "line_index_2": 30,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 51,
+    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ו, א",
+    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
+    "line_index_2": 73,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 53,
+    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 56,
+    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ח, ח",
+    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
+    "line_index_2": 104,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 61,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ט, ח",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 137,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 63,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ט, יא",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 140,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 68,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כה, יד",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 296,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 73,
+    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  }
+]

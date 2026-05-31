@@ -1,0 +1,506 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק א, ב",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 9,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק א, ז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 11,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק א, יח",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 14,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 43,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 16,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ג, י",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 49,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 18,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ג, יא",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 21,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ד, י",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 65,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 24,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 70,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 26,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 71,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 28,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 30,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, יג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 80,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 32,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, יד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 81,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 34,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, יז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 84,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 36,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, כא",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 88,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 39,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ו, ד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 93,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 41,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ו, כא",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 110,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 43,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ו, כג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 112,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 46,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 115,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 48,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 116,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 50,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 117,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 52,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 118,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 54,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ו",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 119,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 56,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 120,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 58,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ח",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 121,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 60,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ט",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 122,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 61,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ט",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 122,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 64,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, י",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 184,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 66,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, יא",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 185,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 68,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, יב",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 186,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 70,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, יט",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 193,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 72,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, כג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 197,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 75,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יא, א",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 199,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 78,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יב, יז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 225,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 81,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, ד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 236,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 83,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, ה",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 237,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 85,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, ו",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 238,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 87,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, ח",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 240,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 89,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, ט",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 241,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 91,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, י",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 242,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 93,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, יב",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 244,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 95,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, יג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 245,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 97,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, יד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 246,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 100,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, ה",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 252,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 102,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, ו",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 253,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 104,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, ט",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 256,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 106,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, י",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 257,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 108,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, יג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 260,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 111,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טו, א",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 266,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 113,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טו, ב",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 267,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 115,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טו, ג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 268,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 117,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טו, ד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 269,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 120,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טז, ב",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 276,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 122,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טז, ז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 281,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 124,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טז, ח",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 282,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 126,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טז, ט",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 283,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 128,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טז, יג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 287,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 130,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טז, יד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 288,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 133,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יז, ד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 296,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 135,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יז, ה",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 297,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 137,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יז, ט",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 301,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 139,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יז, י",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 302,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 141,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יז, יא",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 303,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 143,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יז, יד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 306,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 146,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, א",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 309,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 148,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, יא",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 319,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 150,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, יב",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 320,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 152,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, יד",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 322,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 154,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, טז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 324,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 156,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, יז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 325,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 159,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יט, ב",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 329,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 161,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יט, ג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 330,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 163,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יט, יג",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 340,
+    "Conection Type": "commentary"
+  }
+]

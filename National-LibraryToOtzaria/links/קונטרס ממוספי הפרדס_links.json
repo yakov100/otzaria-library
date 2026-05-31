@@ -1,0 +1,51 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, א",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 101,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 11,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק א, ד",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 7,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 14,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כ, א",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 220,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 16,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כ, ב",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 221,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 19,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כב, יז",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 250,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 23,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ח",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 26,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ו, ז",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 81,
+    "Conection Type": "commentary"
+  }
+]

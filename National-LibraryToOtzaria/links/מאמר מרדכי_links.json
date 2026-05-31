@@ -1,0 +1,814 @@
+[
+  {
+    "line_index_1": 7,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ו",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 10,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 12,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 14,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 58,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 16,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 59,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 18,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 20,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 61,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 22,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 62,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 24,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 63,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 26,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ט",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 64,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 28,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, י",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 65,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 30,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, יא",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 66,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 33,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 68,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 35,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 69,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 37,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 70,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 39,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ד",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 71,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 41,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 72,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 43,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ו",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 73,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 45,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ז",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 47,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 49,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 76,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 52,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ז, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 78,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 54,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 81,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 56,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 84,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 59,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ט, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 90,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 61,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ט, ג",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 92,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 63,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ט, ד",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 93,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 65,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ט, ה",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 94,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 68,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק י, ה",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 100,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 72,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 17,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 75,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 77,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, יא",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 58,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 80,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ו, ז",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 68,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 82,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 69,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 85,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 87,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 89,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 77,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 91,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 79,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 95,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 97,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 6,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 99,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 101,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 103,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ט",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 12,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 105,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, יג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 108,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 18,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 110,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 19,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 112,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 114,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 116,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 119,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 26,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 121,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 30,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 124,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 40,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 126,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 41,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 128,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 42,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 130,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 44,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 132,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 45,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 134,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 46,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 137,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 139,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 141,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 143,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 145,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 56,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 147,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 57,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 149,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ט",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 58,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 151,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, יא",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 60,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 154,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 64,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 156,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 65,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 158,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 68,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 160,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 71,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 162,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, י",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 73,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 164,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, יא",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 74,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 166,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, יב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 75,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 168,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, יד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 77,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 171,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, א",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 79,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 173,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 80,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 175,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 83,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 177,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, ו",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 84,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 179,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, יא",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 88,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 181,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, יב",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 89,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 183,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, יג",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 90,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 188,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 5,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 190,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 7,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 192,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 9,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 194,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 196,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 11,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 199,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 13,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 201,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 16,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 203,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 18,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 205,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, ח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 20,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 207,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 21,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 209,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יא",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 23,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 211,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 24,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 213,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, טו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 27,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 215,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, טז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 28,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 217,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 29,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 219,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 30,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 221,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 31,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 223,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, כ",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 32,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 225,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, כב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 34,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 227,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, כה",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 37,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 230,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 41,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 232,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 42,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 234,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 43,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 236,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 44,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 238,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 45,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 240,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 46,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 242,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 47,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 244,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 48,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 246,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, י",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 50,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 248,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יא",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 51,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 250,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 53,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 252,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 54,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 254,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, טו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 55,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 259,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, יז",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 191,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 262,
+    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יב, ח",
+    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
+    "line_index_2": 216,
+    "Conection Type": "commentary"
+  },
+  {
+    "line_index_1": 266,
+    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק א, ז",
+    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
+    "line_index_2": 10,
+    "Conection Type": "commentary"
+  }
+]
