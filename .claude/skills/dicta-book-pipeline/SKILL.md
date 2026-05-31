@@ -75,7 +75,7 @@ curl -s -b "$JAR" "https://otzaria.org/api/admin/uploads/list" -o /tmp/otz_list.
 מחזיר `{"success":true,"uploads":[{id, bookName, originalFileName, uploadedBy, uploadedByEmail, uploadedAt, uploadType, status, bookStatus, editCopy, isOcr}, ...]}`.
 
 - **מתויג דיקטה** = `uploadType == "dicta"` (או `originalFileName` מסתיים ב‑`_dicta.txt`).
-- **`bookStatus`** ערכים נפוצים: `not_checked` (לא נבדק), `In_treatment` (בטיפול), `added_to_library` (נוסף לספרייה).
+- **`bookStatus`** — ערכי הסטטוס בשדה זה (כפי שמופיעים ב‑list בפועל): `not_checked` (לא נבדק), `In_treatment` (בטיפול), `ready` (מוכן), `needs_attention` (דורש טיפול), `Website_editing` (עריכת אתר), `added_to_library` (נוסף לספרייה / הוכנס לאוצריא). הפייפליין משתמש בשניים בלבד: `In_treatment` ו‑`added_to_library` (ראה שלב ו והנדבך ב‑Stage 7).
 - מיין לפי `uploadedAt` יורד ל"החדש ביותר".
 
 החל את **כל** הקריטריונים שהמשתמש ביקש (סוג דיקטה, סטטוס, וכו'). אם נשארו כמה מועמדים — הצג ב‑`AskUserQuestion`. אם המשתמש אמר "לא משנה איזה" — קח את החדש ביותר.
@@ -110,6 +110,20 @@ curl -s -b "$JAR" "https://otzaria.org/api/download/<UPLOAD_ID>" \
    ```
    כך ה‑staged הוא הגרסה **הגולמית** שהורדה, ועריכות הפייפליין שיבואו אחר כך יישארו **לא‑staged** — וכל `git diff` יראה למשתמש בדיוק מה הפייפליין שינה.
 3. **אל תעשה `git add` שוב** אחרי עריכות הפייפליין, אלא אם המשתמש ביקש זאת במפורש.
+
+### ו. סימון הסטטוס ל‑"בטיפול" (`In_treatment`) — מיד לאחר ההורדה
+
+**מיד אחרי שהקובץ הורד** (וזוהה ה‑`UPLOAD_ID`), עדכן את הסטטוס שלו ב‑otzaria.org ל‑`In_treatment` ("בטיפול"), כדי לסמן שהספר נלקח לעיבוד. השתמש באותו `$JAR` מההתחברות (שלב א):
+
+```bash
+curl -s -X PUT "https://otzaria.org/api/admin/uploads/batch-update-book-status" \
+  -b "$JAR" -H "Content-Type: application/json" \
+  --data-raw '{"uploadIds":["<UPLOAD_ID>"],"bookStatus":"In_treatment"}'
+```
+
+- ה‑endpoint מקבל **מערך** `uploadIds`, כך שאפשר לסמן כמה ספרים בבקשה אחת (`["id1","id2"]`).
+- אַמֵּת שהתשובה מציינת הצלחה. אם נכשל — דווח למשתמש, אך אפשר להמשיך בפייפליין (הסימון אינו חוסם עיבוד).
+- **אל תסמן `added_to_library` בשלב הזה.** המעבר ל‑"נוסף לספרייה" קורה רק בסוף, אחרי אישור המשתמש וקומיט (ראה Stage 7).
 
 ## Stage 1 — Locate the book in HebrewBooks
 
@@ -266,6 +280,23 @@ python3 ../EditingDictaBooks/edit_dicta_cli.py validate-otzaria --file <path> --
 ```
 
 **אסור** לדחוף ל‑repo `otzaria-library` בלי אישור מפורש מהמשתמש. גם עם אישור — תמיד ב‑branch נפרד, לא ב‑main.
+
+### סימון הסטטוס ל‑"נוסף לספרייה" (`added_to_library`) — רק בסוף
+
+המעבר הסופי קורה **אך ורק** אחרי ש‑**שני** התנאים התקיימו:
+1. המשתמש נתן **אישור סופי** לספר (סקר את ה‑`git diff` / הדו"ח ואישר), **וגם**
+2. השינויים **נכנסו לקומיט** (commit).
+
+רק אז עדכן את הסטטוס ב‑otzaria.org ל‑`added_to_library` ("הוכנס לאוצריא"), עם אותו endpoint משלב 0/ו (אם ה‑`$JAR` פג, התחבר מחדש לפי Stage 0/א):
+
+```bash
+curl -s -X PUT "https://otzaria.org/api/admin/uploads/batch-update-book-status" \
+  -b "$JAR" -H "Content-Type: application/json" \
+  --data-raw '{"uploadIds":["<UPLOAD_ID>"],"bookStatus":"added_to_library"}'
+```
+
+- **אל תקפוץ** מ‑`In_treatment` ל‑`added_to_library` לפני אישור וקומיט. אם המשתמש אישר אך עוד לא קומטת — אל תסמן.
+- אַמֵּת הצלחה בתשובה ודווח למשתמש שהסטטוס עודכן ל‑"נוסף לספרייה".
 
 ## Conventions
 
