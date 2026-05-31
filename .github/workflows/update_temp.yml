@@ -76,22 +76,3 @@ jobs:
           AFTER_SHA: ${{ github.event.after }}
         run: |
           python send_update/main_temp.py
-
-      - name: Commit only עדכוני ספריה.md
-        run: |
-          set -e
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          FILE="MoreBooks/ספרים/אוצריא/אודות התוכנה/עדכוני ספריה_temp.md"
-          if [ -f "$FILE" ]; then
-            git add "$FILE"
-          fi
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git commit -m "Update עדכוני ספריה"
-          git push

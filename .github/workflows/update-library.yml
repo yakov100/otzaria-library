@@ -49,7 +49,7 @@ jobs:
         with:
           lfs: true
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 2
+          fetch-depth: 25
 
       - name: Pull LFS objects for packaging
         run: |
