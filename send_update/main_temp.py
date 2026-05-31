@@ -114,8 +114,6 @@ print(modified_files)
 print(deleted_files)
 print(renamed_files)
 
-info_folder_path = Path(__file__).parent.parent / "MoreBooks" / "ספרים" / "אוצריא" / "אודות התוכנה"
-
 if any([added_files, modified_files, deleted_files, renamed_files]):
     content_forum = f"## **עדכון {date}**\n"
     date_yemot = f"עדכון {date}\n"
@@ -147,12 +145,6 @@ if any([added_files, modified_files, deleted_files, renamed_files]):
     google_chat_url = os.getenv("GOOGLE_CHAT_URL")
     yemot_path = "ivr2:/1"
     tzintuk_list_name = "books update"
-
-    md_file_path = info_folder_path / "עדכוני ספריה_temp.md"
-    existing_text = ""
-    if md_file_path.exists():
-        existing_text = md_file_path.read_text(encoding="utf-8").lstrip("\ufeff")
-    md_file_path.write_text(f"{content_forum}\n---\n" + existing_text, encoding="utf-8")
 
     requests.post(google_chat_url, json={"text": content_forum})
 

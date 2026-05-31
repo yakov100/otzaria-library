@@ -12,6 +12,30 @@ from pyluach import dates
 from yemot import split_and_send
 
 TZ = ZoneInfo("Asia/Jerusalem")
+
+
+def get_last_version_commit_sha() -> str:
+    cmd = ["git", "log", "--grep=גרסת ספרייה", "-n", "1", "--pretty=%H"]
+    result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+    sha = result.stdout.strip()
+    if sha:
+        return sha
+
+    version_file = "MoreBooks/ספרים/אוצריא/אודות התוכנה/גירסת ספריה.txt"
+    cmd = ["git", "log", "-n", "1", "--pretty=%H", "--", version_file]
+    result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+    sha = result.stdout.strip()
+    if sha:
+        print(f"Warning: no 'גרסת ספרייה' commit found, using last commit that modified {version_file}")
+        return sha
+
+    print("Warning: no fallback found, using HEAD^")
+    return "HEAD^"
+
+
+BEFORE_SHA = get_last_version_commit_sha()
+AFTER_SHA = "HEAD"
+
 folders = [
     "Ben-YehudaToOtzaria/ספרים/אוצריא",
     "DictaToOtzaria/ערוך/ספרים/אוצריא",
@@ -37,7 +61,7 @@ def decode_git_output_line(line: str) -> str:
 
 
 def get_moves_from_outside(folders: Sequence[str]) -> tuple[list[str], list[str], list[str]]:
-    cmd = ["git", "diff", "--name-status", "--diff-filter=R", "HEAD^", "HEAD"]
+    cmd = ["git", "diff", "--name-status", "--diff-filter=R", BEFORE_SHA, AFTER_SHA]
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
     raw_output = result.stdout.strip()
     from_external_moves = []
@@ -66,7 +90,7 @@ def get_moves_from_outside(folders: Sequence[str]) -> tuple[list[str], list[str]
 
 
 def get_changed_files(status_filter: str, folders: Sequence[str]) -> list[str]:
-    cmd = ["git", "diff", "--name-only", f"--diff-filter={status_filter}", "HEAD^", "HEAD", "--", *folders]
+    cmd = ["git", "diff", "--name-only", f"--diff-filter={status_filter}", BEFORE_SHA, AFTER_SHA, "--", *folders]
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
 
     raw_output = result.stdout.strip()
@@ -132,9 +156,6 @@ if any([added_files, modified_files, deleted_files, renamed_files]):
     tzintuk_list_name = "books update"
 
     content_text = f"# גירסת ספרייה {library_ver} \n" + f"\n**עדכון {date}**\n" + content_forum
-    if (info_folder_path / "עדכוני ספריה_temp.md").exists():
-        content_text += (info_folder_path / "עדכוני ספריה_temp.md").read_text(encoding="utf-8").lstrip("\ufeff")
-        info_folder_path.joinpath("עדכוני ספריה_temp.md").unlink()
     content_forum = f"# גירסת ספרייה {library_ver} \n" + f"\n**עדכון {date}**\n" + content_forum
     md_file_path = info_folder_path / "עדכוני ספריה.md"
     existing_text = ""
