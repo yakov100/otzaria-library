@@ -132,6 +132,15 @@ the library for [otzaria](https://github.com/Sivan22/otzaria) app, with the scri
 
 ---
 
+#### 📚 הספרייה הלאומית - תיקיית `LibraryToOtzaria`
+
+**טקסטים וסקריפטים:** CC BY-NC-SA 4.0
+הטקסטים ניתנו לנו באדיבותם המרובה, ועל כך תודתנו. זכויות היוצרים שמורות להם!
+
+🔗 [פרוייקט פרידברג - יד הרמב"ם](https://rambam.genizah.org/?lan=heb&isPartial=False&isDoubleLogin=False)
+
+---
+
 #### 📚 אור ברסלב - תיקיית `or-breslev`
 
 **טקסטים וסקריפטים:** CC BY-NC-SA 4.0
