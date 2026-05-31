@@ -45,6 +45,7 @@ folders = [
     "ToratEmetToOtzaria/ספרים/אוצריא",
     "wikisourceToOtzaria/ספרים/אוצריא",
     "pninimToOtzaria/ספרים/אוצריא",
+    # "National-LibraryToOtzaria/ספרים/אוצריא"
 ]
 
 
