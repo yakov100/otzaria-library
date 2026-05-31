@@ -35,8 +35,81 @@ Ask for whatever is missing — but only ask once per conversation, and **do not
 | Input | How to obtain |
 |---|---|
 | הנתיב לקובץ ה‑TXT של דיקטה (לא ערוך או חצי-ערוך) | שאל את המשתמש או קבל בהפעלה |
-| נתיב ל‑DB של קטלוג HebrewBooks | **ברירת מחדל**: `/Users/david/Downloads/otzaria_latest/otzaria/otzar-HB_catalog.db`. אל תשאל אלא אם הסקריפט מחזיר שגיאה שהקובץ לא קיים |
+| נתיב ל‑DB של קטלוג HebrewBooks | **ברירת מחדל**: `~/Downloads/otzaria_latest/otzaria/otzar-HB_catalog.db` (נתון חיצוני לפרויקט; `~` עובד לכל שם משתמש). אל תשאל אלא אם הסקריפט מחזיר שגיאה שהקובץ לא קיים — ואז שאל את המשתמש על המיקום |
 | URL + API key של שרת ה‑OCR | env vars `OCRWIN_URL`, `OCRWIN_API_KEY`. אם חסרים — שאל וצור `.claude/skills/dicta-book-pipeline/.env.local` (gitignored) |
+| **שם משתמש + סיסמה ל‑otzaria.org** | **רק אם** המשתמש מבקש להוריד ספר מהאתר (Stage 0). **שאל את המשתמש בכל פעם.** אסור לשמור/לכתוב לקובץ/לזכור — ראה Stage 0 |
+
+## Stage 0 — הורדת ספר מאתר otzaria.org (אופציונלי)
+
+הרץ שלב זה **רק** כשהמשתמש מבקש "תוריד ספר מהאתר" / מצביע על `https://otzaria.org/library/admin/uploads`. אם המשתמש כבר נתן נתיב לקובץ TXT — דלג ישר ל‑Stage 3.5/1.
+
+> **אבטחה — חובה**: עמוד ה‑uploads מוגן בהתחברות (next‑auth). **בקש מהמשתמש שם משתמש + סיסמה בכל הפעלה** (למשל ב‑`AskUserQuestion`). **לעולם אל** תכתוב את הפרטים לקובץ, ל‑`.env`, ל‑memory, או לתוך ה‑SKILL הזה. השתמש בהם רק בתוך הבקשה הרצה. ה‑session cookie אפשר לשמור בקובץ זמני (`/tmp/...jar.txt`).
+
+האתר הוא אפליקציית Next.js עם next‑auth, provider מסוג `credentials`, basePath `/api/auth` בשורש הדומיין. שדות ההתחברות: `identifier` (שם המשתמש) + `password`.
+
+### א. התחברות (פעם אחת)
+
+```bash
+JAR=/tmp/otz_jar.txt; rm -f "$JAR"
+CSRF=$(curl -s -c "$JAR" "https://otzaria.org/api/auth/csrf" \
+  | python3 -c "import sys,json;print(json.load(sys.stdin)['csrfToken'])")
+curl -s -b "$JAR" -c "$JAR" \
+  --data-urlencode "csrfToken=$CSRF" \
+  --data-urlencode "identifier=<USERNAME>" \
+  --data-urlencode "password=<PASSWORD>" \
+  --data-urlencode "callbackUrl=https://otzaria.org/library/admin/uploads" \
+  --data-urlencode "json=true" \
+  "https://otzaria.org/api/auth/callback/credentials"
+# אימות: צריך להחזיר user עם role:"admin"
+curl -s -b "$JAR" "https://otzaria.org/api/auth/session"
+```
+
+אם ה‑session ריק (`{}`) — ההתחברות נכשלה (סיסמה שגויה / אין הרשאת admin). דווח למשתמש ועצור.
+
+### ב. רשימת ההעלאות + סינון
+
+```bash
+curl -s -b "$JAR" "https://otzaria.org/api/admin/uploads/list" -o /tmp/otz_list.json
+```
+
+מחזיר `{"success":true,"uploads":[{id, bookName, originalFileName, uploadedBy, uploadedByEmail, uploadedAt, uploadType, status, bookStatus, editCopy, isOcr}, ...]}`.
+
+- **מתויג דיקטה** = `uploadType == "dicta"` (או `originalFileName` מסתיים ב‑`_dicta.txt`).
+- **`bookStatus`** ערכים נפוצים: `not_checked` (לא נבדק), `In_treatment` (בטיפול), `added_to_library` (נוסף לספרייה).
+- מיין לפי `uploadedAt` יורד ל"החדש ביותר".
+
+החל את **כל** הקריטריונים שהמשתמש ביקש (סוג דיקטה, סטטוס, וכו'). אם נשארו כמה מועמדים — הצג ב‑`AskUserQuestion`. אם המשתמש אמר "לא משנה איזה" — קח את החדש ביותר.
+
+### ג. הורדת הקובץ
+
+```bash
+curl -s -b "$JAR" "https://otzaria.org/api/download/<UPLOAD_ID>" \
+  -o "/tmp/dicta_pipeline/<book>/dicta.txt"
+```
+
+(הורדה מרובה: `POST /api/download/batch` עם `{"uploadIds":[...]}` → zip.)
+
+### ד. בדיקת המקור ב'לא ערוך'
+
+לפני המעבר לפייפליין, אתר את המקור הגולמי של הספר תחת
+`DictaToOtzaria/לא ערוך/ספרים/אוצריא/<קטגוריה>/<שם>.txt` (חיפוש ב‑`list.txt` או `find`).
+הקובץ שהורד מ‑uploads עשוי להיות **חצי‑ערוך** (כותרות כבר זוהו), בעוד שהמקור הוא הייצוא הגולמי — הוא ישמש כ"רפרנס לפני‑ניקוי" ל‑Stage 5. סכם למשתמש את ההבדל (שורות, מספר כותרות, `<big>`).
+
+### ה. שינוי שם + העלאה ל‑stage (כדי שהמשתמש יראה את השינויים)
+
+שם הקובץ ב‑uploads הוא מקווקו עם סיומת `_dicta` (`תלמוד_בבלי_אחרונים_מלא_הרועים__חלק_ב_dicta.txt`). שנה אותו ל**שם הקנוני כפי שהוא מופיע ב'לא ערוך'** (שאותר בשלב ד) — השם הנקי עם רווחים, בלי `_dicta`, למשל `מלא הרועים  חלק ב.txt`.
+
+1. **העתק את הקובץ שהורד לשורש הפרויקט** עם השם מ'לא ערוך'. הפקודות בשלב זה רצות מתיקיית שורש הפרויקט (cwd), לכן השתמש בנתיב **יחסי** — בלי נתיב מוחלט תלוי‑מכונה:
+   ```bash
+   cp "/tmp/dicta_pipeline/<book>/dicta.txt" "./<שם מ'לא ערוך'>.txt"
+   ```
+   (שמור על הריווח המדויק של השם ב'לא ערוך', כולל רווח כפול אם קיים.)
+2. **העלה ל‑stage את הקובץ הגולמי** מיד לאחר ההעתקה, **לפני** הרצת שאר הפייפליין:
+   ```bash
+   git add "<שם מ'לא ערוך'>.txt"
+   ```
+   כך ה‑staged הוא הגרסה **הגולמית** שהורדה, ועריכות הפייפליין שיבואו אחר כך יישארו **לא‑staged** — וכל `git diff` יראה למשתמש בדיוק מה הפייפליין שינה.
+3. **אל תעשה `git add` שוב** אחרי עריכות הפייפליין, אלא אם המשתמש ביקש זאת במפורש.
 
 ## Stage 1 — Locate the book in HebrewBooks
 
@@ -108,7 +181,7 @@ python scripts/ocr_batch.py --in-dir <pages> --out /tmp/dicta_pipeline/<book>/oc
 
 ## Stage 3.5 — Split & normalize (deterministic)
 
-רוץ תמיד, גם כש‑OCR מדולג. הסקריפטים ב‑`/Users/david/Documents/EditingDictaBooks/edit_dicta_cli.py` (תומכים `--json`, קוד יציאה 0/1/2).
+רוץ תמיד, גם כש‑OCR מדולג. הסקריפטים ב‑`../EditingDictaBooks/edit_dicta_cli.py` (יחסית לשורש הפרויקט — מאגר EditingDictaBooks הוא תיקייה אחות לפרויקט; תומכים `--json`, קוד יציאה 0/1/2). אם לא נמצא שם — שאל את המשתמש על המיקום.
 
 1. **פצל לפי מסכת** — אם יש כמה מסכתות (כמה `<h2>` / קולופונים `תם ונשלם מסכת X` / `סליק מסכת X`), צור קובץ נפרד לכל מסכת עם `<h1>` משלו בתבנית `<שם הספר> על <מסכת>`. הצג את רשימת הקבצים המוצעת ואשר לפני יצירה.
 2. **נקה `<h1>`** — הסר גרשיים (`"`/`”`/`’`).
@@ -165,7 +238,7 @@ python scripts/diff_texts.py --dicta <dicta.txt> --ocr <ocr.txt> --out /tmp/dict
 
 **הרץ קודם את הגייט הדטרמיניסטי על כל קובץ פלט:**
 ```bash
-python3 /Users/david/Documents/EditingDictaBooks/edit_dicta_cli.py validate-otzaria --file <path> --shas   # --shas לש"ס (עמוד ב כפול)
+python3 ../EditingDictaBooks/edit_dicta_cli.py validate-otzaria --file <path> --shas   # יחסי לשורש הפרויקט; --shas לש"ס (עמוד ב כפול)
 ```
 פקודה זו מאחדת את כל אכיפת המוסכמות: תגים, כותרות, פיצול רב‑מסכתי, גרשיים ב‑`<h1>`, ו‑`<big>` בכותרת/דקורטיבי. קוד יציאה: **0 = עבר** (ירוק), **1 = הפרת מוסכמה קשה**. תקן כל בעיה "קשה" עד ש‑exit=0:
 `multi_masechta`, `h1_gershayim`, `big_in_heading`, `decorative_big`, `opening/closing_without_opening`, `heading_errors`.
