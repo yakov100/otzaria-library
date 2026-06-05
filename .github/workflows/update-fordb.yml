@@ -1,0 +1,97 @@
+name: Update ForDB release
+
+# מפרסם release עם כלל תוכן תיקיית ForDB.
+# רץ אוטומטית בכל שינוי בתיקיית ForDB (push ל-main), וגם ניתן להפעלה ידנית.
+#
+# חשוב: ה-release הזה משתמש בתג קבוע "fordb-latest" שמתעדכן במקום בכל ריצה,
+# כך ש-actions אחרים יכולים למשוך אותו תמיד דרך:  gh release download fordb-latest
+#
+# הוא *אינו* מסומן כ-"Latest" (--latest=false) כדי שלא לשבור את ה-release
+# של הזיפ על כלל הספרים (.github/workflows/update-library.yml), שהוא ה-"Latest" הרשמי.
+# בנוסף התג הקבוע נפרד לחלוטין ממרחב התגים library-* כך שאין התנגשות או מחיקה הדדית.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "ForDB/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # מונע ריצות מקבילות שעלולות להתנגש על אותו תג release
+  group: update-fordb
+  cancel-in-progress: false
+
+jobs:
+  publish-fordb:
+    runs-on: ubuntu-latest
+
+    env:
+      TAG_NAME: fordb-latest
+      ARCHIVE_NAME: fordb_latest.zip
+      SRC_DIR: ForDB
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          lfs: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull LFS objects for packaging
+        run: |
+          git lfs pull
+          git lfs checkout
+
+      - name: Create ForDB archive
+        run: |
+          set -euo pipefail
+          export LANG=C.UTF-8
+          export LC_ALL=C.UTF-8
+
+          if [ ! -d "$SRC_DIR" ]; then
+            echo "Source directory '$SRC_DIR' not found." >&2
+            exit 1
+          fi
+
+          echo "Creating ZIP archive of '$SRC_DIR' (keeping the folder structure)..."
+          # מארזים את התיקייה עצמה כך שבתוך ה-zip יהיה נתיב ForDB/...
+          # מחריגים קבצי מערכת מיותרים (.DS_Store)
+          zip -qr "$GITHUB_WORKSPACE/$ARCHIVE_NAME" "$SRC_DIR" -x '*/.DS_Store' -x '.DS_Store'
+
+          echo "Archive contents:"
+          unzip -l "$GITHUB_WORKSPACE/$ARCHIVE_NAME"
+
+      - name: Publish / update fordb-latest release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          NOTES="Latest contents of the ForDB folder. Updated automatically on every change to ForDB/ (run #${GITHUB_RUN_NUMBER}, commit ${GITHUB_SHA})."
+
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            echo "Release '$TAG_NAME' already exists - updating it in place."
+            # עדכון המטא-דאטה. במפורש --latest=false כדי לא לגעת בתווית ה-Latest של הספרים.
+            gh release edit "$TAG_NAME" \
+              --title "ForDB latest" \
+              --notes "$NOTES" \
+              --latest=false
+            # העלאת הקובץ עם דריסה של הנכס הקיים (clobber)
+            gh release upload "$TAG_NAME" "$ARCHIVE_NAME" --clobber
+          else
+            echo "Release '$TAG_NAME' does not exist - creating it."
+            gh release create "$TAG_NAME" \
+              --title "ForDB latest" \
+              --notes "$NOTES" \
+              --latest=false \
+              "$ARCHIVE_NAME"
+          fi
+
+          echo "Done. Release '$TAG_NAME' is available for download via: gh release download $TAG_NAME"
+
+          rm -f "$ARCHIVE_NAME"
