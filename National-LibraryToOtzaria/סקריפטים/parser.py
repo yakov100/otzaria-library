@@ -80,17 +80,12 @@ def clean_hidden_chars(text: str | None) -> str:
     if not text:
         return ""
 
-    # 1. ניקוי תווי בקרה (Control characters) - קטגוריית Cc ו-Cf ב-Unicode
-    # אלו תווים כמו Null, Escape, ותווי כיווניות נסתרים
+    text = re.sub(r'\s+', ' ', text).strip()
     text = "".join(ch for ch in text if unicodedata.category(ch)[0] != "C")
 
     # 2. החלפת רווחים מיוחדים (כמו רווח בלתי פסיק או רווח ברוחב אפס) ברווח רגיל
     # הפונקציה normalize תהפוך סוגי רווחים שונים לפורמט סטנדרטי
     text = unicodedata.normalize('NFKC', text)
-
-    # 3. ניקוי רווחים כפולים ומיותרים בקצוות (אופציונלי)
-    text = re.sub(r'\s+', ' ', text).strip()
-
     return text
 
 
@@ -201,8 +196,8 @@ def apply_span_styles(html: str) -> str:
             new_tag.extend([child.extract() for child in list(current.contents)])
             current.append(new_tag)
             current = new_tag
-    result = str(soup).replace("\n", "")
-    return re.sub(r'(\s*<br\s*/?>)+\s*$', '', result)
+    result = str(soup).replace("\n", " ")
+    return re.sub(r'(\s*<br\s*/?>)+\s*$', '', result).strip()
 
 
 input_path = Path(r"C:\Users\Otzaria\Desktop\rambam\output.json")
