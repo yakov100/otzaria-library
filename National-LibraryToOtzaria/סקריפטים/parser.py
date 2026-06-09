@@ -96,9 +96,11 @@ rambam_halachot_path = mapping_dir / "rambam_halachot.json"
 rambam_prakim_path = mapping_dir / "rambam_prakim.json"
 rambam_ot_path = mapping_dir / "rambam_ot.json"
 
+
 skip_books_path = Path(__file__).parent / "skip_books.json"
 rename_books_path = Path(__file__).parent / "rename_books.json"
 extra_books_path = Path(__file__).parent / "extra_books.json"
+rishonim_list_path = Path(__file__).parent / "rishonim_list.json"
 
 
 otzaria_hierarchy_file_path = Path(__file__).parent / "otzaria_hierarchy.json"
@@ -117,6 +119,9 @@ with rambam_ot_path.open("r", encoding="utf-8") as f:
 
 with otzaria_hierarchy_file_path.open("r", encoding="utf-8") as f:
     otzaria_hierarchy = json.load(f)
+
+with rishonim_list_path.open("r", encoding="utf-8") as f:
+    rishonim_list = set(json.load(f))
 
 span_classes = {'N', 'B', 'S', 'H', 'Z', 'R'}
 
@@ -290,23 +295,27 @@ for book in data:
 
 
 print(f"Total unique mefarshim: {len(dict_all)}")
-metadata_output_path = Path("metadata.json")
+
+books_base_path = Path(__file__).parent.parent
+mef_base_path = books_base_path / "ספרים" / "אוצריא" / "הלכה" / "משנה תורה"
+links_base_path = books_base_path / "links"
+extra_books_base_path = Path(__file__).parent.parent.parent / "extraBooks" / "National-LibraryToOtzaria"
+extra_books_mef_path = extra_books_base_path / "ספרים" / "אוצריא" / "הלכה" / "משנה תורה"
+extra_books_links_path = extra_books_base_path / "links"
+
+metadata_output_path = books_base_path / "metadata.json"
 with metadata_output_path.open("w", encoding="utf-8") as f:
     json.dump(dict_all, f, ensure_ascii=False, indent=2)
-extra_metadata_output_path = Path("metadata_extra.json")
+extra_metadata_output_path = extra_books_base_path / "metadata_extra.json"
 with extra_metadata_output_path.open("w", encoding="utf-8") as f:
     json.dump(dict_all_extra, f, ensure_ascii=False, indent=2)
-otzaria_metadata_output_path = Path("otzaria_metadata.json")
+otzaria_metadata_output_path = books_base_path / "otzaria_metadata.json"
 with otzaria_metadata_output_path.open("w", encoding="utf-8") as f:
     json.dump([to_otzaria_metadata(book) for book in dict_all.values()], f, ensure_ascii=False, indent=2)
-otzaria_metadata_extra_output_path = Path("otzaria_metadata_extra.json")
+otzaria_metadata_extra_output_path = extra_books_base_path / "otzaria_metadata_extra.json"
 with otzaria_metadata_extra_output_path.open("w", encoding="utf-8") as f:
     json.dump([to_otzaria_metadata(book) for book in dict_all_extra.values()], f, ensure_ascii=False, indent=2)
 
-mef_base_path = Path("mefarshim")
-links_base_path = Path("links")
-extra_books_mef_path = Path("extra_books")
-extra_books_links_path = Path("extra_books_links")
 all_span_classes = set()
 rambam_links = defaultdict(list)
 rambam_extra_books_links = defaultdict(list)
@@ -321,10 +330,11 @@ for code_mefaresh_id, mef_entry in all_mef.items():
     is_nosse_kelim = mef_entry_metadata["IsNosseKelim"]
     if not isinstance(is_nosse_kelim, bool):
         print(file_name)
+    mef_path = Path("ראשונים") if is_nosse_kelim else Path("אחרונים")
     if is_nosse_kelim:
-        mef_path = Path("נוכ") / f"{file_name}.txt"
+        mef_path = mef_path / "נוכ" / f"{file_name}.txt"
     else:
-        mef_path = Path("מפרשים") / f"{file_name}.txt"
+        mef_path = mef_path / "מפרשים" / f"{file_name}.txt"
     in_extra = mef_entry_metadata.get("MefareshDesc") in extra_books
     mef_file_path = mef_base_path / mef_path
     if in_extra:
@@ -383,23 +393,23 @@ for code_mefaresh_id, mef_entry in all_mef.items():
     with json_links_path.open("w", encoding="utf-8") as f:
         json.dump(dict_links, f, ensure_ascii=False, indent=2)
 
-rambam_links_base_path = Path("rambam_links")
-rambam_links_base_path.mkdir(exist_ok=True, parents=True)
-for rambam_book, links in rambam_links.items():
-    if not links:
-        continue
-    json_links_path = rambam_links_base_path / f"{rambam_book}_links.json"
-    with json_links_path.open("w", encoding="utf-8") as f:
-        json.dump(links, f, ensure_ascii=False, indent=2)
+# rambam_links_base_path = Path("rambam_links")
+# rambam_links_base_path.mkdir(exist_ok=True, parents=True)
+# for rambam_book, links in rambam_links.items():
+#     if not links:
+#         continue
+#     json_links_path = rambam_links_base_path / f"{rambam_book}_links.json"
+#     with json_links_path.open("w", encoding="utf-8") as f:
+#         json.dump(links, f, ensure_ascii=False, indent=2)
 
-rambam_extra_books_links_base_path = Path("rambam_extra_books_links")
-rambam_extra_books_links_base_path.mkdir(exist_ok=True, parents=True)
-for rambam_book, links in rambam_extra_books_links.items():
-    if not links:
-        continue
-    json_links_path = rambam_extra_books_links_base_path / f"{rambam_book}_links.json"
-    with json_links_path.open("w", encoding="utf-8") as f:
-        json.dump(links, f, ensure_ascii=False, indent=2)
+# rambam_extra_books_links_base_path = Path("rambam_extra_books_links")
+# rambam_extra_books_links_base_path.mkdir(exist_ok=True, parents=True)
+# for rambam_book, links in rambam_extra_books_links.items():
+#     if not links:
+#         continue
+#     json_links_path = rambam_extra_books_links_base_path / f"{rambam_book}_links.json"
+#     with json_links_path.open("w", encoding="utf-8") as f:
+#         json.dump(links, f, ensure_ascii=False, indent=2)
 
 print(all_keys)
 print(all_sub_keys)
