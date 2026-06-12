@@ -23,17 +23,32 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sqlite3
 import sys
 from pathlib import Path
 
-DEFAULT_DB = Path("/Users/david/Downloads/otzaria_latest/otzaria/otzar-HB_catalog.db")
+DEFAULT_DB = Path("~/Downloads/otzaria_latest/otzaria/otzar-HB_catalog.db").expanduser()
 TABLE = "hebrew_books"
 
 NIQQUD = re.compile(r"[֑-ׇ]")
 QUOTES = re.compile(r'["\']+')
 WS = re.compile(r"\s+")
+
+
+def _load_env_local() -> dict[str, str]:
+    here = Path(__file__).resolve().parent.parent
+    env_file = here / ".env.local"
+    out: dict[str, str] = {}
+    if env_file.exists():
+        for line in env_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            out[k.strip()] = v.strip().strip('"').strip("'")
+    return out
 
 
 def _normalize(s: str | None) -> str:
@@ -118,13 +133,19 @@ def search(db: Path, title_query: str, limit: int = 25) -> list[dict]:
 
 
 def main() -> int:
+    env_local = _load_env_local()
+    default_db = (
+        os.environ.get("HB_CATALOG_DB")
+        or env_local.get("HB_CATALOG_DB")
+        or str(DEFAULT_DB)
+    )
     p = argparse.ArgumentParser(
         description="חיפוש ב‑hebrew_books (otzar-HB_catalog.db)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     p.add_argument("--title", required=True, help="כותרת לחיפוש")
-    p.add_argument("--db", default=str(DEFAULT_DB),
-                   help=f"נתיב ל‑DB (ברירת מחדל: {DEFAULT_DB})")
+    p.add_argument("--db", default=default_db,
+                   help=f"נתיב ל‑DB (ברירת מחדל: {default_db})")
     p.add_argument("--limit", type=int, default=25)
     p.add_argument("--json", action="store_true")
     args = p.parse_args()
