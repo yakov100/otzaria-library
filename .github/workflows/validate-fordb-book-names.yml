@@ -1,0 +1,50 @@
+name: Validate ForDB book names
+
+# מוודא שכל שמות הספרים בקבצי תיקיית ForDB (בעמודות/מיקומים הרלוונטיים) קיימים
+# *בדיוק כצורתם* ברשימת הספרים שתיבנה ביצירת ה-DB.
+#
+# רץ בכל push (כל ענף) ובכל pull request, וכן ניתן להפעלה ידנית.
+# הבדיקה אינה מורידה ספרים מספריא - רק את רשימת השמות מ-API (ללא הטקסטים).
+# כשל באימות מפיל את הריצה וכך חוסם מיזוג של PR פגום.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-fordb-book-names-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # checkout יעיל: partial-clone (ללא תוכן קבצים) + sparse-checkout רק לתיקיות
+      # שהסקריפט קורא בפועל. רשימת קבצי הספרים נשלפת דרך `git ls-tree` (עץ הקומיט),
+      # כך שאין צורך להוריד או לממש את אלפי קבצי הספרים בעץ העבודה.
+      - name: Checkout repository (sparse, blobless)
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          lfs: false
+          filter: blob:none
+          sparse-checkout: |
+            ForDB
+            .github
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate ForDB book names against the DB book list
+        env:
+          # משיכת שמות ספרי ספריא החיים מ-API בכל ריצה (1=פעיל, 0=כבוי).
+          SEFARIA_FETCH: "1"
+          PYTHONIOENCODING: "utf-8"
+        run: python .github/scripts/validate_fordb_book_names.py
