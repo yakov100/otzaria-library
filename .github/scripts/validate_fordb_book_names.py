@@ -6,25 +6,29 @@
 מטרה: לוודא שכל שם ספר המופיע בקבצי ForDB (בעמודות הרלוונטיות) קיים *בדיוק כצורתו*
 (בלי שום שינוי תו או אות) ברשימת הספרים שתיבנה ביצירת ה-DB.
 
-שתי קבוצות שמות נבנות:
-  A. "sources" - שמות ה*מקור* של הספרים שנכנסים ל-DB:
-     1. *מקור האמת*: שמות קבצי הספרים הנארזים ל-release בלבד - הנתיבים תואמים
+קבוצות השמות הנבנות (כל השמות עוברים ניקוי sanitize הזהה לזה שבונה את שמות הקבצים ב-DB,
+sefariaToOtzaria/.../otzaria/utils.py):
+  מרכיבים:
+     1. *מקור האמת* לאוצריא: שמות קבצי הספרים הנארזים ל-release בלבד - הנתיבים תואמים
         בדיוק את .github/workflows/update-library.yml (PACKAGED_PREFIXES). תיקיות
-        ביניים/ארכיון (extraBooks, National-Library) אינן נכנסות ל-DB ולכן אינן
+        ביניים/ארכיון (extraBooks, National-Library, KSK) אינן נכנסות ל-DB ולכן אינן
         נחשבות. נמנים דרך `git ls-tree` (ללא הורדת תוכן - עובד עם sparse/partial).
-     2. all_metadata_with_file_paths.json - בעיקר עבור ספרי ספריא שאינם כקבצים ב-repo.
-     3. שמות ספרי *ספריא* הנמשכים חיים מ-API בכל ריצה (רק השמות). כשל במשיכה
-        אינו מפיל את הבדיקה (נפילה בטוחה לרשימה המקומית).
-  B. "final_canon" - השמות כפי שיהיו ב-DB *אחרי* שינויי השמות: לכל שם מקור
-     מוחל srename (sanitize(old)->sanitize(new)) מ-book_renames.csv.
-  כל השמות עוברים ניקוי (sanitize) הזהה בדיוק לזה שבונה את שמות הקבצים ב-DB
-  (sefariaToOtzaria/.../otzaria/utils.py).
+     2. שמות ספרי *ספריא*: נמשכים חיים מ-API + רשומות sefaria מ-all_metadata (גיבוי).
+        ספרי ספריא נוצרים בבנייה ואין להם קובץ מקומי, לכן זה מקורם. כשל במשיכה החיה
+        אינו מפיל את הבדיקה (גיבוי לרשומות ה-sefaria שבמטא-דאטה).
+     3. שאר רשומות all_metadata_with_file_paths.json (אוצריא) - לבדיקות מטא-דאטה בלבד.
+  A. "db_final" = (1)+(2) אחרי שינויי השמות - מה שבאמת מגיע ל-DB. ספר אוצריא נכנס ל-DB
+     רק כקובץ נארז, ולכן שם במטא-דאטה לבדו (בלי קובץ נארז) אינו נכלל. כך נתפס ספר שהוזז
+     לתיקייה לא-נארזת (כגון KSK) ושומר מטא-דאטה ישנה.
+  B. "final_canon" = (1)+(2)+(3) אחרי שינויי השמות - רשימה רחבה לבדיקות המטא-דאטה.
+     ("sources" = אותם מרכיבים לפני שינויי השמות; משמש לבדיקת book_renames.)
+  שינויי השם (srename) נלקחים מ-book_renames.csv: sanitize(old)->sanitize(new).
 
 אופן הבדיקה:
-  * כל שם מ-generations / sefaria_metadata_changes / ForDB/all_metadata.json /
-    book_moves: מנוקה, מוחל עליו srename (כפי שיהיה ב-DB), ונבדק מול final_canon.
-  * book_renames.csv: נבדק שם ה*מקור* (העמודה השמאלית) מול sources - הספר שמשנים
-    חייב להתקיים (שינוי לא "יתום"). שם היעד אינו נבדק בנפרד (הוא ממילא ב-final_canon).
+  * generations / book_moves: חייבים להתאים בדיוק ל-book.title שב-DB -> נבדקים מול db_final.
+  * sefaria_metadata_changes / ForDB/all_metadata.json: מטא-דאטה -> נבדקים מול final_canon.
+  * book_renames.csv: שם ה*מקור* (העמודה השמאלית) מול sources - הספר שמשנים חייב להתקיים
+    (שינוי לא "יתום"). שם היעד אינו נבדק בנפרד.
 
 יציאה בקוד 1 אם נמצא ולו שם אחד שאינו קיים - כך ש-CI נכשל ב-PR / בכל קומיט.
 """
@@ -180,46 +184,43 @@ def build_sanitized_rename(rename_pairs):
 
 def load_canonical(srename):
     """
-    מחזיר (sources, final_canon):
-      * sources    = שמות ה*מקור* (מנוקים) של הספרים שנכנסים ל-DB:
-                     קבצי ספרים נארזים (PACKAGED_PREFIXES) + all_metadata + ספריא חיה.
-      * final_canon = שמות הספרים כפי ש*יהיו ב-DB* אחרי החלת שינויי השמות:
-                     לכל שם מקור מחילים את srename (sanitize(old)->sanitize(new)).
-    ה-book_renames נבדק מול sources (קיום שם המקור); שאר הקבצים מול final_canon.
+    מחזיר (sources, final_canon, db_final):
+      * sources    = כל שמות המקור (מנוקים): קבצי ספרים נארזים + all_metadata (כל הרשומות) + ספריא חיה.
+      * final_canon = sources אחרי החלת שינויי השמות. רשימה רחבה לבדיקות מטא-דאטה.
+      * db_final    = השמות שבאמת *מגיעים ל-DB* אחרי שינויי שם: קבצים נארזים בפועל +
+                      ספרי ספריא בלבד. ספרי אוצריא נכנסים ל-DB רק כקובץ נארז — ולכן שם
+                      במטא-דאטה לבדו (בלי קובץ נארז) אינו נכלל כאן. כך נתפס ספר שהוזז
+                      לתיקייה לא-נארזת (כגון KSK) ושומר מטא-דאטה ישנה.
+    ספרי ספריא נוצרים בבנייה (אין להם קובץ מקומי), לכן הם נלקחים מה-API החי + המטא-דאטה.
+    book_renames נבדק מול sources; generations/book_moves מול db_final; השאר מול final_canon.
     """
-    sources = set()
+    def clean_titles(raws):
+        return {c for c in (sanitize_title(r) for r in raws) if c}
 
-    def add(raw):
-        clean = sanitize_title(raw)
-        if clean:
-            sources.add(clean)
-
-    book_files = tracked_book_basenames()
-    sources |= book_files
-    print(f"[canonical] {len(book_files)} שמות מקבצי ספרים נארזים (PACKAGED_PREFIXES)")
+    packaged = tracked_book_basenames()
+    print(f"[canonical] {len(packaged)} שמות מקבצי ספרים נארזים (PACKAGED_PREFIXES)")
 
     meta = read_json(CANONICAL_METADATA)
-    before = len(sources)
-    for entry in meta:
-        add(entry.get("title"))
-    print(f"[canonical] נוספו {len(sources) - before} שמות מ-all_metadata_with_file_paths.json")
+    sefaria_meta = clean_titles(e.get("title") for e in meta if e.get("Sourcefolder") == "sefaria")
+    other_meta = clean_titles(e.get("title") for e in meta if e.get("Sourcefolder") != "sefaria")
+    print(f"[canonical] all_metadata: {len(sefaria_meta)} ספריא + {len(other_meta)} אוצריא")
 
+    sefaria = set(sefaria_meta)
     if SEFARIA_FETCH:
         live = fetch_sefaria_titles()
         if live is not None:
-            before = len(sources)
-            for raw in live:
-                add(raw)
-            print(
-                f"[canonical] נמשכו {len(live)} שמות חיים מספריא; "
-                f"נוספו {len(sources) - before} חדשים (union)"
-            )
+            before = len(sefaria)
+            sefaria |= clean_titles(live)
+            print(f"[canonical] נמשכו {len(live)} שמות חיים מספריא; נוספו {len(sefaria) - before} חדשים (union)")
     else:
         print("[canonical] משיכת ספריא מושבתת (SEFARIA_FETCH=0)")
 
+    sources = packaged | sefaria | other_meta
+    db = packaged | sefaria  # מה שבאמת ב-DB: קבצים נארזים + ספריא (ללא מטא-דאטה לא-מגובה)
     final_canon = {srename.get(s, s) for s in sources}
-    print(f"[canonical] {len(sources)} שמות מקור, {len(final_canon)} שמות סופיים (אחרי שינויי שם)")
-    return sources, final_canon
+    db_final = {srename.get(s, s) for s in db}
+    print(f"[canonical] מקור: {len(sources)} | ב-DB: {len(db)} | סופיים: {len(final_canon)}/{len(db_final)} (אחרי שינויי שם)")
+    return sources, final_canon, db_final
 
 
 def fetch_sefaria_titles():
@@ -273,21 +274,21 @@ def load_rename_pairs():
 def main():
     rename_pairs = load_rename_pairs()
     srename = build_sanitized_rename(rename_pairs)
-    sources, final_canon = load_canonical(srename)
+    sources, final_canon, db_final = load_canonical(srename)
 
     # failures[file] = list of (line/identifier, raw_name, checked_name)
     failures = {}
 
-    def check_db_name(file_label, identifier, raw_name):
+    def check_db_name(file_label, identifier, raw_name, canon):
         """
         בודק שם 'כפי שיהיה ב-DB': מנקה (sanitize), מחיל את שינוי-השם (srename),
-        ומוודא קיום ברשימת השמות הסופיים (final_canon).
+        ומוודא קיום ב-canon (final_canon למטא-דאטה, db_final למה שחייב להתאים ל-book.title).
         """
         if raw_name is None or raw_name == "":
             return
         clean = sanitize_title(raw_name)
         final = srename.get(clean, clean)
-        if final not in final_canon:
+        if final not in canon:
             failures.setdefault(file_label, []).append((identifier, raw_name, final))
 
     # 1) book_renames.csv - נבדק שם ה*מקור* (העמודה השמאלית) מול שמות המקור:
@@ -300,30 +301,31 @@ def main():
                 (f"שורה {line_no} (שם מקור)", old, clean)
             )
 
-    # 2) generations.csv - עמודה "שם ספר" (לפי הכותרת, לא לפי מיקום קבוע)
+    # 2) generations.csv - עמודה "שם ספר". נבדק מול db_final: ה-seeder מתאים בדיוק
+    #    ל-book.title שב-DB, ולכן ספר שאינו נארז (כגון שהוזז ל-KSK) ייתפס כאן.
     header, rows = read_csv_rows(GENERATIONS, has_header=True)
     name_idx = col_index(header, "שם ספר")
     for line_no, row in enumerate(rows, start=2):
         if len(row) > name_idx:
-            check_db_name("ForDB/generations.csv", f"שורה {line_no}", row[name_idx])
+            check_db_name("ForDB/generations.csv", f"שורה {line_no}", row[name_idx], db_final)
 
-    # 3) sefaria_metadata_changes.csv - עמודה "title"
+    # 3) sefaria_metadata_changes.csv - עמודה "title" (מטא-דאטה -> final_canon)
     header, rows = read_csv_rows(SEFARIA_CHANGES, has_header=True)
     t_idx = col_index(header, "title")
     for line_no, row in enumerate(rows, start=2):
         if len(row) > t_idx:
-            check_db_name("ForDB/sefaria_metadata_changes.csv", f"שורה {line_no}", row[t_idx])
+            check_db_name("ForDB/sefaria_metadata_changes.csv", f"שורה {line_no}", row[t_idx], final_canon)
 
-    # 4) book_moves.csv - עמודה "name" (כרגע ריק; ייכלל אוטומטית כשיתמלא)
+    # 4) book_moves.csv - עמודה "name" (חייב להתאים ל-book.title -> db_final)
     header, rows = read_csv_rows(BOOK_MOVES, has_header=True)
     n_idx = col_index(header, "name")
     for line_no, row in enumerate(rows, start=2):
         if len(row) > n_idx:
-            check_db_name("ForDB/book_moves.csv", f"שורה {line_no}", row[n_idx])
+            check_db_name("ForDB/book_moves.csv", f"שורה {line_no}", row[n_idx], db_final)
 
-    # 5) ForDB/all_metadata.json - שדה "title"
+    # 5) ForDB/all_metadata.json - שדה "title" (מטא-דאטה -> final_canon)
     for idx, entry in enumerate(read_json(FORDB_METADATA)):
-        check_db_name("ForDB/all_metadata.json", f"רשומה {idx}", entry.get("title"))
+        check_db_name("ForDB/all_metadata.json", f"רשומה {idx}", entry.get("title"), final_canon)
 
     # ----- דוח -----
     total = sum(len(v) for v in failures.values())
