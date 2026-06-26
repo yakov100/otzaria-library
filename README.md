@@ -1,5 +1,5 @@
 # otzaria-library
-the library for [otzaria](https://github.com/Sivan22/otzaria) app, with the scripts that created it
+the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scripts that created it
 
 <div dir=rtl>
 
