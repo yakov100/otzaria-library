@@ -33,6 +33,7 @@ sefariaToOtzaria/.../otzaria/utils.py):
 יציאה בקוד 1 אם נמצא ולו שם אחד שאינו קיים - כך ש-CI נכשל ב-PR / בכל קומיט.
 """
 
+import argparse
 import csv
 import json
 import os
@@ -54,6 +55,9 @@ GENERATIONS = os.path.join(FORDB, "generations.csv")
 SEFARIA_CHANGES = os.path.join(FORDB, "sefaria_metadata_changes.csv")
 BOOK_MOVES = os.path.join(FORDB, "book_moves.csv")
 FORDB_METADATA = os.path.join(FORDB, "all_metadata.json")
+
+# דוח --fix: רשימת [{"file","name"}] של שורות שהוסרו אוטומטית (נכתב רק אם הוסר משהו).
+REMOVED_REPORT = os.path.join(REPO_ROOT, "fordb_removed.json")
 
 # API של ספריא: עץ התוכן המלא (TOC) - מכיל את כל שמות הספרים, ללא הטקסטים.
 SEFARIA_INDEX_URL = "https://www.sefaria.org/api/index/"
@@ -268,10 +272,49 @@ def load_rename_pairs():
     return pairs
 
 
+def remove_orphans(path, col_name, db_final, srename):
+    """מסיר מקובץ CSV (עם כותרת) שורות שספרן לא יגיע ל-DB (אינו ב-db_final). שומר על
+    הטקסט המדויק של השורות הנותרות (ללא רה-סריאליזציה של ה-CSV, כדי לא לשנות ציטוטים).
+    מחזיר את רשימת השמות שהוסרו."""
+    if not path or not os.path.isfile(path):
+        return []
+    with open(path, encoding="utf-8-sig", newline="") as fh:
+        lines = fh.read().split("\n")
+    if not lines or not lines[0].strip():
+        return []
+    header = next(csv.reader([lines[0]]))
+    if col_name not in header:
+        return []
+    idx = header.index(col_name)
+    kept, removed = [lines[0]], []
+    for line in lines[1:]:
+        if line.strip() == "":
+            kept.append(line)
+            continue
+        fields = next(csv.reader([line]))
+        name = fields[idx] if len(fields) > idx else ""
+        clean = sanitize_title(name)
+        if name and srename.get(clean, clean) not in db_final:
+            removed.append(name)
+        else:
+            kept.append(line)
+    if removed:
+        with open(path, "w", encoding="utf-8", newline="") as fh:
+            fh.write("\n".join(kept))
+    return removed
+
+
 # ---------------------------------------------------------------------------
 # הבדיקה
 # ---------------------------------------------------------------------------
 def main():
+    ap = argparse.ArgumentParser(description="אימות שמות ForDB מול רשימת הספרים הקנונית.")
+    ap.add_argument("--fix", action="store_true",
+                    help="הסרה אוטומטית של שורות יתומות מ-generations.csv/book_moves.csv "
+                         "(ספרים שאינם מגיעים ל-DB), וכתיבת דוח ל-fordb_removed.json. "
+                         "שאר הבדיקות (book_renames, metadata) עדיין מפילות את הריצה.")
+    args = ap.parse_args()
+
     rename_pairs = load_rename_pairs()
     srename = build_sanitized_rename(rename_pairs)
     sources, final_canon, db_final = load_canonical(srename)
@@ -301,13 +344,21 @@ def main():
                 (f"שורה {line_no} (שם מקור)", old, clean)
             )
 
-    # 2) generations.csv - עמודה "שם ספר". נבדק מול db_final: ה-seeder מתאים בדיוק
-    #    ל-book.title שב-DB, ולכן ספר שאינו נארז (כגון שהוזז ל-KSK) ייתפס כאן.
-    header, rows = read_csv_rows(GENERATIONS, has_header=True)
-    name_idx = col_index(header, "שם ספר")
-    for line_no, row in enumerate(rows, start=2):
-        if len(row) > name_idx:
-            check_db_name("ForDB/generations.csv", f"שורה {line_no}", row[name_idx], db_final)
+    # 2) generations.csv + 4) book_moves.csv - עמודות "שם ספר"/"name". חייבים להתאים
+    #    בדיוק ל-book.title שב-DB (db_final); ספר שאינו נארז (כגון שהוזז ל-KSK) ייתפס.
+    #    ב--fix מסירים אוטומטית את השורות היתומות במקום להפיל; אחרת בודקים ומפילים.
+    removed = []  # [(file_label, name)] שהוסרו אוטומטית במצב --fix
+    fixable = [("ForDB/generations.csv", GENERATIONS, "שם ספר"),
+               ("ForDB/book_moves.csv", BOOK_MOVES, "name")]
+    for file_label, path, col in fixable:
+        if args.fix:
+            removed += [(file_label, n) for n in remove_orphans(path, col, db_final, srename)]
+        else:
+            header, rows = read_csv_rows(path, has_header=True)
+            c_idx = col_index(header, col)
+            for line_no, row in enumerate(rows, start=2):
+                if len(row) > c_idx:
+                    check_db_name(file_label, f"שורה {line_no}", row[c_idx], db_final)
 
     # 3) sefaria_metadata_changes.csv - עמודה "title" (מטא-דאטה -> final_canon)
     header, rows = read_csv_rows(SEFARIA_CHANGES, has_header=True)
@@ -316,16 +367,17 @@ def main():
         if len(row) > t_idx:
             check_db_name("ForDB/sefaria_metadata_changes.csv", f"שורה {line_no}", row[t_idx], final_canon)
 
-    # 4) book_moves.csv - עמודה "name" (חייב להתאים ל-book.title -> db_final)
-    header, rows = read_csv_rows(BOOK_MOVES, has_header=True)
-    n_idx = col_index(header, "name")
-    for line_no, row in enumerate(rows, start=2):
-        if len(row) > n_idx:
-            check_db_name("ForDB/book_moves.csv", f"שורה {line_no}", row[n_idx], db_final)
-
     # 5) ForDB/all_metadata.json - שדה "title" (מטא-דאטה -> final_canon)
     for idx, entry in enumerate(read_json(FORDB_METADATA)):
         check_db_name("ForDB/all_metadata.json", f"רשומה {idx}", entry.get("title"), final_canon)
+
+    # ----- הסרה אוטומטית (--fix): כותבים דוח של מה שהוסר עבור ה-commit וההודעה בפורום -----
+    if args.fix and removed:
+        with open(REMOVED_REPORT, "w", encoding="utf-8") as fh:
+            json.dump([{"file": f, "name": n} for f, n in removed], fh, ensure_ascii=False, indent=2)
+        print(f"\n🧹 הוסרו אוטומטית {len(removed)} שורות יתומות (דוח: {os.path.basename(REMOVED_REPORT)}):")
+        for f, n in removed:
+            print(f"     - {f}: {n!r}")
 
     # ----- דוח -----
     total = sum(len(v) for v in failures.values())

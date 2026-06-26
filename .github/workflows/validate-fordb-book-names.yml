@@ -1,11 +1,14 @@
 name: Validate ForDB book names
 
-# מוודא שכל שמות הספרים בקבצי תיקיית ForDB (בעמודות/מיקומים הרלוונטיים) קיימים
-# *בדיוק כצורתם* ברשימת הספרים שתיבנה ביצירת ה-DB.
+# מוודא שכל שמות הספרים בקבצי ForDB קיימים *בדיוק כצורתם* ברשימת הספרים שתיבנה ב-DB.
 #
-# רץ בכל push (כל ענף) ובכל pull request, וכן ניתן להפעלה ידנית.
-# הבדיקה אינה מורידה ספרים מספריא - רק את רשימת השמות מ-API (ללא הטקסטים).
-# כשל באימות מפיל את הריצה וכך חוסם מיזוג של PR פגום.
+# ב-push ל-main: שורות יתומות ב-generations.csv/book_moves.csv (ספר שלא נארז ל-DB, למשל
+#   שהוזז לתיקייה לא-נארזת) מוסרות אוטומטית, נדחף commit, ומתפרסמת הודעה רועשת בפורום
+#   אוצריא. שאר הבעיות (book_renames, metadata) עדיין מפילות את הריצה.
+# ב-PR/ענפים אחרים: בדיקה בלבד — כשל באימות חוסם מיזוג (ללא תיקון אוטומטי).
+#
+# הערה: ה-push נעשה עם GITHUB_TOKEN ולכן אינו מפעיל את ה-workflow מחדש (מניעת לולאה
+# מובנית); האימות בתוך אותה ריצה הוא הקובע. לטריגר-חוזר ממשי יש להחליף ל-PAT.
 
 on:
   push:
@@ -13,7 +16,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: validate-fordb-book-names-${{ github.ref }}
@@ -24,9 +27,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # checkout יעיל: partial-clone (ללא תוכן קבצים) + sparse-checkout רק לתיקיות
-      # שהסקריפט קורא בפועל. רשימת קבצי הספרים נשלפת דרך `git ls-tree` (עץ הקומיט),
-      # כך שאין צורך להוריד או לממש את אלפי קבצי הספרים בעץ העבודה.
+      # partial-clone (ללא תוכן קבצים) + sparse-checkout לתיקיות הנדרשות בלבד.
+      # send_update נחוץ ל-OtzariaForumClient (פרסום ההודעה בפורום).
       - name: Checkout repository (sparse, blobless)
         uses: actions/checkout@v6
         with:
@@ -36,15 +38,50 @@ jobs:
           sparse-checkout: |
             ForDB
             .github
+            send_update
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Validate ForDB book names against the DB book list
+      - name: Validate ForDB book names (auto-fix orphans on push to main)
+        id: v
         env:
           # משיכת שמות ספרי ספריא החיים מ-API בכל ריצה (1=פעיל, 0=כבוי).
           SEFARIA_FETCH: "1"
           PYTHONIOENCODING: "utf-8"
-        run: python .github/scripts/validate_fordb_book_names.py
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            # --fix מסיר שורות יתומות ב-generations/book_moves וכותב fordb_removed.json.
+            # מחזיר !=0 רק אם נותרו בעיות שאינן ניתנות לתיקון אוטומטי.
+            set +e
+            python .github/scripts/validate_fordb_book_names.py --fix
+            echo "code=$?" >> "$GITHUB_OUTPUT"
+          else
+            python .github/scripts/validate_fordb_book_names.py
+          fi
+
+      - name: Commit, push & announce auto-removals
+        if: ${{ hashFiles('fordb_removed.json') != '' }}
+        env:
+          USER_NAME: ${{ secrets.USER_NAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          # מספר הנושא הייעודי בפורום אוצריא להודעות ההסרה:
+          FORUM_TOPIC_ID: "1707"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ForDB
+          git commit -m "ci: הסרת שורות ForDB יתומות (ספרים שאינם נארזים ל-DB)"
+          git push
+          export FORDB_COMMIT_SHA="$(git rev-parse HEAD)"
+          pip install --quiet requests bs4 pyluach tzdata
+          python .github/scripts/announce_fordb_removal.py
+
+      - name: Fail if non-fixable issues remain
+        if: ${{ steps.v.outputs.code != '' && steps.v.outputs.code != '0' }}
+        run: |
+          echo "::error::נותרו שמות ForDB שאינם ב-DB ושאינם ניתנים לתיקון אוטומטי (ראו לעיל)."
+          exit 1
