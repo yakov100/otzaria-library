@@ -10,6 +10,13 @@ for filename in os.listdir(path):
         lines = file.readlines()
     with open(file_path, 'w', encoding='utf-8') as file:
         for line in lines:
+            # סמן עמוד תלוש של תורת אמת ('{ע}') — להסיר כמו הסמן האחי '{אאא}',
+            # אחרת הוא הופך ל-<b>ע</b> ומשאיר אות 'ע' מיותרת בטקסט.
+            # מסירים רק כשהוא טוקן עצמאי, ולא כשהאות ע' היא חלק ממילה/ר"ת
+            # (למשל 'עד', 'עיין', 'שו"ע') — שם הוא צמוד לאות או לגרשיים.
+            line = (line.replace(' {ע} ', ' ')
+                        .replace('<line>{ע} ', '<line>')
+                        .replace(' {ע}{', ' {'))
             line = line.replace('(((', '<big><b>')
             line = line.replace(')))', '</b></big>')
             line = line.replace('{', '<b>')

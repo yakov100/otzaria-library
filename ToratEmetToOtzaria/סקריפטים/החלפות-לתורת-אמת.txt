@@ -336,6 +336,9 @@ namespace תורת_אמת_בוורד_3._1._5.BookParsingModels
                      .Replace("{ההה} <br>", "<div class=\"note\">")
                      .Replace("{ססס}", "</div>")
                     .Replace("{אאא}", "")
+                    .Replace(" {ע} ", " ")            // סמן עמוד תלוש בין מילים (הנפוץ)
+                    .Replace("<line>{ע} ", "<line>")  // סמן עמוד בתחילת שורה
+                    .Replace(" {ע}{", " {")           // סמן עמוד צמוד למילה המודגשת הבאה
                     .Replace("{", "<b>")
                     .Replace("}", "</b>")
                     .Replace("line", "p")
