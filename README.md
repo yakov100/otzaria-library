@@ -19,24 +19,29 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 
 כל התוכן המקורי שנוצר במסגרת פרויקט זה (סקריפטים, כלי עיבוד, קבצי מטא־דאטה, קבצי עזר, וכל תוכן שאינו מצוין אחרת) מופץ תחת:
 
-**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
+**Personal Use License 1.0 — שימוש אישי בלבד**
 
-[פירוט מלא ברישיון](LICENSE) | [קישור לרישיון](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[פירוט מלא ברישיון](LICENSE)
 
 **תנאי הרישיון בקצרה:**
-- מותר להעתיק, להפיץ, ולערוך
-- חובה לתת קרדיט מתאים
-- אסור שימוש מסחרי
-- כל יצירה נגזרת חייבת להיות מופצת תחת אותו רישיון
+- מותר שימוש אישי ופרטי בלבד של אדם פרטי (הורדה, הרצה, לימוד ושינוי לצורך עצמי)
+- אסור כל שימוש ציבורי — בין מסחרי ובין במסגרת תוכנה חינמית/קוד פתוח — ללא רשות מפורשת בכתב
+- אסורה כל הפצה, פרסום, או שילוב במוצר/שירות/אתר/API
+- אסור שימוש של חברה, עמותה, מוסד או כל גוף שהוא (כולל שימוש פנימי כגון השוואת טקסטים) ללא רשות מפורשת בכתב
+- חובת מתן קרדיט נשמרת גם לאחר קבלת רשות
+- לבקשת רשות: otzaria.1@gmail.com
+
+> **הערת מעבר:** גרסאות של העבודה המקורית שפורסמו לפני כניסת רישיון זה לתוקף היו תחת CC BY-NC-SA 4.0, וזכויות שכבר ניתנו תחתיו אינן מבוטלות. רישיון זה חל על הגרסה הנוכחית ואילך. רישיון זה חל **רק על העבודה המקורית שלנו** — הספרים והטקסטים ממקורות חיצוניים נשארים תחת רישיונותיהם המקוריים כמפורט להלן.
 
 ---
 
 ### תנאים והבהרות לתורמים (מעלים ועורכים):
 בעצם העלאת תוכן למאגר זה או עריכת תוכן קיים, מסכים התורם לתנאים הבאים, אלא אם צוין במפורש אחרת בעת מסירת התוכן:
 
-*   **הסכמה לרישוי:** התרומה נמסרת על דעת כך שהתוכן יפורסם תחת תנאי הרישיון המפורטים לעיל.
+*   **העברת זכויות והסכמה לרישוי:** התורם מעביר לבעל הפרויקט את מלוא זכויות היוצרים והקניין בתרומתו, או — לכל הפחות — מעניק רישיון בלעדי, עולמי, בלתי חוזר, ללא תמלוגים ועם זכות רישוי-מחדש, להשתמש בתרומה, לשנותה, להפיצה ולרשותה תחת כל רישיון, לרבות [Personal Use License](LICENSE) ורישיונות עתידיים.
+*   **ויתור על תביעות:** התורם מוותר על כל דרישה, תמלוג או תביעה בגין השימוש בתרומתו במסגרת הפרויקט או מיזמים נלווים לו, ומצהיר שהתרומה היא יצירה מקורית שלו ושהוא רשאי להעניק בה זכויות אלו ושאינה מפרה זכויות צד שלישי.
 *   **שימוש לטובת הפרויקט:** מנהלי המאגר רשאים להעביר או להעניק זכויות שימוש בתוכן לגורמים נוספים, ככל שהדבר נדרש או מועיל לקידום מטרות הפרויקט ולפיתוח מיזמים נוספים הקשורים אליו.
-*   **שיתוף עם מאגר 'זית':** ידוע לתורם כי כל ספר או תוכן הנמסרים למאגר זה עשויים להיכלל גם במאגר הספרים של [תוכנת "זית"](https://zayitapp.com/).
+*   **שיתוף עם גורמים שאוצריא התירה להם:** ידוע לתורם ומוסכם עליו כי כל ספר או תוכן הנמסרים למאגר זה עשויים להיות מותרים לשימוש לכל אדם או גוף שפרויקט 'אוצריא' התיר לו זאת — לרבות, אך לא רק, מאגר הספרים של [תוכנת "זית"](https://zayitapp.com/).
 *   **ברירת מחדל:** כל האמור לעיל חל כברירת מחדל על כל תרומה או עריכה במאגר, אלא אם כן המעלה או העורך הודיעו בכתב ובמפורש על תנאים אחרים.
 
 ---
@@ -46,7 +51,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### ספריא (Sefaria) - תיקיית `sefariaToOtzaria`
 
 **טקסטים:** GPL-3.0 License  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [פרויקט ספריא](https://github.com/Sefaria/Sefaria-Project)  
 [רישיון GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)
@@ -56,7 +61,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### דיקטה (Dicta) - תיקיית `DictaToOtzaria`
 
 **טקסטים:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [ספריית דיקטה](https://library.dicta.org.il/)  
 [רישיון CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -68,7 +73,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### פנינים (Pninim) - תיקיית `pninimToOtzaria`
 
 **טקסטים (כולל גרסאות מתוקנות שלנו):** GNU Free Documentation License v1.3 (GNU FDL v1.3)  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [פרויקט פנינים](https://gitlab.com/pninim.org/pninim)  
 [רישיון GNU FDL v1.3](https://www.gnu.org/licenses/fdl-1.3.html)
@@ -80,7 +85,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### תורת אמת (Torat Emet) - תיקיית `ToratEmetToOtzaria`
 
 **טקסטים:** Creative Commons Attribution-NonCommercial-ShareAlike 2.5 (CC BY-NC-SA 2.5)  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [תורת אמת אונליין](https://www.toratemetfreeware.com/online)  
 [רישיון CC BY-NC-SA 2.5](https://creativecommons.org/licenses/by-nc-sa/2.5/)
@@ -90,7 +95,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### ויקיטקסט - תיקיית `wikisourceToOtzaria`
 
 **טקסטים:** כפופים לרישיון ההפצה שהוגדר על ידי ויקיטקסט  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [ויקיטקסט](https://he.wikisource.org/)
 
@@ -99,7 +104,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### אוצר הספרים היהודי השיתופי - תיקיית `wikiJewishBooksToOtzaria`
 
 **טקסטים:** שימוש מותר בהרשאה מיוחדת בלבד - **אסור לקחת את הטקסטים ללא רשות**  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [אוצר הספרים היהודי השיתופי](https://wiki.jewishbooks.org.il/mediawiki/wiki)  
 [אודות ורישיון](https://wiki.jewishbooks.org.il/mediawiki/wiki/%D7%90%D7%95%D7%A6%D7%A8:%D7%90%D7%95%D7%93%D7%95%D7%AA)
@@ -111,7 +116,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### בן־יהודה (Ben-Yehuda) - תיקיית `Ben-YehudaToOtzaria`
 
 **טקסטים:** כפופים לרישיון פרויקט בן־יהודה  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [פרויקט בן־יהודה](https://benyehuda.org/)
 
@@ -120,21 +125,21 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### אורייתא (Orayta) - תיקיית `OraytaToOtzaria`
 
 **טקסטים:** כפופים לרישיון המקור  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 ---
 
 #### ובלכתך בדרך (On Your Way) - תיקיית `OnYourWayToOtzaria`
 
 **טקסטים:** כפופים לרישיון המקור  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 ---
 
 #### תא שמע (Tashma) - תיקיית `tashmaToOtzaria`
 
 **טקסטים:** כל הזכויות שמורות לתא שמע  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [תא שמע](https://tashma.co.il)
 
@@ -144,7 +149,8 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 
 #### הספרייה הלאומית - תיקיית `LibraryToOtzaria`
 
-**טקסטים וסקריפטים:** CC BY-NC-SA 4.0
+**טקסטים:** CC BY-NC-SA 4.0  
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 הטקסטים ניתנו לנו באדיבותם המרובה, ועל כך תודתנו. זכויות היוצרים שמורות להם!
 
 [פרוייקט פרידברג - יד הרמב"ם](https://rambam.genizah.org/?lan=heb&isPartial=False&isDoubleLogin=False)
@@ -153,7 +159,8 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 
 #### אור ברסלב - תיקיית `or-breslev`
 
-**טקסטים וסקריפטים:** CC BY-NC-SA 4.0
+**טקסטים:** CC BY-NC-SA 4.0  
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 [אור ברסלב](https://or-breslev.co.il)
 
@@ -161,7 +168,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 
 #### ספרים נוספים - תיקיית `MoreBooks`
 
-**טקסטים וסקריפטים:** CC BY-NC-SA 4.0
+**טקסטים וסקריפטים:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 **הערה:** ספרים שנוצרו ונערכו על ידי חברי הפרויקט, והעורכים ב[אתר העריכה](https://www.otzaria.org/library)
 
@@ -170,7 +177,7 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 #### ספרים ממקורות מעורבים - תיקיית `extraBooks`
 
 **טקסטים:** מעורב - חלקם תחת CC BY-NC-SA 4.0, חלקם כפופים לרישיונות המקור  
-**סקריפטים ועיבודים שלנו:** CC BY-NC-SA 4.0
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
 
 **הערה:** תיקייה זו מכילה ספרים ממקורות שונים שלא נכנסו למאגר הראשי מסיבות טכניות (כפילויות, אי-התאמה למבנה המאגר, וכדומה). יש לבדוק את הרישיון של כל ספר בנפרד.
 
