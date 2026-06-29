@@ -16,7 +16,7 @@ on:
       - "wikiJewishBooksToOtzaria/ספרים/אוצריא/**"
       - "wikisourceToOtzaria/ספרים/אוצריא/**"
       - "pninimToOtzaria/ספרים/אוצריא/**"
-      # - "National-LibraryToOtzaria/ספרים/אוצריא/**"
+      - "National-LibraryToOtzaria/ספרים/אוצריא/**"
       - "Ben-YehudaToOtzaria/links/**"
       - "DictaToOtzaria/links/**"
       - "OnYourWayToOtzaria/links/**"
@@ -31,7 +31,7 @@ on:
       - "DictaToOtzaria/לא ערוך/links/**"
       - "DictaToOtzaria/ערוך/links/**"
       - "pninimToOtzaria/links/**"
-      # - "National-LibraryToOtzaria/links/**"
+      - "National-LibraryToOtzaria/links/**"
   workflow_dispatch:
 
 concurrency:
