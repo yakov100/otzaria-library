@@ -11,7 +11,7 @@ sefariaToOtzaria/.../otzaria/utils.py):
   מרכיבים:
      1. *מקור האמת* לאוצריא: שמות קבצי הספרים הנארזים ל-release בלבד - הנתיבים תואמים
         בדיוק את .github/workflows/update-library.yml (PACKAGED_PREFIXES). תיקיות
-        ביניים/ארכיון (extraBooks, National-Library, KSK) אינן נכנסות ל-DB ולכן אינן
+        ביניים/ארכיון (extraBooks, KSK) אינן נכנסות ל-DB ולכן אינן
         נחשבות. נמנים דרך `git ls-tree` (ללא הורדת תוכן - עובד עם sparse/partial).
      2. שמות ספרי *ספריא*: נמשכים חיים מ-API + רשומות sefaria מ-all_metadata (גיבוי).
         ספרי ספריא נוצרים בבנייה ואין להם קובץ מקומי, לכן זה מקורם. כשל במשיכה החיה
@@ -116,7 +116,7 @@ def sanitize_title(name):
 # הנתיבים תואמים *בדיוק* לאלו שנארזים ב-.github/workflows/update-library.yml
 # (שלבי "Create otzaria Release Archive" + "Create dicta Release Archive").
 # חשוב: לא כל תיקייה שבה רכיב 'אוצריא' נכנסת ל-DB - תיקיות ביניים/ארכיון כמו
-# extraBooks ו-National-Library *אינן* נארזות, ולכן אינן נחשבות.
+# extraBooks ו-KSK *אינן* נארזות, ולכן אינן נחשבות.
 # ---------------------------------------------------------------------------
 BOOK_EXTS = (".txt", ".pdf", ".docx")
 PACKAGED_PREFIXES = (
@@ -133,6 +133,7 @@ PACKAGED_PREFIXES = (
     "wikisourceToOtzaria/ספרים/אוצריא/",
     "ToratEmetToOtzaria/ספרים/אוצריא/",
     "pninimToOtzaria/ספרים/אוצריא/",
+    "National-LibraryToOtzaria/ספרים/אוצריא/",
 )
 
 
