@@ -29,8 +29,12 @@ sefariaToOtzaria/.../otzaria/utils.py):
   * sefaria_metadata_changes / ForDB/all_metadata.json: מטא-דאטה -> נבדקים מול final_canon.
   * book_renames.csv: שם ה*מקור* (העמודה השמאלית) מול sources - הספר שמשנים חייב להתקיים
     (שינוי לא "יתום"). שם היעד אינו נבדק בנפרד.
+  * כפילויות שם בתוך ה-ZIP: שני קבצי ספרים שונים עם אותו שם מנוקה בתיקיות הנארזות
+    יחד ל-otzaria_latest.zip (SAME_ZIP_PREFIXES) מתנגשים ב-DB (book.title זהה) ולכן
+    נחשבים שגיאה. DictaToOtzaria/לא ערוך נארז ל-ZIP נפרד ואינו משתתף בבדיקה זו.
 
-יציאה בקוד 1 אם נמצא ולו שם אחד שאינו קיים - כך ש-CI נכשל ב-PR / בכל קומיט.
+יציאה בקוד 1 אם נמצא ולו שם אחד שאינו קיים, או כפילות שם בתיקיות הנארזות - כך ש-CI
+נכשל ב-PR / בכל קומיט. כפילות אינה ניתנת לתיקון אוטומטי (מפילה גם במצב --fix).
 """
 
 import argparse
@@ -136,31 +140,45 @@ PACKAGED_PREFIXES = (
     "National-LibraryToOtzaria/ספרים/אוצריא/",
 )
 
+# תיקיות הנארזות יחד ל-otzaria_latest.zip (בדיקת כפילויות שמות בתוך אותו ZIP).
+# שני קבצים עם אותו שם מנוקה בקבוצה זו מתנגשים ב-DB (book.title זהה) ולכן נחשבים
+# כפילות. הערה: DictaToOtzaria/לא ערוך נארז ל-ZIP נפרד (otzaria_dicta_latest.zip)
+# ולכן אינו משתתף בבדיקה זו - הוא מודר מהקבוצה.
+SAME_ZIP_PREFIXES = tuple(
+    p for p in PACKAGED_PREFIXES if not p.startswith("DictaToOtzaria/לא ערוך/")
+)
 
-def tracked_book_basenames():
+
+def list_tracked_paths():
     """
-    מחזיר set של שמות-בסיס מנוקים של קבצי הספרים הנארזים ל-release (לפי
-    PACKAGED_PREFIXES בלבד). משתמש ב-`git ls-tree -r HEAD` שקורא את עץ הקומיט
-    בלבד - אין צורך בהורדת תוכן הקבצים (עובד עם partial-clone + sparse-checkout).
+    מחזיר את רשימת הנתיבים העקובים ב-HEAD דרך `git ls-tree -r HEAD` (קורא את עץ
+    הקומיט בלבד - אין צורך בהורדת תוכן הקבצים; עובד עם partial-clone + sparse).
     אם git אינו זמין, נופל ל-os.walk על עץ העבודה.
     """
-    paths = []
     try:
         result = subprocess.run(
             ["git", "-C", REPO_ROOT, "ls-tree", "-r", "HEAD", "--name-only", "-z"],
             capture_output=True,
             check=True,
         )
-        paths = result.stdout.decode("utf-8").split("\0")
+        return result.stdout.decode("utf-8").split("\0")
     except Exception as e:  # noqa: BLE001
         print(f"::warning::git ls-tree נכשל ({e}); נופלים ל-os.walk על עץ העבודה.")
+        paths = []
         for root, _dirs, files in os.walk(REPO_ROOT):
             for fn in files:
                 rel = os.path.relpath(os.path.join(root, fn), REPO_ROOT)
                 paths.append(rel)
+        return paths
 
+
+def tracked_book_basenames():
+    """
+    מחזיר set של שמות-בסיס מנוקים של קבצי הספרים הנארזים ל-release (לפי
+    PACKAGED_PREFIXES בלבד).
+    """
     names = set()
-    for p in paths:
+    for p in list_tracked_paths():
         if not p:
             continue
         norm = p.replace("\\", "/")
@@ -172,6 +190,29 @@ def tracked_book_basenames():
             if clean:
                 names.add(clean)
     return names
+
+
+def find_packaged_duplicates():
+    """
+    מאתר שמות ספרים *כפולים* בתוך otzaria_latest.zip: שם-בסיס מנוקה (sanitize)
+    של קובץ ספר המופיע ביותר מתיקיית-מקור אחת מ-SAME_ZIP_PREFIXES. שני קבצים כאלה
+    מתנגשים ב-DB כי book.title נגזר מהשם המנוקה. מחזיר dict: שם מנוקה -> רשימת
+    נתיבים ממוינת (רק שמות שמופיעים יותר מפעם אחת).
+    """
+    groups = {}
+    for p in list_tracked_paths():
+        if not p:
+            continue
+        norm = p.replace("\\", "/")
+        if not any(norm.startswith(prefix) for prefix in SAME_ZIP_PREFIXES):
+            continue
+        base, ext = os.path.splitext(norm.rsplit("/", 1)[-1])
+        if ext.lower() not in BOOK_EXTS:
+            continue
+        clean = sanitize_title(base)
+        if clean:
+            groups.setdefault(clean, []).append(norm)
+    return {k: sorted(v) for k, v in groups.items() if len(v) > 1}
 
 
 # ---------------------------------------------------------------------------
@@ -372,6 +413,11 @@ def main():
     for idx, entry in enumerate(read_json(FORDB_METADATA)):
         check_db_name("ForDB/all_metadata.json", f"רשומה {idx}", entry.get("title"), final_canon)
 
+    # 6) כפילויות שמות בתוך otzaria_latest.zip: שני קבצי ספרים שונים עם אותו שם מנוקה
+    #    בתיקיות הנארזות לאותו ZIP יתנגשו ב-DB (book.title זהה). אינו ניתן לתיקון
+    #    אוטומטי (אי אפשר להחליט איזה עותק להסיר) ולכן מפיל את הריצה גם במצב --fix.
+    duplicates = find_packaged_duplicates()
+
     # ----- הסרה אוטומטית (--fix): כותבים דוח של מה שהוסר עבור ה-commit וההודעה בפורום -----
     if args.fix and removed:
         with open(REMOVED_REPORT, "w", encoding="utf-8") as fh:
@@ -382,19 +428,29 @@ def main():
 
     # ----- דוח -----
     total = sum(len(v) for v in failures.values())
-    if total == 0:
-        print("\n✅ כל שמות הספרים ב-ForDB קיימים ברשימת הספרים הקנונית.")
+    if total == 0 and not duplicates:
+        print("\n✅ כל שמות הספרים ב-ForDB קיימים ברשימת הספרים הקנונית, ואין כפילויות שם בתיקיות הנארזות.")
         return 0
 
-    print(f"\n❌ נמצאו {total} שמות ספרים ב-ForDB שאינם קיימים ברשימת הספרים הקנונית:\n")
-    for file_label in sorted(failures):
-        items = failures[file_label]
-        print(f"  📄 {file_label} ({len(items)}):")
-        for identifier, raw_name, checked in items:
-            if checked != raw_name:
-                print(f"     - {identifier}: {raw_name!r} (כפי שב-DB: {checked!r}) — לא נמצא")
-            else:
-                print(f"     - {identifier}: {raw_name!r} — לא נמצא")
+    if total:
+        print(f"\n❌ נמצאו {total} שמות ספרים ב-ForDB שאינם קיימים ברשימת הספרים הקנונית:\n")
+        for file_label in sorted(failures):
+            items = failures[file_label]
+            print(f"  📄 {file_label} ({len(items)}):")
+            for identifier, raw_name, checked in items:
+                if checked != raw_name:
+                    print(f"     - {identifier}: {raw_name!r} (כפי שב-DB: {checked!r}) — לא נמצא")
+                else:
+                    print(f"     - {identifier}: {raw_name!r} — לא נמצא")
+            print()
+
+    if duplicates:
+        print(f"\n❌ נמצאו {len(duplicates)} שמות ספרים כפולים בתיקיות הנארזות ל-otzaria_latest.zip")
+        print("   (שני קבצים עם אותו שם מנוקה מתנגשים ב-DB — book.title זהה. יש לאחד או לשנות שם לאחד מהם):\n")
+        for name in sorted(duplicates):
+            print(f"  🔁 {name!r}:")
+            for path in duplicates[name]:
+                print(f"     - {path}")
         print()
 
     return 1
