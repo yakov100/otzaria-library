@@ -1,0 +1,67 @@
+name: Weekly Otzaria pipeline
+
+# מנצח שבועי: מפעיל את שני מקורות הנתונים (SefariaExport + update-library)
+# במקביל, ממתין שששניהם *יצליחו*, ורק אז מפעיל את בניית ה-DB ב-SeforimLibrary.
+#
+# למה כאן: SeforimLibrary מושך בזמן ריצה את ה-release האחרון של שני ה-repos,
+# אז הוא חייב להתחיל רק אחרי ששניהם פרסמו release טרי. כל שלושת ה-workflows
+# כבר תומכים ב-workflow_dispatch, לכן כל הלוגיקה חיה כאן ואפס שינויים נדרשים
+# ב-SefariaExport וב-SeforimLibrary.
+#
+# דורש secret בשם PIPELINE_TOKEN (PAT) — ה-GITHUB_TOKEN האוטומטי חסום מלהפעיל
+# workflows ב-repos אחרים.
+
+on:
+  schedule:
+    # יום חמישי 15:00 UTC → 18:00 שעון קיץ ישראל / 17:00 שעון חורף.
+    # ה-cron ב-UTC בלבד, אז יש הסחה של שעה בין קיץ לחורף — הכל נשאר בערב חמישי.
+    # יום=4=חמישי (ראשון=0).
+    - cron: '0 15 * * 4'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upstreams:
+    name: Trigger + wait for SefariaExport and update-library
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.PIPELINE_TOKEN }}
+    steps:
+      - name: הרצת שני המקורות במקביל והמתנה שששניהם יצליחו
+        run: |
+          set -euo pipefail
+
+          echo "מפעיל SefariaExport ו-update-library..."
+          gh workflow run release.yml        -R Otzaria/SefariaExport
+          gh workflow run update-library.yml -R Otzaria/otzaria-library
+
+          # ה-runs נוצרים אסינכרונית; ממתינים שיירשמו לפני שתופסים מזהה.
+          # שום דבר אחר לא מפעיל את שני ה-workflows האלה, אז "האחרון" הוא שלנו.
+          sleep 20
+
+          SEF=$(gh run list -R Otzaria/SefariaExport   -w release.yml        -L1 --json databaseId -q '.[0].databaseId')
+          LIB=$(gh run list -R Otzaria/otzaria-library -w update-library.yml -L1 --json databaseId -q '.[0].databaseId')
+          echo "SefariaExport run:   $SEF"
+          echo "update-library run:  $LIB"
+
+          # ממתינים לשניהם במקביל; --exit-status מכשיל אותנו אם ריצה כלשהי נכשלה.
+          gh run watch "$SEF" -R Otzaria/SefariaExport   --exit-status & P1=$!
+          gh run watch "$LIB" -R Otzaria/otzaria-library --exit-status & P2=$!
+          wait "$P1"
+          wait "$P2"
+          echo "שני המקורות הסתיימו בהצלחה."
+
+  build:
+    name: Trigger SeforimLibrary build
+    needs: upstreams          # רץ רק אם ה-job הקודם (=שני המקורות) הצליח
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.PIPELINE_TOKEN }}
+    steps:
+      - name: הפעלת בניית ה-DB (fire-and-forget — לא ממתינים ל-1.5 השעות)
+        run: |
+          set -euo pipefail
+          gh workflow run manual-generate-release.yml -R Otzaria/SeforimLibrary
+          echo "בניית SeforimLibrary הופעלה. תפורסם כ-release בסיום."

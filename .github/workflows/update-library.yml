@@ -1,8 +1,9 @@
 name: Update Library and create manifest
 
 on:
-  schedule:
-    - cron: '0 9 * * 5'  # כל יום שישי בבוקר בשעה 09:00 UTC, שזה יוצא בשעה 12:00 בשעון קיץ, ו 11:00 בשעון חורף
+  # התזמון הועבר ל-weekly-pipeline.yml (הריצה השבועית) שמפעיל workflow זה
+  # במקביל ל-SefariaExport ואז את בניית SeforimLibrary. אין כאן schedule
+  # עצמאי כדי שלא ירוץ פעמיים.
   workflow_dispatch:
 
 # הטריגר הישן - push על שינויים בנתיבים ספציפיים
