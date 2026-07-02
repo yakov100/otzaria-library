@@ -279,11 +279,14 @@ for book in data:
                         }
                         assert mef_entry == text_entry, f"Mismatch between mef and list_alltexts entry for CodeMefareshId {code_mefaresh_id}"
                         order_by = text.get("OrderBy")
-                        mh_logical_unit_text = text.get("MHLogicalUnitText")
-                        mh_logical_unit_text = clean_hidden_chars(mh_logical_unit_text)
+                        # FileContent מכיל את הטקסט המלא. MHLogicalUnitText הוא
+                        # תצוגה מקדימה שהשרת חותך ל-~8000 תווים (כפתור "המשך" באתר
+                        # חושף את FileContent). מעדיפים את המלא, ונופלים לתצוגה
+                        # המקדימה רק כשהשרת לא צירף עותק מלא (טקסטים קצרים).
+                        raw_text = text.get("FileContent") or text.get("MHLogicalUnitText")
+                        mh_logical_unit_text = clean_hidden_chars(raw_text)
                         file_name = text.get("FileName")
                         division_detail_id = text.get("DivisionDetailId")
-                        file_content = text.get("FileContent")
                         all_mef[code_mefaresh_id][book["Desc"]][halachot["Desc"]][perek["Desc"]][ot["Desc"]].append(mh_logical_unit_text)
                     if code_mefaresh_id in dict_all:
                         existing_entry = dict_all[code_mefaresh_id]
