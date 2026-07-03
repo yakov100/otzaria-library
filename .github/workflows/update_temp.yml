@@ -1,38 +1,39 @@
 name: Update Library on Push
 
 on:
-  push:
-    paths:
-      - "Ben-YehudaToOtzaria/ספרים/אוצריא/**"
-      - "DictaToOtzaria/ערוך/ספרים/אוצריא/**"
-      - "DictaToOtzaria/לא ערוך/ספרים/אוצריא/**"
-      - "OnYourWayToOtzaria/ספרים/אוצריא/**"
-      - "OraytaToOtzaria/ספרים/אוצריא/**"
-      - "tashmaToOtzaria/ספרים/אוצריא/**"
-      - "sefariaToOtzaria/sefaria_export/ספרים/אוצריא/**"
-      - "sefariaToOtzaria/sefaria_api/ספרים/אוצריא/**"
-      - "MoreBooks/ספרים/אוצריא/**"
-      - "ToratEmetToOtzaria/ספרים/אוצריא/**"
-      - "wikiJewishBooksToOtzaria/ספרים/אוצריא/**"
-      - "wikisourceToOtzaria/ספרים/אוצריא/**"
-      - "pninimToOtzaria/ספרים/אוצריא/**"
-      - "National-LibraryToOtzaria/ספרים/אוצריא/**"
-      - "Ben-YehudaToOtzaria/links/**"
-      - "DictaToOtzaria/links/**"
-      - "OnYourWayToOtzaria/links/**"
-      - "OraytaToOtzaria/links/**"
-      - "tashmaToOtzaria/links/**"
-      - "sefariaToOtzaria/sefaria_export/links/**"
-      - "sefariaToOtzaria/sefaria_api/links/**"
-      - "MoreBooks/links/**"
-      - "ToratEmetToOtzaria/links/**"
-      - "wikiJewishBooksToOtzaria/links/**"
-      - "wikisourceToOtzaria/links/**"
-      - "DictaToOtzaria/לא ערוך/links/**"
-      - "DictaToOtzaria/ערוך/links/**"
-      - "pninimToOtzaria/links/**"
-      - "National-LibraryToOtzaria/links/**"
   workflow_dispatch:
+  # push:
+  #   paths:
+  #     - "Ben-YehudaToOtzaria/ספרים/אוצריא/**"
+  #     - "DictaToOtzaria/ערוך/ספרים/אוצריא/**"
+  #     - "DictaToOtzaria/לא ערוך/ספרים/אוצריא/**"
+  #     - "OnYourWayToOtzaria/ספרים/אוצריא/**"
+  #     - "OraytaToOtzaria/ספרים/אוצריא/**"
+  #     - "tashmaToOtzaria/ספרים/אוצריא/**"
+  #     - "sefariaToOtzaria/sefaria_export/ספרים/אוצריא/**"
+  #     - "sefariaToOtzaria/sefaria_api/ספרים/אוצריא/**"
+  #     - "MoreBooks/ספרים/אוצריא/**"
+  #     - "ToratEmetToOtzaria/ספרים/אוצריא/**"
+  #     - "wikiJewishBooksToOtzaria/ספרים/אוצריא/**"
+  #     - "wikisourceToOtzaria/ספרים/אוצריא/**"
+  #     - "pninimToOtzaria/ספרים/אוצריא/**"
+  #     - "National-LibraryToOtzaria/ספרים/אוצריא/**"
+  #     - "Ben-YehudaToOtzaria/links/**"
+  #     - "DictaToOtzaria/links/**"
+  #     - "OnYourWayToOtzaria/links/**"
+  #     - "OraytaToOtzaria/links/**"
+  #     - "tashmaToOtzaria/links/**"
+  #     - "sefariaToOtzaria/sefaria_export/links/**"
+  #     - "sefariaToOtzaria/sefaria_api/links/**"
+  #     - "MoreBooks/links/**"
+  #     - "ToratEmetToOtzaria/links/**"
+  #     - "wikiJewishBooksToOtzaria/links/**"
+  #     - "wikisourceToOtzaria/links/**"
+  #     - "DictaToOtzaria/לא ערוך/links/**"
+  #     - "DictaToOtzaria/ערוך/links/**"
+  #     - "pninimToOtzaria/links/**"
+  #     - "National-LibraryToOtzaria/links/**"
+  
 
 concurrency:
   group: update-temp
@@ -74,7 +75,8 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
           TOKEN_YEMOT: ${{ secrets.TOKEN_YEMOT }}
           GOOGLE_CHAT_URL: ${{ secrets.GOOGLE_CHAT_URL }}
-          BEFORE_SHA: ${{ github.event.before }}
-          AFTER_SHA: ${{ github.event.after }}
+          # אין צורך להתייחס לבעיות שהלינטר מראה כאן בשתי השורות הבאות.
+          BEFORE_SHA: ${{ github.event.before || '' }}
+          AFTER_SHA: ${{ github.event.after || github.sha }}
         run: |
           python send_update/main_temp.py
