@@ -651,32 +651,6 @@
   },
   {
     "heAuthors": [
-      "רבי יוסף בן אפרים קארו"
-    ],
-    "title": "אבקת רוכל",
-    "enTitle": "Avkat Rochel",
-    "authors": [
-      "Joseph Karo"
-    ],
-    "pubDate": [
-      1859
-    ],
-    "pubDateHeb": [
-      "ה׳תרי״ט"
-    ],
-    "pubPlaceStringEn": "Leipzig",
-    "pubPlaceStringHe": "לייפציג",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "הרב אהרן לוין"
     ],
     "title": "אבני חפץ",
@@ -1067,58 +1041,6 @@
   },
   {
     "heAuthors": [
-      "רבי אברהם בן דוד מפּוֹשְקְיֶרָה"
-    ],
-    "title": "בעלי הנפש",
-    "enTitle": "Ba’alei Ha-Nefesh",
-    "authors": [
-      "Abraham ben David"
-    ],
-    "pubDate": [
-      1858
-    ],
-    "pubDateHeb": [
-      "ה׳תרי״ח"
-    ],
-    "pubPlaceStringEn": "Lemberg",
-    "pubPlaceStringHe": "לעמבערג",
-    "heCategories": [
-      "ספרי הלכה ומנהג"
-    ],
-    "categories": [
-      "Halachah and Minhagim"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי יואל בן שמואל סירקיש"
-    ],
-    "title": "בח",
-    "enTitle": "bach",
-    "authors": [
-      "rabbi Yoel ben Shmuel Sirkish"
-    ],
-    "pubDate": [
-      1834
-    ],
-    "pubDateHeb": [
-      "ה׳תקצ״ד"
-    ],
-    "pubPlaceStringEn": "Austria",
-    "pubPlaceStringHe": "אוסטרהא",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "ר' אריה רבינוביץ'"
     ],
     "title": "באר היטב (עהת)",
@@ -1405,32 +1327,6 @@
   },
   {
     "heAuthors": [
-      "ר' אברהם דוד מאבריטש"
-    ],
-    "title": "בת עין",
-    "enTitle": "Bat Ayin",
-    "authors": [
-      "Rabbi Avraham David of Abritch"
-    ],
-    "pubDate": [
-      1869
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״ט"
-    ],
-    "pubPlaceStringEn": "Zhytomyr",
-    "pubPlaceStringHe": "ז'יטומיר",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "רבי יצחק אייזק חבר"
     ],
     "title": "בית נאמן",
@@ -1583,32 +1479,6 @@
       "Responsa"
     ],
     "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי יששכר בער איילינברג"
-    ],
-    "title": "באר שבע",
-    "enTitle": "Ba’er Sheva",
-    "authors": [
-      "Issachar Be'ar Eilenburg"
-    ],
-    "pubDate": [
-      1890
-    ],
-    "pubDateHeb": [
-      "ה׳תר״נ"
-    ],
-    "pubPlaceStringEn": null,
-    "pubPlaceStringHe": "ורשא",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": null,
     "Sourcefolder": "Dicta"
   },
   {
@@ -2987,32 +2857,6 @@
       "Derashot"
     ],
     "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי יצחק אייזק חבר"
-    ],
-    "title": "בנין עולם",
-    "enTitle": "Binyan Olam",
-    "authors": [
-      "rabbi Itzhak Izak ben Yaakov Heber"
-    ],
-    "pubDate": [
-      1851
-    ],
-    "pubDateHeb": [
-      "ה׳תרי״א"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": null,
     "Sourcefolder": "Dicta"
   },
   {
@@ -4473,32 +4317,6 @@
   },
   {
     "heAuthors": [
-      "ר' צדוק הכהן"
-    ],
-    "title": "דברי חלומות",
-    "enTitle": "Divrei Chalomot",
-    "authors": [
-      "Rabbi Zadok HaCohen"
-    ],
-    "pubDate": [
-      1903
-    ],
-    "pubDateHeb": [
-      "ה׳תרס״ג"
-    ],
-    "pubPlaceStringEn": "Lublin",
-    "pubPlaceStringHe": "לובלין",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "אוירבאך, צבי הירש בן מנחם"
     ],
     "title": "דברי התורה",
@@ -4785,32 +4603,6 @@
   },
   {
     "heAuthors": [
-      "רבי יצחק בן שמואל אדרבי"
-    ],
-    "title": "דברי ריבות",
-    "enTitle": "Divrei Rivot",
-    "authors": [
-      "Isaac Adarbi"
-    ],
-    "pubDate": [
-      1833
-    ],
-    "pubDateHeb": [
-      "ה׳תקצ״ג"
-    ],
-    "pubPlaceStringEn": null,
-    "pubPlaceStringHe": "סדילקוב",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "רבי יוסף שאול נתנזון"
     ],
     "title": "דברי שאול - יוסף דעת - א (יוד)",
@@ -4831,32 +4623,6 @@
     ],
     "categories": [
       "Commentaries on Shulchan Aruch"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' צדוק הכהן"
-    ],
-    "title": "דברי סופרים",
-    "enTitle": "Divrei Sofrim",
-    "authors": [
-      "Rabbi Zadok HaCohen"
-    ],
-    "pubDate": [
-      1913
-    ],
-    "pubDateHeb": [
-      "ה׳תרע״ג"
-    ],
-    "pubPlaceStringEn": "Lublin",
-    "pubPlaceStringHe": "לובלין",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -4909,32 +4675,6 @@
     ],
     "categories": [
       "Responsa"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' צדוק הכהן"
-    ],
-    "title": "דובר צדק",
-    "enTitle": "Dover Tzedek",
-    "authors": [
-      "Rabbi Zadok HaCohen"
-    ],
-    "pubDate": [
-      1911
-    ],
-    "pubDateHeb": [
-      "ה׳תרע״א"
-    ],
-    "pubPlaceStringEn": "Pyotrikov",
-    "pubPlaceStringHe": "פיוטריקוב",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -5383,32 +5123,6 @@
   },
   {
     "heAuthors": [
-      "הרב גרשון העניך ליינער"
-    ],
-    "title": "עין התכלת",
-    "enTitle": "En haTecheleit",
-    "authors": [
-      "Rabbi Gershon Chanoch Henech Leiner of Radzyn"
-    ],
-    "pubDate": [
-      1892
-    ],
-    "pubDateHeb": [
-      "ה׳תרנ״ב"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "וורשה",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "רבי יצחק טייב"
     ],
     "title": "ערך השולחן חושן משפט חלק ג",
@@ -5481,32 +5195,6 @@
     ],
     "categories": [
       "Responsa"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' אברהם סבע"
-    ],
-    "title": "אשכול הכופר על רות",
-    "enTitle": "Eshkol HaKofer on Ruth",
-    "authors": [
-      "Abraham Saba"
-    ],
-    "pubDate": [
-      1907
-    ],
-    "pubDateHeb": [
-      "ה׳תרס״ז"
-    ],
-    "pubPlaceStringEn": "Bardejov",
-    "pubPlaceStringHe": "ברדיוב",
-    "heCategories": [
-      "מפרשי התנ\"ך"
-    ],
-    "categories": [
-      "Bible Commentaries"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -6055,32 +5743,6 @@
       "Responsa"
     ],
     "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי יעקב לנדא"
-    ],
-    "title": "האגור",
-    "enTitle": "Ha'Agur",
-    "authors": [
-      "Jacob Landa"
-    ],
-    "pubDate": [
-      1884
-    ],
-    "pubDateHeb": [
-      "ה׳תרמ״ד"
-    ],
-    "pubPlaceStringEn": "Piotrkow",
-    "pubPlaceStringHe": "פיעטרקוב",
-    "heCategories": [
-      "ספרי הלכה ומנהג"
-    ],
-    "categories": [
-      "Halakha"
-    ],
-    "publisher": null,
     "Sourcefolder": "Dicta"
   },
   {
@@ -7010,32 +6672,6 @@
     ],
     "pubPlaceStringEn": null,
     "pubPlaceStringHe": "אונגואר",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי מאיר אוירבך"
-    ],
-    "title": "אמרי בינה",
-    "enTitle": "Imrei Bina",
-    "authors": [
-      "Meir Auerbach"
-    ],
-    "pubDate": [
-      1871
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״א"
-    ],
-    "pubPlaceStringEn": "Jerusalem",
-    "pubPlaceStringHe": "ירושלים",
     "heCategories": [
       "שו\"ת"
     ],
@@ -8367,32 +8003,6 @@
     ],
     "categories": [
       "Kabbalah"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' צדוק הכהן"
-    ],
-    "title": "קומץ המנחה",
-    "enTitle": "Kometz Ha-Minchah",
-    "authors": [
-      "Rabbi Zadok HaCohen"
-    ],
-    "pubDate": [
-      1939
-    ],
-    "pubDateHeb": [
-      "ה׳תרצ״ט"
-    ],
-    "pubPlaceStringEn": "Lublin",
-    "pubPlaceStringHe": "לובלין",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -10479,32 +10089,6 @@
   },
   {
     "heAuthors": [
-      "ר' צדוק הכהן"
-    ],
-    "title": "משיב צדק",
-    "enTitle": "Meshiv Tzedek",
-    "authors": [
-      "Rabbi Zadok HaCohen"
-    ],
-    "pubDate": [
-      1921
-    ],
-    "pubDateHeb": [
-      "ה׳תרפ״א"
-    ],
-    "pubPlaceStringEn": "Pyotrikov",
-    "pubPlaceStringHe": "פיוטריקוב",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "הרב אריה ליב בן יוסף הכהן (בעל הקצות)"
     ],
     "title": "משובב נתיבות",
@@ -10551,58 +10135,6 @@
     ],
     "categories": [
       "Derashot"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי אליהו בן אברהם שלמה הכהן האתמרי"
-    ],
-    "title": "מדרש האתמרי",
-    "enTitle": "Midrash Haitamari",
-    "authors": [
-      "rabbi Eliyahu HaKohen Ha'Itamri"
-    ],
-    "pubDate": [
-      1901
-    ],
-    "pubDateHeb": [
-      "ה׳תרס״א"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "דרשות"
-    ],
-    "categories": [
-      "reference"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי שמואל די אוזידא "
-    ],
-    "title": "מדרש שמואל על אבות",
-    "enTitle": "Midrash Shmuel (avot)",
-    "authors": [
-      "Rabbi Shmuel de Uzeda"
-    ],
-    "pubDate": [
-      1878
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״ח"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "מפרשי המשנה"
-    ],
-    "categories": [
-      "Mishna Commentaries"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -11389,32 +10921,6 @@
   },
   {
     "heAuthors": [
-      "יעקב בן יעקב משה, מליסה"
-    ],
-    "title": "נחלת יעקב",
-    "enTitle": "Nachalat Yaakov",
-    "authors": [
-      "Yaakov ben Yaakov Moshe Lorberbaum of Lissa"
-    ],
-    "pubDate": [
-      1887
-    ],
-    "pubDateHeb": [
-      "ה׳תרמ״ז"
-    ],
-    "pubPlaceStringEn": "Lamberg",
-    "pubPlaceStringHe": "לעמבערג",
-    "heCategories": [
-      "מפרשי התנ\"ך"
-    ],
-    "categories": [
-      "Bible Commentaries"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "הרב יהושע יצחק שפירא "
     ],
     "title": "נחלת יהושע",
@@ -11831,32 +11337,6 @@
   },
   {
     "heAuthors": [
-      "הרב מנשה בן ישראל"
-    ],
-    "title": "נשמת חיים",
-    "enTitle": "Nishmat Chayim",
-    "authors": [
-      "rabbi menasseh ben israel"
-    ],
-    "pubDate": [
-      1878
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״ח"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "מחשבה יהודית"
-    ],
-    "categories": [
-      "Jewish thought"
-    ],
-    "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "שפירא, יהושע איזיק בן יחיאל"
     ],
     "title": "נועם ירושלמי על מועד",
@@ -12111,32 +11591,6 @@
     ],
     "categories": [
       "Responsa"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' אברהם יהושע השל מאפטא"
-    ],
-    "title": "אוהב ישראל",
-    "enTitle": "Ohev Yisrael",
-    "authors": [
-      "Avraham Yehoshua Heshel"
-    ],
-    "pubDate": [
-      1863
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״ג"
-    ],
-    "pubPlaceStringEn": "Z︠H︡ytomyr",
-    "pubPlaceStringHe": "ז'יטומיר",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -12637,32 +12091,6 @@
   },
   {
     "heAuthors": [
-      "הרב יהודה מאיר שפירא"
-    ],
-    "title": "אור המאיר",
-    "enTitle": "Or Hameir responsa",
-    "authors": [
-      "Yehuda Meir Shapiro "
-    ],
-    "pubDate": [
-      1926
-    ],
-    "pubDateHeb": [
-      "ה׳תרפ״ו"
-    ],
-    "pubPlaceStringEn": "Piotrkov",
-    "pubPlaceStringHe": "פיוטרקוב",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "ר' זאב וולף הלוי"
     ],
     "title": "אור המאיר שמות",
@@ -12891,32 +12319,6 @@
     ],
     "categories": [
       "Bible Commentaries"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' י-הודה רוזנס"
-    ],
-    "title": "פרשת דרכים",
-    "enTitle": "Parshat Derachim",
-    "authors": [
-      "Rabbi Yhoda Rosens"
-    ],
-    "pubDate": [
-      1881
-    ],
-    "pubDateHeb": [
-      "ה׳תרמ״א"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "וורשה",
-    "heCategories": [
-      "דרשות ודרושים"
-    ],
-    "categories": [
-      "Derashot"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -13595,32 +12997,6 @@
       "Responsa"
     ],
     "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' צדוק הכהן"
-    ],
-    "title": "רסיסי לילה",
-    "enTitle": "Resisei Lailah",
-    "authors": [
-      "Rabbi Zadok HaCohen"
-    ],
-    "pubDate": [
-      1903
-    ],
-    "pubDateHeb": [
-      "ה׳תרס״ג"
-    ],
-    "pubPlaceStringEn": "Lublin",
-    "pubPlaceStringHe": "לובלין",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
-    ],
-    "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
   },
   {
@@ -14769,32 +14145,6 @@
   },
   {
     "heAuthors": [
-      "רבי משה בן מכיר"
-    ],
-    "title": "סדר היום",
-    "enTitle": "Seder Yom",
-    "authors": [
-      "Moshe ben Machir"
-    ],
-    "pubDate": [
-      1876
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״ו"
-    ],
-    "pubPlaceStringEn": "Lublin",
-    "pubPlaceStringHe": "לובלין",
-    "heCategories": [
-      "ספרי מחשבה ומוסר"
-    ],
-    "categories": [
-      "Mussar and Jewish Thought"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "יהודה אריה ליב אלתר"
     ],
     "title": "שפת אמת על קדשים",
@@ -14953,32 +14303,6 @@
   },
   {
     "heAuthors": [
-      "רבי אריה ליב גינזבורג"
-    ],
-    "title": "שאגת אריה החדשות",
-    "enTitle": "Sha'agat Aryeh Ha-Chadashot",
-    "authors": [
-      "Aryeh Leib ben Asher Ginzburg"
-    ],
-    "pubDate": [
-      1873
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״ג"
-    ],
-    "pubPlaceStringEn": "Vilnius",
-    "pubPlaceStringHe": "וילנה",
-    "heCategories": [
-      "שו\"ת"
-    ],
-    "categories": [
-      "Responsa"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "לוו, בנימין וולף בן אלעזר בן אריה ליב"
     ],
     "title": "שערי תורה חלק א",
@@ -15077,32 +14401,6 @@
     ],
     "categories": [
       "Responsa"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי חיים ויטאל"
-    ],
-    "title": "שער ההקדמות",
-    "enTitle": "Shaar haHakdamot",
-    "authors": [
-      "rabbi chaim vital"
-    ],
-    "pubDate": [
-      1909
-    ],
-    "pubDateHeb": [
-      "ה׳תרס״ט"
-    ],
-    "pubPlaceStringEn": "Jerusalem",
-    "pubPlaceStringHe": " ירושלים",
-    "heCategories": [
-      "קבלה"
-    ],
-    "categories": [
-      "kabbalah"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -15235,32 +14533,6 @@
       "Responsa"
     ],
     "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ואלק, מנחם יוסף בן עזריאל הכהן"
-    ],
-    "title": "שקל הקדש",
-    "enTitle": "Shekel ha-kodesh",
-    "authors": [
-      "Volk, Menahem Yosef ben Azriel,"
-    ],
-    "pubDate": [
-      1895
-    ],
-    "pubDateHeb": [
-      "ה׳תרנ״ה"
-    ],
-    "pubPlaceStringEn": "Vilna",
-    "pubPlaceStringHe": "וילנה",
-    "heCategories": [
-      "מפרשים וחיבורים על הירושלמי"
-    ],
-    "categories": [
-      "Yerushalmi Commentaries"
-    ],
-    "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
   },
   {
@@ -15993,32 +15265,6 @@
   },
   {
     "heAuthors": [
-      "הרב אברהם יצחק שפרלינג"
-    ],
-    "title": "טעמי המנהגים",
-    "enTitle": "Taamei Haminhagim",
-    "authors": [
-      "Rabbi Avraham Yitzchak Sperling"
-    ],
-    "pubDate": [
-      1928
-    ],
-    "pubDateHeb": [
-      "ה׳תרפ״ח"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "מנהג"
-    ],
-    "categories": [
-      "Minhag"
-    ],
-    "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "ר' עזרא אלטשולר"
     ],
     "title": "תקנת עזרא (מעילה)",
@@ -16695,58 +15941,6 @@
   },
   {
     "heAuthors": [
-      "רבי משה בן נחמן"
-    ],
-    "title": "תורת האדם",
-    "enTitle": "Torat Haadam",
-    "authors": [
-      "Nachmanides"
-    ],
-    "pubDate": [
-      1876
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״ו"
-    ],
-    "pubPlaceStringEn": null,
-    "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "ספרי הלכה ומנהג"
-    ],
-    "categories": [
-      "Halakha"
-    ],
-    "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ווייל, יעקב נתנאל בן נפתלי צבי הירש"
-    ],
-    "title": "תורת נתנאל",
-    "enTitle": "Torat Netanel part 2",
-    "authors": [
-      "Nathaniel Weil"
-    ],
-    "pubDate": [
-      1795
-    ],
-    "pubDateHeb": [
-      "ה׳תקנ״ה"
-    ],
-    "pubPlaceStringEn": "Fürth",
-    "pubPlaceStringHe": "פיורדא",
-    "heCategories": [
-      "דרשות"
-    ],
-    "categories": [
-      "Derashot"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "רבינו יהודה החסיד"
     ],
     "title": "תוספות רבינו יהודה החסיד ברכות",
@@ -17157,32 +16351,6 @@
     ],
     "categories": [
       "Responsa"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' צדוק הכהן"
-    ],
-    "title": "צדקת הצדיק",
-    "enTitle": "Tzidkat Ha-Tzaddik",
-    "authors": [
-      "Rabbi Zadok HaCohen"
-    ],
-    "pubDate": [
-      1913
-    ],
-    "pubDateHeb": [
-      "ה׳תרע״ג"
-    ],
-    "pubPlaceStringEn": "Lublin",
-    "pubPlaceStringHe": "לובלין",
-    "heCategories": [
-      "ספרי חסידות"
-    ],
-    "categories": [
-      "Sifrei Chasidut"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -17735,58 +16903,6 @@
   },
   {
     "heAuthors": [
-      "שלמה לוריא (מהרש\"ל)"
-    ],
-    "title": "ים של שלמה על ביצה",
-    "enTitle": "Yam Shel Shlomo (Beitzah)",
-    "authors": [
-      "Solomon Luria"
-    ],
-    "pubDate": [
-      1861
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״א"
-    ],
-    "pubPlaceStringEn": "Shtettin",
-    "pubPlaceStringHe": "שטעטטין",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud_Bavli"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "שלמה לוריא (מהרש\"ל)"
-    ],
-    "title": "ים של שלמה על קידושין",
-    "enTitle": "Yam Shel Shlomo (Kiddushin)",
-    "authors": [
-      "Solomon Luria"
-    ],
-    "pubDate": [
-      1861
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״א"
-    ],
-    "pubPlaceStringEn": "Shtettin",
-    "pubPlaceStringHe": "שטעטטין",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud_Bavli"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "רבי אברהם רפפורט"
     ],
     "title": "ירח האיתנים",
@@ -17989,32 +17105,6 @@
     ],
     "categories": [
       "Commentaries on the Rambam"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי משה טייטלבוים"
-    ],
-    "title": "ישמח משה",
-    "enTitle": " Yismah Mosheh",
-    "authors": [
-      "rabbi moshe teitelbaum"
-    ],
-    "pubDate": [
-      1908
-    ],
-    "pubDateHeb": [
-      "ה׳תרס״ח"
-    ],
-    "pubPlaceStringEn": "Sighet",
-    "pubPlaceStringHe": "סיגט",
-    "heCategories": [
-      "מפרשי הש\"ס"
-    ],
-    "categories": [
-      "Shas Commentators"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -18693,32 +17783,6 @@
       "Rashi U'Mefarshav"
     ],
     "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "ר' אלעזר אזכרי"
-    ],
-    "title": "ספר חרדים",
-    "enTitle": "Sefer Chareidim",
-    "authors": [
-      "Ezkeri, Elazar"
-    ],
-    "pubDate": [
-      1925
-    ],
-    "pubDateHeb": [
-      "ה׳תרפ״ה"
-    ],
-    "pubPlaceStringEn": "Bardejov",
-    "pubPlaceStringHe": "בארדיאב",
-    "heCategories": [
-      "ספרי המצוות ומפרשיהם"
-    ],
-    "categories": [
-      "Sifrei Mitzvot"
-    ],
-    "publisher": null,
     "Sourcefolder": "Dicta"
   },
   {
@@ -19971,32 +19035,6 @@
   },
   {
     "heAuthors": [
-      "ר' יוסף אירגס"
-    ],
-    "title": "שומר אמונים",
-    "enTitle": "Shomer emunim",
-    "authors": [
-      "Rabbi Joseph Iregas"
-    ],
-    "pubDate": [
-      1876
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״ו"
-    ],
-    "pubPlaceStringEn": "Vilna",
-    "pubPlaceStringHe": "ווילנא",
-    "heCategories": [
-      "ספרי מחשבה ומוסר (אחרונים)"
-    ],
-    "categories": [
-      "Mussar and Jewish Thought"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "ר' שמואל אנגל"
     ],
     "title": "מהרש חלק א",
@@ -20511,84 +19549,6 @@
     ],
     "categories": [
       "Derashot"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "שלמה לוריא (מהרש\"ל)"
-    ],
-    "title": "ים של שלמה על חולין",
-    "enTitle": "Yam Shel Shlomo (Chullin)",
-    "authors": [
-      "Solomon Luria"
-    ],
-    "pubDate": [
-      1861
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״א"
-    ],
-    "pubPlaceStringEn": "Shtettin",
-    "pubPlaceStringHe": "שטעטטין",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud_Bavli"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "שלמה לוריא (מהרש\"ל)"
-    ],
-    "title": "ים של שלמה על גיטין",
-    "enTitle": "Yam Shel Shlomo (Gittin)",
-    "authors": [
-      "Solomon Luria"
-    ],
-    "pubDate": [
-      1861
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״א"
-    ],
-    "pubPlaceStringEn": "Shtettin",
-    "pubPlaceStringHe": "שטעטטין",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud_Bavli"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "שלמה לוריא (מהרש\"ל)"
-    ],
-    "title": "ים של שלמה על כתובות",
-    "enTitle": "Yam Shel Shlomo (Ketubot)",
-    "authors": [
-      "Solomon Luria"
-    ],
-    "pubDate": [
-      1861
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״א"
-    ],
-    "pubPlaceStringEn": "Shtettin",
-    "pubPlaceStringHe": "שטעטטין",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud_Bavli"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -30075,13 +29035,6 @@
     "Sourcefolder": "MoreBooks"
   },
   {
-    "title": "באורי מהרי קורקוס והרדבז על משנה תורה, הלכות כלי המקדש והעובדין בו",
-    "heAuthors": [
-      "דוד בן שלמה אבן אבי זמרא"
-    ],
-    "Sourcefolder": "MoreBooks"
-  },
-  {
     "title": "רבינו ירוחם",
     "heAuthors": [
       "רבי ירוחם בן משולם"
@@ -30089,30 +29042,9 @@
     "Sourcefolder": "MoreBooks"
   },
   {
-    "title": "ליקוטי הלכות",
-    "heAuthors": [
-      "נתן שטרנהרץ"
-    ],
-    "Sourcefolder": "MoreBooks"
-  },
-  {
-    "title": "מדרש אגדה",
-    "heAuthors": [
-      "<h2>בראשית</h2>"
-    ],
-    "Sourcefolder": "MoreBooks"
-  },
-  {
     "title": "חזון איש, אמונה ובטחון",
     "heAuthors": [
       "אברהם ישעיהו קרליץ"
-    ],
-    "Sourcefolder": "MoreBooks"
-  },
-  {
-    "title": "דרך ה",
-    "heAuthors": [
-      "משה חיים לוצאטו"
     ],
     "Sourcefolder": "MoreBooks"
   },
@@ -30145,13 +29077,6 @@
     "Sourcefolder": "MoreBooks"
   },
   {
-    "title": "סידור אשכנז",
-    "heAuthors": [
-      "<h2>ימי חול</h2>"
-    ],
-    "Sourcefolder": "MoreBooks"
-  },
-  {
     "title": "אנציקלופדיה הון יוסף",
     "heAuthors": [
       "<h1>אגב:</h1>"
@@ -30162,13 +29087,6 @@
     "title": "שדי חמד באר בשדי",
     "heAuthors": [
       "הרב חיים חזקיהו מדיני"
-    ],
-    "Sourcefolder": "MoreBooks"
-  },
-  {
-    "title": "ספר הבחור",
-    "heAuthors": [
-      "אליהו בחור"
     ],
     "Sourcefolder": "MoreBooks"
   },
@@ -30306,13 +29224,6 @@
     "Sourcefolder": "MoreBooks"
   },
   {
-    "title": "תוספתא ראש השנה",
-    "heAuthors": [
-      "<h2>פרק א</h2>"
-    ],
-    "Sourcefolder": "MoreBooks"
-  },
-  {
     "title": "חידושי הראבד על עבודה זרה",
     "heAuthors": [
       "<h2>דף ב.</h2>"
@@ -30351,13 +29262,6 @@
     "title": "רבינו חננאל בן שמואל על עירובין",
     "heAuthors": [
       "<h2>דף ד:</h2>"
-    ],
-    "Sourcefolder": "MoreBooks"
-  },
-  {
-    "title": "מעדני יום טוב על מנחות",
-    "heAuthors": [
-      "יום-טוב ליפמן הלר"
     ],
     "Sourcefolder": "MoreBooks"
   },
@@ -31551,28 +30455,7 @@
     "Sourcefolder": "wikiSource"
   },
   {
-    "title": "פירוש הראש על נדרים",
-    "heAuthors": [
-      "ר' אשר בן יחיאל"
-    ],
-    "Sourcefolder": "wikiSource"
-  },
-  {
-    "title": "פירוש הראש על נזיר",
-    "heAuthors": [
-      "ר' אשר בן יחיאל"
-    ],
-    "Sourcefolder": "wikiSource"
-  },
-  {
     "title": "פירוש הראש על קינים",
-    "heAuthors": [
-      "ר' אשר בן יחיאל"
-    ],
-    "Sourcefolder": "wikiSource"
-  },
-  {
-    "title": "פירוש הראש על תמיד",
     "heAuthors": [
       "ר' אשר בן יחיאל"
     ],
