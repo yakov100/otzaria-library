@@ -2790,13 +2790,6 @@
     "end": 52
   },
   {
-    "line_index_1": 21,
-    "line_index_2": 8,
-    "heRef_2": "זבחים ב., ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 22,
     "line_index_2": 8,
     "heRef_2": "זבחים ב., ו",
@@ -2849,13 +2842,6 @@
     "line_index_1": 29,
     "line_index_2": 7,
     "heRef_2": "זבחים ב., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 31,
-    "line_index_2": 17,
-    "heRef_2": "זבחים ב:, ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -2972,13 +2958,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 49,
-    "line_index_2": 36,
-    "heRef_2": "זבחים ג., ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 50,
     "line_index_2": 38,
     "heRef_2": "זבחים ג., ה",
@@ -3028,13 +3007,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 58,
-    "line_index_2": 52,
-    "heRef_2": "זבחים ג:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 59,
     "line_index_2": 52,
     "heRef_2": "זבחים ג:, א",
@@ -3045,13 +3017,6 @@
     "line_index_1": 60,
     "line_index_2": 68,
     "heRef_2": "זבחים ג:, יז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 62,
-    "line_index_2": 76,
-    "heRef_2": "זבחים ד., ה",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3080,13 +3045,6 @@
     "line_index_1": 66,
     "line_index_2": 98,
     "heRef_2": "זבחים ד., כז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 68,
-    "line_index_2": 100,
-    "heRef_2": "זבחים ד:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3140,13 +3098,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 77,
-    "line_index_2": 130,
-    "heRef_2": "זבחים ה., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 78,
     "line_index_2": 130,
     "heRef_2": "זבחים ה., ב",
@@ -3185,13 +3136,6 @@
     "line_index_1": 83,
     "line_index_2": 145,
     "heRef_2": "זבחים ה., יז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 85,
-    "line_index_2": 155,
-    "heRef_2": "זבחים ה:, ט",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3238,13 +3182,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 93,
-    "line_index_2": 167,
-    "heRef_2": "זבחים ו., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 94,
     "line_index_2": 167,
     "heRef_2": "זבחים ו., א",
@@ -3276,20 +3213,6 @@
     "line_index_1": 98,
     "line_index_2": 184,
     "heRef_2": "זבחים ו., יח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 100,
-    "line_index_2": 186,
-    "heRef_2": "זבחים ו:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 102,
-    "line_index_2": 200,
-    "heRef_2": "זבחים ז., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3350,13 +3273,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 112,
-    "line_index_2": 219,
-    "heRef_2": "זבחים ז:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 113,
     "line_index_2": 230,
     "heRef_2": "זבחים ז:, יב",
@@ -3381,13 +3297,6 @@
     "line_index_1": 116,
     "line_index_2": 241,
     "heRef_2": "זבחים ז:, כג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 118,
-    "line_index_2": 246,
-    "heRef_2": "זבחים ח., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3448,13 +3357,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 128,
-    "line_index_2": 269,
-    "heRef_2": "זבחים ח:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 129,
     "line_index_2": 274,
     "heRef_2": "זבחים ח:, ו",
@@ -3504,13 +3406,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 137,
-    "line_index_2": 288,
-    "heRef_2": "זבחים ט., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 138,
     "line_index_2": 288,
     "heRef_2": "זבחים ט., ב",
@@ -3546,13 +3441,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 144,
-    "line_index_2": 312,
-    "heRef_2": "זבחים ט:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 145,
     "line_index_2": 320,
     "heRef_2": "זבחים ט:, ט",
@@ -3577,13 +3465,6 @@
     "line_index_1": 148,
     "line_index_2": 336,
     "heRef_2": "זבחים ט:, כה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 150,
-    "line_index_2": 341,
-    "heRef_2": "זבחים י., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3616,13 +3497,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 156,
-    "line_index_2": 365,
-    "heRef_2": "זבחים י:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 157,
     "line_index_2": 368,
     "heRef_2": "זבחים י:, ה",
@@ -3651,13 +3525,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 162,
-    "line_index_2": 399,
-    "heRef_2": "זבחים יא., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 163,
     "line_index_2": 409,
     "heRef_2": "זבחים יא., יא",
@@ -3668,13 +3535,6 @@
     "line_index_1": 164,
     "line_index_2": 412,
     "heRef_2": "זבחים יא., יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 166,
-    "line_index_2": 430,
-    "heRef_2": "זבחים יא:, ג",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3710,13 +3570,6 @@
     "line_index_1": 171,
     "line_index_2": 455,
     "heRef_2": "זבחים יא:, כח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 173,
-    "line_index_2": 464,
-    "heRef_2": "זבחים יב., ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3794,13 +3647,6 @@
     "line_index_1": 184,
     "line_index_2": 471,
     "heRef_2": "זבחים יב., יא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 186,
-    "line_index_2": 481,
-    "heRef_2": "זבחים יב:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -3903,13 +3749,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 202,
-    "line_index_2": 507,
-    "heRef_2": "זבחים יג., ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 203,
     "line_index_2": 508,
     "heRef_2": "זבחים יג., ה",
@@ -3938,13 +3777,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 208,
-    "line_index_2": 527,
-    "heRef_2": "זבחים יג:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 209,
     "line_index_2": 527,
     "heRef_2": "זבחים יג:, ב",
@@ -3955,13 +3787,6 @@
     "line_index_1": 210,
     "line_index_2": 527,
     "heRef_2": "זבחים יג:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 212,
-    "line_index_2": 549,
-    "heRef_2": "זבחים יד., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4029,13 +3854,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 223,
-    "line_index_2": 571,
-    "heRef_2": "זבחים יד:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 224,
     "line_index_2": 571,
     "heRef_2": "זבחים יד:, א",
@@ -4060,13 +3878,6 @@
     "line_index_1": 227,
     "line_index_2": 584,
     "heRef_2": "זבחים יד:, יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 229,
-    "line_index_2": 597,
-    "heRef_2": "זבחים טו., ה",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4141,13 +3952,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 241,
-    "line_index_2": 616,
-    "heRef_2": "זבחים טו:, ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 242,
     "line_index_2": 616,
     "heRef_2": "זבחים טו:, ה",
@@ -4158,13 +3962,6 @@
     "line_index_1": 243,
     "line_index_2": 616,
     "heRef_2": "זבחים טו:, ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 245,
-    "line_index_2": 620,
-    "heRef_2": "זבחים טו:, ט",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4246,13 +4043,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 258,
-    "line_index_2": 628,
-    "heRef_2": "זבחים טז., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 259,
     "line_index_2": 628,
     "heRef_2": "זבחים טז., ב",
@@ -4295,13 +4085,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 266,
-    "line_index_2": 648,
-    "heRef_2": "זבחים טז:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 267,
     "line_index_2": 648,
     "heRef_2": "זבחים טז:, ג",
@@ -4333,13 +4116,6 @@
     "line_index_1": 271,
     "line_index_2": 658,
     "heRef_2": "זבחים טז:, יג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 273,
-    "line_index_2": 665,
-    "heRef_2": "זבחים יז., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4407,13 +4183,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 284,
-    "line_index_2": 676,
-    "heRef_2": "זבחים יז:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 285,
     "line_index_2": 676,
     "heRef_2": "זבחים יז:, א",
@@ -4456,23 +4225,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 292,
-    "line_index_2": 686,
-    "heRef_2": "זבחים יח., ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 293,
     "line_index_2": 686,
     "heRef_2": "זבחים יח., ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 295,
-    "line_index_2": 696,
-    "heRef_2": "זבחים יח:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4519,13 +4274,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 303,
-    "line_index_2": 721,
-    "heRef_2": "זבחים יט., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 304,
     "line_index_2": 735,
     "heRef_2": "זבחים יט., יט",
@@ -4557,13 +4305,6 @@
     "line_index_1": 308,
     "line_index_2": 735,
     "heRef_2": "זבחים יט., יט",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 310,
-    "line_index_2": 744,
-    "heRef_2": "זבחים יט:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4610,13 +4351,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 318,
-    "line_index_2": 768,
-    "heRef_2": "זבחים כ., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 319,
     "line_index_2": 772,
     "heRef_2": "זבחים כ., ה",
@@ -4655,13 +4389,6 @@
     "line_index_1": 324,
     "line_index_2": 782,
     "heRef_2": "זבחים כ., טו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 326,
-    "line_index_2": 789,
-    "heRef_2": "זבחים כ:, ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4722,13 +4449,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 336,
-    "line_index_2": 804,
-    "heRef_2": "זבחים כא., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 337,
     "line_index_2": 806,
     "heRef_2": "זבחים כא., ג",
@@ -4778,13 +4498,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 345,
-    "line_index_2": 823,
-    "heRef_2": "זבחים כא:, ט",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 346,
     "line_index_2": 823,
     "heRef_2": "זבחים כא:, ט",
@@ -4823,13 +4536,6 @@
     "line_index_1": 351,
     "line_index_2": 826,
     "heRef_2": "זבחים כא:, יב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 353,
-    "line_index_2": 829,
-    "heRef_2": "זבחים כב., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4883,13 +4589,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 362,
-    "line_index_2": 853,
-    "heRef_2": "זבחים כב:, ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 363,
     "line_index_2": 853,
     "heRef_2": "זבחים כב:, ח",
@@ -4918,23 +4617,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 368,
-    "line_index_2": 870,
-    "heRef_2": "זבחים כג., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 369,
     "line_index_2": 870,
     "heRef_2": "זבחים כג., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 371,
-    "line_index_2": 876,
-    "heRef_2": "זבחים כג:, ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -4967,23 +4652,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 377,
-    "line_index_2": 892,
-    "heRef_2": "זבחים כד., ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 378,
     "line_index_2": 892,
     "heRef_2": "זבחים כד., ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 380,
-    "line_index_2": 905,
-    "heRef_2": "זבחים כד:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5044,23 +4715,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 390,
-    "line_index_2": 927,
-    "heRef_2": "זבחים כה., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 391,
     "line_index_2": 927,
     "heRef_2": "זבחים כה., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 393,
-    "line_index_2": 938,
-    "heRef_2": "זבחים כה:, ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5089,13 +4746,6 @@
     "line_index_1": 397,
     "line_index_2": 950,
     "heRef_2": "זבחים כה:, יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 399,
-    "line_index_2": 959,
-    "heRef_2": "זבחים כו., ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5156,13 +4806,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 409,
-    "line_index_2": 981,
-    "heRef_2": "זבחים כו:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 410,
     "line_index_2": 984,
     "heRef_2": "זבחים כו:, ד",
@@ -5180,13 +4823,6 @@
     "line_index_1": 412,
     "line_index_2": 984,
     "heRef_2": "זבחים כו:, ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 414,
-    "line_index_2": 996,
-    "heRef_2": "זבחים כז., ג",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5240,23 +4876,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 423,
-    "line_index_2": 1010,
-    "heRef_2": "זבחים כז:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 424,
     "line_index_2": 1019,
     "heRef_2": "זבחים כז:, י",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 426,
-    "line_index_2": 1033,
-    "heRef_2": "זבחים כח., ז",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5296,13 +4918,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 433,
-    "line_index_2": 1063,
-    "heRef_2": "זבחים כט., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 434,
     "line_index_2": 1063,
     "heRef_2": "זבחים כט., א",
@@ -5327,13 +4942,6 @@
     "line_index_1": 437,
     "line_index_2": 1076,
     "heRef_2": "זבחים כט., יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 439,
-    "line_index_2": 1083,
-    "heRef_2": "זבחים כט:, ו",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5387,13 +4995,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 448,
-    "line_index_2": 1103,
-    "heRef_2": "זבחים ל., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 449,
     "line_index_2": 1103,
     "heRef_2": "זבחים ל., ח",
@@ -5436,13 +5037,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 456,
-    "line_index_2": 1112,
-    "heRef_2": "זבחים ל:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 457,
     "line_index_2": 1125,
     "heRef_2": "זבחים ל:, יד",
@@ -5460,13 +5054,6 @@
     "line_index_1": 459,
     "line_index_2": 1125,
     "heRef_2": "זבחים ל:, יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 461,
-    "line_index_2": 1132,
-    "heRef_2": "זבחים לא., ג",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5499,23 +5086,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 467,
-    "line_index_2": 1147,
-    "heRef_2": "זבחים לא:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 468,
     "line_index_2": 1159,
     "heRef_2": "זבחים לא:, יג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 471,
-    "line_index_2": 1165,
-    "heRef_2": "זבחים לב., ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5548,13 +5121,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 477,
-    "line_index_2": 1175,
-    "heRef_2": "זבחים לב:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 478,
     "line_index_2": 1178,
     "heRef_2": "זבחים לב:, ד",
@@ -5572,13 +5138,6 @@
     "line_index_1": 480,
     "line_index_2": 1185,
     "heRef_2": "זבחים לב:, יא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 482,
-    "line_index_2": 1189,
-    "heRef_2": "זבחים לג., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5625,13 +5184,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 490,
-    "line_index_2": 1200,
-    "heRef_2": "זבחים לג:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 491,
     "line_index_2": 1200,
     "heRef_2": "זבחים לג:, א",
@@ -5653,13 +5205,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 495,
-    "line_index_2": 1215,
-    "heRef_2": "זבחים לד., ז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 496,
     "line_index_2": 1221,
     "heRef_2": "זבחים לד., יג",
@@ -5674,13 +5219,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 499,
-    "line_index_2": 1228,
-    "heRef_2": "זבחים לד:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 500,
     "line_index_2": 1228,
     "heRef_2": "זבחים לד:, ב",
@@ -5691,13 +5229,6 @@
     "line_index_1": 501,
     "line_index_2": 1242,
     "heRef_2": "זבחים לד:, טז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 503,
-    "line_index_2": 1253,
-    "heRef_2": "זבחים לה., ז",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5737,13 +5268,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 510,
-    "line_index_2": 1268,
-    "heRef_2": "זבחים לה:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 511,
     "line_index_2": 1268,
     "heRef_2": "זבחים לה:, ג",
@@ -5761,13 +5285,6 @@
     "line_index_1": 513,
     "line_index_2": 1268,
     "heRef_2": "זבחים לה:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 515,
-    "line_index_2": 1290,
-    "heRef_2": "זבחים לו., ג",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5807,13 +5324,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 522,
-    "line_index_2": 1309,
-    "heRef_2": "זבחים לו:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 523,
     "line_index_2": 1314,
     "heRef_2": "זבחים לו:, ח",
@@ -5831,20 +5341,6 @@
     "line_index_1": 525,
     "line_index_2": 1321,
     "heRef_2": "זבחים לו:, טו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 527,
-    "line_index_2": 1326,
-    "heRef_2": "זבחים לו:, כ",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 529,
-    "line_index_2": 1330,
-    "heRef_2": "זבחים לז., ג",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5877,13 +5373,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 535,
-    "line_index_2": 1342,
-    "heRef_2": "זבחים לז:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 536,
     "line_index_2": 1353,
     "heRef_2": "זבחים לז:, יב",
@@ -5894,20 +5383,6 @@
     "line_index_1": 537,
     "line_index_2": 1353,
     "heRef_2": "זבחים לז:, יב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 539,
-    "line_index_2": 1359,
-    "heRef_2": "זבחים לח., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 541,
-    "line_index_2": 1376,
-    "heRef_2": "זבחים לח:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5926,44 +5401,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 545,
-    "line_index_2": 1392,
-    "heRef_2": "זבחים לט., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 547,
-    "line_index_2": 1407,
-    "heRef_2": "זבחים לט:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 548,
     "line_index_2": 1410,
     "heRef_2": "זבחים לט:, ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 550,
-    "line_index_2": 1427,
-    "heRef_2": "זבחים מ., טו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 552,
-    "line_index_2": 1429,
-    "heRef_2": "זבחים מ:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 554,
-    "line_index_2": 1441,
-    "heRef_2": "זבחים מא., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -5982,13 +5422,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 558,
-    "line_index_2": 1454,
-    "heRef_2": "זבחים מא:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 559,
     "line_index_2": 1454,
     "heRef_2": "זבחים מא:, ב",
@@ -5999,13 +5432,6 @@
     "line_index_1": 560,
     "line_index_2": 1466,
     "heRef_2": "זבחים מא:, יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 562,
-    "line_index_2": 1470,
-    "heRef_2": "זבחים מב., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6038,13 +5464,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 568,
-    "line_index_2": 1479,
-    "heRef_2": "זבחים מב:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 569,
     "line_index_2": 1490,
     "heRef_2": "זבחים מב:, יב",
@@ -6062,13 +5481,6 @@
     "line_index_1": 571,
     "line_index_2": 1496,
     "heRef_2": "זבחים מג., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 573,
-    "line_index_2": 1492,
-    "heRef_2": "זבחים מג., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6101,20 +5513,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 579,
-    "line_index_2": 1502,
-    "heRef_2": "זבחים מג:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 581,
-    "line_index_2": 1532,
-    "heRef_2": "זבחים מד., יג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 582,
     "line_index_2": 1532,
     "heRef_2": "זבחים מד., יג",
@@ -6125,13 +5523,6 @@
     "line_index_1": 583,
     "line_index_2": 1539,
     "heRef_2": "זבחים מד., כ",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 585,
-    "line_index_2": 1551,
-    "heRef_2": "זבחים מד:, ט",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6164,13 +5555,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 591,
-    "line_index_2": 1561,
-    "heRef_2": "זבחים מה., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 592,
     "line_index_2": 1562,
     "heRef_2": "זבחים מה., ב",
@@ -6195,13 +5579,6 @@
     "line_index_1": 595,
     "line_index_2": 1565,
     "heRef_2": "זבחים מה., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 597,
-    "line_index_2": 1579,
-    "heRef_2": "זבחים מה:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6248,20 +5625,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 605,
-    "line_index_2": 1598,
-    "heRef_2": "זבחים מו., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 607,
-    "line_index_2": 1616,
-    "heRef_2": "זבחים מו:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 608,
     "line_index_2": 1618,
     "heRef_2": "זבחים מו:, ה",
@@ -6283,13 +5646,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 612,
-    "line_index_2": 1633,
-    "heRef_2": "זבחים מז., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 613,
     "line_index_2": 1633,
     "heRef_2": "זבחים מז., א",
@@ -6300,27 +5656,6 @@
     "line_index_1": 614,
     "line_index_2": 1643,
     "heRef_2": "זבחים מז., יא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 616,
-    "line_index_2": 1643,
-    "heRef_2": "זבחים מז., יא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 618,
-    "line_index_2": 1655,
-    "heRef_2": "זבחים מח., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 620,
-    "line_index_2": 1682,
-    "heRef_2": "זבחים מח:, ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6353,13 +5688,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 626,
-    "line_index_2": 1710,
-    "heRef_2": "זבחים מט., ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 627,
     "line_index_2": 1712,
     "heRef_2": "זבחים מט., ה",
@@ -6370,27 +5698,6 @@
     "line_index_1": 628,
     "line_index_2": 1712,
     "heRef_2": "זבחים מט., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 630,
-    "line_index_2": 1734,
-    "heRef_2": "זבחים מט:, ט",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 632,
-    "line_index_2": 1752,
-    "heRef_2": "זבחים נ., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 634,
-    "line_index_2": 1780,
-    "heRef_2": "זבחים נ:, יא",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6409,13 +5716,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 638,
-    "line_index_2": 1784,
-    "heRef_2": "זבחים נא., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 639,
     "line_index_2": 1795,
     "heRef_2": "זבחים נא., יב",
@@ -6423,37 +5723,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 641,
-    "line_index_2": 1806,
-    "heRef_2": "זבחים נא:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 643,
-    "line_index_2": 1822,
-    "heRef_2": "זבחים נב., יג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 645,
-    "line_index_2": 1829,
-    "heRef_2": "זבחים נב:, ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 646,
     "line_index_2": 1829,
     "heRef_2": "זבחים נב:, ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 648,
-    "line_index_2": 1845,
-    "heRef_2": "זבחים נג., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6472,20 +5744,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 652,
-    "line_index_2": 1870,
-    "heRef_2": "זבחים נד., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 654,
-    "line_index_2": 1894,
-    "heRef_2": "זבחים נה., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 655,
     "line_index_2": 1894,
     "heRef_2": "זבחים נה., א",
@@ -6496,13 +5754,6 @@
     "line_index_1": 656,
     "line_index_2": 1903,
     "heRef_2": "זבחים נה., י",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 658,
-    "line_index_2": 1915,
-    "heRef_2": "זבחים נה:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6521,13 +5772,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 662,
-    "line_index_2": 1929,
-    "heRef_2": "זבחים נו., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 663,
     "line_index_2": 1940,
     "heRef_2": "זבחים נו., יג",
@@ -6538,13 +5782,6 @@
     "line_index_1": 664,
     "line_index_2": 1940,
     "heRef_2": "זבחים נו., יג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 666,
-    "line_index_2": 1943,
-    "heRef_2": "זבחים נו:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6577,20 +5814,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 672,
-    "line_index_2": 1973,
-    "heRef_2": "זבחים נז., יז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 674,
-    "line_index_2": 1979,
-    "heRef_2": "זבחים נז:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 675,
     "line_index_2": 1990,
     "heRef_2": "זבחים נז:, יב",
@@ -6598,30 +5821,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 678,
-    "line_index_2": 1996,
-    "heRef_2": "זבחים נח., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 679,
     "line_index_2": 1996,
     "heRef_2": "זבחים נח., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 681,
-    "line_index_2": 2018,
-    "heRef_2": "זבחים נח:, יב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 683,
-    "line_index_2": 2033,
-    "heRef_2": "זבחים נט., י",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6668,13 +5870,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 691,
-    "line_index_2": 2069,
-    "heRef_2": "זבחים ס., טו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 692,
     "line_index_2": 2069,
     "heRef_2": "זבחים ס., טו",
@@ -6689,20 +5884,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 695,
-    "line_index_2": 2090,
-    "heRef_2": "זבחים סא:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 697,
-    "line_index_2": 2102,
-    "heRef_2": "זבחים סב., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 698,
     "line_index_2": 2114,
     "heRef_2": "זבחים סב., יג",
@@ -6713,20 +5894,6 @@
     "line_index_1": 699,
     "line_index_2": 2114,
     "heRef_2": "זבחים סב., יג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 701,
-    "line_index_2": 2132,
-    "heRef_2": "זבחים סב:, טז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 703,
-    "line_index_2": 2134,
-    "heRef_2": "זבחים סג., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6752,30 +5919,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 708,
-    "line_index_2": 2155,
-    "heRef_2": "זבחים סג:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 709,
     "line_index_2": 2165,
     "heRef_2": "זבחים סג:, יא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 711,
-    "line_index_2": 2167,
-    "heRef_2": "זבחים סד., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 713,
-    "line_index_2": 2182,
-    "heRef_2": "זבחים סד:, ה",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6790,13 +5936,6 @@
     "line_index_1": 715,
     "line_index_2": 2182,
     "heRef_2": "זבחים סד:, ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 717,
-    "line_index_2": 2201,
-    "heRef_2": "זבחים סה., ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6846,13 +5985,6 @@
     "line_index_1": 724,
     "line_index_2": 2205,
     "heRef_2": "זבחים סה., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 726,
-    "line_index_2": 2222,
-    "heRef_2": "זבחים סה:, ג",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6913,13 +6045,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 736,
-    "line_index_2": 2231,
-    "heRef_2": "זבחים סו., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 737,
     "line_index_2": 2232,
     "heRef_2": "זבחים סו., ב",
@@ -6934,13 +6059,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 740,
-    "line_index_2": 2237,
-    "heRef_2": "זבחים סו., ז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 741,
     "line_index_2": 2237,
     "heRef_2": "זבחים סו., ז",
@@ -6948,23 +6066,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 743,
-    "line_index_2": 2242,
-    "heRef_2": "זבחים סו:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 744,
     "line_index_2": 2247,
     "heRef_2": "זבחים סו:, ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 746,
-    "line_index_2": 2259,
-    "heRef_2": "זבחים סז., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -6997,13 +6101,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 752,
-    "line_index_2": 2275,
-    "heRef_2": "זבחים סז:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 753,
     "line_index_2": 2275,
     "heRef_2": "זבחים סז:, ג",
@@ -7011,30 +6108,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 755,
-    "line_index_2": 2289,
-    "heRef_2": "זבחים סח., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 757,
-    "line_index_2": 2299,
-    "heRef_2": "זבחים סח:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 758,
     "line_index_2": 2299,
     "heRef_2": "זבחים סח:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 760,
-    "line_index_2": 2318,
-    "heRef_2": "זבחים סט., ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7056,13 +6132,6 @@
     "line_index_1": 763,
     "line_index_2": 2337,
     "heRef_2": "זבחים סט., כג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 765,
-    "line_index_2": 2339,
-    "heRef_2": "זבחים סט:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7095,13 +6164,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 771,
-    "line_index_2": 2361,
-    "heRef_2": "זבחים ע., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 772,
     "line_index_2": 2361,
     "heRef_2": "זבחים ע., ה",
@@ -7130,13 +6192,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 777,
-    "line_index_2": 2383,
-    "heRef_2": "זבחים ע:, ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 778,
     "line_index_2": 2384,
     "heRef_2": "זבחים ע:, ה",
@@ -7159,13 +6214,6 @@
   },
   {
     "line_index_1": 781,
-    "line_index_2": 2393,
-    "heRef_2": "זבחים ע:, יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 783,
     "line_index_2": 2393,
     "heRef_2": "זבחים ע:, יד",
     "path_2": "זבחים.txt",
@@ -7242,23 +6290,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 795,
-    "line_index_2": 2396,
-    "heRef_2": "זבחים עא., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 796,
     "line_index_2": 2396,
     "heRef_2": "זבחים עא., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 798,
-    "line_index_2": 2398,
-    "heRef_2": "זבחים עא:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7298,13 +6332,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 805,
-    "line_index_2": 2413,
-    "heRef_2": "זבחים עב., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 806,
     "line_index_2": 2413,
     "heRef_2": "זבחים עב., א",
@@ -7329,13 +6356,6 @@
     "line_index_1": 809,
     "line_index_2": 2413,
     "heRef_2": "זבחים עב., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 811,
-    "line_index_2": 2424,
-    "heRef_2": "זבחים עג., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7375,23 +6395,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 818,
-    "line_index_2": 2434,
-    "heRef_2": "זבחים עג:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 819,
     "line_index_2": 2438,
     "heRef_2": "זבחים עג:, ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 821,
-    "line_index_2": 2446,
-    "heRef_2": "זבחים עד., ג",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7431,13 +6437,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 828,
-    "line_index_2": 2463,
-    "heRef_2": "זבחים עד:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 829,
     "line_index_2": 2471,
     "heRef_2": "זבחים עד:, יא",
@@ -7448,20 +6447,6 @@
     "line_index_1": 830,
     "line_index_2": 2477,
     "heRef_2": "זבחים עד:, יז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 832,
-    "line_index_2": 2482,
-    "heRef_2": "זבחים עה., ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 834,
-    "line_index_2": 2490,
-    "heRef_2": "זבחים עה:, ג",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7487,13 +6472,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 839,
-    "line_index_2": 2508,
-    "heRef_2": "זבחים עו., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 840,
     "line_index_2": 2508,
     "heRef_2": "זבחים עו., ב",
@@ -7501,23 +6479,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 842,
-    "line_index_2": 2521,
-    "heRef_2": "זבחים עו:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 843,
     "line_index_2": 2521,
     "heRef_2": "זבחים עו:, ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 845,
-    "line_index_2": 2529,
-    "heRef_2": "זבחים עז., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7564,13 +6528,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 853,
-    "line_index_2": 2551,
-    "heRef_2": "זבחים עז:, ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 854,
     "line_index_2": 2553,
     "heRef_2": "זבחים עז:, י",
@@ -7581,13 +6538,6 @@
     "line_index_1": 855,
     "line_index_2": 2553,
     "heRef_2": "זבחים עז:, י",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 857,
-    "line_index_2": 2555,
-    "heRef_2": "זבחים עח., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7641,13 +6591,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 866,
-    "line_index_2": 2565,
-    "heRef_2": "זבחים עח:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 867,
     "line_index_2": 2565,
     "heRef_2": "זבחים עח:, ב",
@@ -7697,13 +6640,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 875,
-    "line_index_2": 2576,
-    "heRef_2": "זבחים עט., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 876,
     "line_index_2": 2576,
     "heRef_2": "זבחים עט., א",
@@ -7728,13 +6664,6 @@
     "line_index_1": 879,
     "line_index_2": 2580,
     "heRef_2": "זבחים עט., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 881,
-    "line_index_2": 2584,
-    "heRef_2": "זבחים עט:, ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7767,23 +6696,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 887,
-    "line_index_2": 2596,
-    "heRef_2": "זבחים פ., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 888,
     "line_index_2": 2596,
     "heRef_2": "זבחים פ., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 890,
-    "line_index_2": 2612,
-    "heRef_2": "זבחים פ:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7798,13 +6713,6 @@
     "line_index_1": 892,
     "line_index_2": 2621,
     "heRef_2": "זבחים פ:, י",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 894,
-    "line_index_2": 2625,
-    "heRef_2": "זבחים פא., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7851,13 +6759,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 902,
-    "line_index_2": 2636,
-    "heRef_2": "זבחים פא:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 903,
     "line_index_2": 2636,
     "heRef_2": "זבחים פא:, א",
@@ -7893,13 +6794,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 909,
-    "line_index_2": 2654,
-    "heRef_2": "זבחים פב., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 910,
     "line_index_2": 2654,
     "heRef_2": "זבחים פב., א",
@@ -7924,13 +6818,6 @@
     "line_index_1": 913,
     "line_index_2": 2654,
     "heRef_2": "זבחים פב., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 915,
-    "line_index_2": 2678,
-    "heRef_2": "זבחים פב:, ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -7963,37 +6850,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 921,
-    "line_index_2": 2705,
-    "heRef_2": "זבחים פג., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 922,
     "line_index_2": 2711,
     "heRef_2": "זבחים פג., יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 924,
-    "line_index_2": 2716,
-    "heRef_2": "זבחים פג., יט",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 926,
-    "line_index_2": 2718,
-    "heRef_2": "זבחים פג:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 928,
-    "line_index_2": 2739,
-    "heRef_2": "זבחים פד., ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8047,13 +6906,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 937,
-    "line_index_2": 2752,
-    "heRef_2": "זבחים פד:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 938,
     "line_index_2": 2756,
     "heRef_2": "זבחים פד:, ה",
@@ -8071,13 +6923,6 @@
     "line_index_1": 940,
     "line_index_2": 2755,
     "heRef_2": "זבחים פד:, ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 942,
-    "line_index_2": 2764,
-    "heRef_2": "זבחים פה., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8103,13 +6948,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 947,
-    "line_index_2": 2781,
-    "heRef_2": "זבחים פה:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 948,
     "line_index_2": 2781,
     "heRef_2": "זבחים פה:, א",
@@ -8120,13 +6958,6 @@
     "line_index_1": 949,
     "line_index_2": 2792,
     "heRef_2": "זבחים פה:, יב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 951,
-    "line_index_2": 2803,
-    "heRef_2": "זבחים פו., ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8187,13 +7018,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 961,
-    "line_index_2": 2824,
-    "heRef_2": "זבחים פז., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 962,
     "line_index_2": 2826,
     "heRef_2": "זבחים פז., ג",
@@ -8236,13 +7060,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 969,
-    "line_index_2": 2854,
-    "heRef_2": "זבחים פח., ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 970,
     "line_index_2": 2855,
     "heRef_2": "זבחים פח., ה",
@@ -8271,23 +7088,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 975,
-    "line_index_2": 2871,
-    "heRef_2": "זבחים פח:, ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 976,
     "line_index_2": 2882,
     "heRef_2": "זבחים פח:, טו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 979,
-    "line_index_2": 2896,
-    "heRef_2": "זבחים פט:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8320,13 +7123,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 985,
-    "line_index_2": 2935,
-    "heRef_2": "זבחים צ., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 986,
     "line_index_2": 2935,
     "heRef_2": "זבחים צ., ח",
@@ -8344,13 +7140,6 @@
     "line_index_1": 988,
     "line_index_2": 2935,
     "heRef_2": "זבחים צ., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 990,
-    "line_index_2": 2948,
-    "heRef_2": "זבחים צ:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8397,13 +7186,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 998,
-    "line_index_2": 2968,
-    "heRef_2": "זבחים צא., ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 999,
     "line_index_2": 2968,
     "heRef_2": "זבחים צא., ו",
@@ -8425,13 +7207,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1003,
-    "line_index_2": 2991,
-    "heRef_2": "זבחים צא:, ז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1004,
     "line_index_2": 2991,
     "heRef_2": "זבחים צא:, ז",
@@ -8446,21 +7221,7 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1007,
-    "line_index_2": 3004,
-    "heRef_2": "זבחים צב., ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1008,
-    "line_index_2": 3006,
-    "heRef_2": "זבחים צב., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1010,
     "line_index_2": 3006,
     "heRef_2": "זבחים צב., ה",
     "path_2": "זבחים.txt",
@@ -8477,13 +7238,6 @@
     "line_index_1": 1012,
     "line_index_2": 3006,
     "heRef_2": "זבחים צב., ה",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1014,
-    "line_index_2": 3015,
-    "heRef_2": "זבחים צב:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8516,23 +7270,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1020,
-    "line_index_2": 3036,
-    "heRef_2": "זבחים צג., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1021,
     "line_index_2": 3051,
     "heRef_2": "זבחים צג., טז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1023,
-    "line_index_2": 3055,
-    "heRef_2": "זבחים צג:, ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8551,13 +7291,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1027,
-    "line_index_2": 3075,
-    "heRef_2": "זבחים צד., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1028,
     "line_index_2": 3088,
     "heRef_2": "זבחים צד., יד",
@@ -8568,13 +7301,6 @@
     "line_index_1": 1029,
     "line_index_2": 3088,
     "heRef_2": "זבחים צד., יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1031,
-    "line_index_2": 3090,
-    "heRef_2": "זבחים צד:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8600,13 +7326,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1036,
-    "line_index_2": 3107,
-    "heRef_2": "זבחים צה., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1037,
     "line_index_2": 3107,
     "heRef_2": "זבחים צה., א",
@@ -8617,13 +7336,6 @@
     "line_index_1": 1038,
     "line_index_2": 3107,
     "heRef_2": "זבחים צה., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1040,
-    "line_index_2": 3116,
-    "heRef_2": "זבחים צה:, ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8663,23 +7375,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1047,
-    "line_index_2": 3125,
-    "heRef_2": "זבחים צה:, יא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1048,
     "line_index_2": 3130,
     "heRef_2": "זבחים צו., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1050,
-    "line_index_2": 3138,
-    "heRef_2": "זבחים צו:, ד",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8719,13 +7417,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1057,
-    "line_index_2": 3161,
-    "heRef_2": "זבחים צז., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1058,
     "line_index_2": 3168,
     "heRef_2": "זבחים צז., טו",
@@ -8743,13 +7434,6 @@
     "line_index_1": 1060,
     "line_index_2": 3167,
     "heRef_2": "זבחים צז., יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1062,
-    "line_index_2": 3176,
-    "heRef_2": "זבחים צז:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8775,13 +7459,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1067,
-    "line_index_2": 3190,
-    "heRef_2": "זבחים צח., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1068,
     "line_index_2": 3191,
     "heRef_2": "זבחים צח., ג",
@@ -8803,13 +7480,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1072,
-    "line_index_2": 3204,
-    "heRef_2": "זבחים צח:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1073,
     "line_index_2": 3207,
     "heRef_2": "זבחים צח:, ה",
@@ -8817,23 +7487,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1076,
-    "line_index_2": 3223,
-    "heRef_2": "זבחים צט., י",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1077,
     "line_index_2": 3225,
     "heRef_2": "זבחים צט., יב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1079,
-    "line_index_2": 3236,
-    "heRef_2": "זבחים צט:, ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8866,13 +7522,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1085,
-    "line_index_2": 3258,
-    "heRef_2": "זבחים ק., ד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1086,
     "line_index_2": 3258,
     "heRef_2": "זבחים ק., ד",
@@ -8887,13 +7536,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1089,
-    "line_index_2": 3273,
-    "heRef_2": "זבחים ק:, ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1090,
     "line_index_2": 3273,
     "heRef_2": "זבחים ק:, ו",
@@ -8901,23 +7543,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1092,
-    "line_index_2": 3293,
-    "heRef_2": "זבחים קא., ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1093,
     "line_index_2": 3293,
     "heRef_2": "זבחים קא., ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1095,
-    "line_index_2": 3307,
-    "heRef_2": "זבחים קא:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -8943,20 +7571,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1100,
-    "line_index_2": 3327,
-    "heRef_2": "זבחים קב., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1102,
-    "line_index_2": 3352,
-    "heRef_2": "זבחים קב:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1103,
     "line_index_2": 3359,
     "heRef_2": "זבחים קב:, ח",
@@ -8978,20 +7592,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1107,
-    "line_index_2": 3385,
-    "heRef_2": "זבחים קג., ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1109,
-    "line_index_2": 3421,
-    "heRef_2": "זבחים קד., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1110,
     "line_index_2": 3421,
     "heRef_2": "זבחים קד., ב",
@@ -9009,13 +7609,6 @@
     "line_index_1": 1112,
     "line_index_2": 3421,
     "heRef_2": "זבחים קד., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1114,
-    "line_index_2": 3442,
-    "heRef_2": "זבחים קד:, ב",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9048,13 +7641,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1120,
-    "line_index_2": 3461,
-    "heRef_2": "זבחים קה., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1121,
     "line_index_2": 3461,
     "heRef_2": "זבחים קה., ב",
@@ -9083,13 +7669,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1126,
-    "line_index_2": 3477,
-    "heRef_2": "זבחים קה:, א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1127,
     "line_index_2": 3477,
     "heRef_2": "זבחים קה:, א",
@@ -9111,13 +7690,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1131,
-    "line_index_2": 3496,
-    "heRef_2": "זבחים קו., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1132,
     "line_index_2": 3496,
     "heRef_2": "זבחים קו., ב",
@@ -9132,30 +7704,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1135,
-    "line_index_2": 3502,
-    "heRef_2": "זבחים קו., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1137,
-    "line_index_2": 3518,
-    "heRef_2": "זבחים קו:, ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1138,
     "line_index_2": 3520,
     "heRef_2": "זבחים קו:, ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1140,
-    "line_index_2": 3538,
-    "heRef_2": "זבחים קז., ו",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9181,13 +7732,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1145,
-    "line_index_2": 3561,
-    "heRef_2": "זבחים קז:, ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1146,
     "line_index_2": 3561,
     "heRef_2": "זבחים קז:, ח",
@@ -9209,13 +7753,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1150,
-    "line_index_2": 3583,
-    "heRef_2": "זבחים קח., ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1151,
     "line_index_2": 3589,
     "heRef_2": "זבחים קח., ט",
@@ -9233,13 +7770,6 @@
     "line_index_1": 1153,
     "line_index_2": 3598,
     "heRef_2": "זבחים קח., יח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1155,
-    "line_index_2": 3606,
-    "heRef_2": "זבחים קח:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9286,23 +7816,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1163,
-    "line_index_2": 3628,
-    "heRef_2": "זבחים קט., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1164,
     "line_index_2": 3628,
     "heRef_2": "זבחים קט., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1166,
-    "line_index_2": 3643,
-    "heRef_2": "זבחים קט:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9342,13 +7858,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1173,
-    "line_index_2": 3665,
-    "heRef_2": "זבחים קי., ג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1174,
     "line_index_2": 3669,
     "heRef_2": "זבחים קי., ז",
@@ -9373,13 +7882,6 @@
     "line_index_1": 1177,
     "line_index_2": 3684,
     "heRef_2": "זבחים קי., כב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1179,
-    "line_index_2": 3692,
-    "heRef_2": "זבחים קי:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9426,13 +7928,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1187,
-    "line_index_2": 3702,
-    "heRef_2": "זבחים קיא., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1188,
     "line_index_2": 3702,
     "heRef_2": "זבחים קיא., א",
@@ -9454,23 +7949,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1192,
-    "line_index_2": 3730,
-    "heRef_2": "זבחים קיא:, י",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1193,
     "line_index_2": 3736,
     "heRef_2": "זבחים קיא:, טז",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1195,
-    "line_index_2": 3745,
-    "heRef_2": "זבחים קיב., ו",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9482,23 +7963,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1198,
-    "line_index_2": 3750,
-    "heRef_2": "זבחים קיב., יא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1199,
     "line_index_2": 3750,
     "heRef_2": "זבחים קיב., יא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1201,
-    "line_index_2": 3773,
-    "heRef_2": "זבחים קיג., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9510,23 +7977,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1204,
-    "line_index_2": 3811,
-    "heRef_2": "זבחים קיג:, כא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1205,
     "line_index_2": 3811,
     "heRef_2": "זבחים קיג:, כא",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1207,
-    "line_index_2": 3815,
-    "heRef_2": "זבחים קיד., א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9541,13 +7994,6 @@
     "line_index_1": 1209,
     "line_index_2": 3827,
     "heRef_2": "זבחים קיד., יג",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1211,
-    "line_index_2": 3830,
-    "heRef_2": "זבחים קיד:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9573,20 +8019,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1216,
-    "line_index_2": 3844,
-    "heRef_2": "זבחים קטו., א",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1218,
-    "line_index_2": 3869,
-    "heRef_2": "זבחים קטו:, ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1219,
     "line_index_2": 3869,
     "heRef_2": "זבחים קטו:, ו",
@@ -9594,23 +8026,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1221,
-    "line_index_2": 3896,
-    "heRef_2": "זבחים קטז., יד",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1222,
     "line_index_2": 3904,
     "heRef_2": "זבחים קטז., כב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1224,
-    "line_index_2": 3911,
-    "heRef_2": "זבחים קטז:, א",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9636,13 +8054,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1229,
-    "line_index_2": 3938,
-    "heRef_2": "זבחים קיז., ח",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1230,
     "line_index_2": 3938,
     "heRef_2": "זבחים קיז., ח",
@@ -9664,13 +8075,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1234,
-    "line_index_2": 3958,
-    "heRef_2": "זבחים קיח., ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1235,
     "line_index_2": 3962,
     "heRef_2": "זבחים קיח., י",
@@ -9678,23 +8082,9 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1237,
-    "line_index_2": 3977,
-    "heRef_2": "זבחים קיח:, ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1238,
     "line_index_2": 3977,
     "heRef_2": "זבחים קיח:, ו",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1240,
-    "line_index_2": 3999,
-    "heRef_2": "זבחים קיט., ה",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
@@ -9741,13 +8131,6 @@
     "Conection Type": "commentary"
   },
   {
-    "line_index_1": 1248,
-    "line_index_2": 4010,
-    "heRef_2": "זבחים קיט:, ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
     "line_index_1": 1249,
     "line_index_2": 4010,
     "heRef_2": "זבחים קיט:, ב",
@@ -9786,13 +8169,6 @@
     "line_index_1": 1254,
     "line_index_2": 4037,
     "heRef_2": "זבחים קכ., ב",
-    "path_2": "זבחים.txt",
-    "Conection Type": "commentary"
-  },
-  {
-    "line_index_1": 1256,
-    "line_index_2": 4045,
-    "heRef_2": "זבחים קכ., י",
     "path_2": "זבחים.txt",
     "Conection Type": "commentary"
   },
