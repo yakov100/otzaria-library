@@ -27,14 +27,19 @@ sefariaToOtzaria/.../otzaria/utils.py):
 אופן הבדיקה:
   * generations / book_moves: חייבים להתאים בדיוק ל-book.title שב-DB -> נבדקים מול db_final.
   * sefaria_metadata_changes / ForDB/all_metadata.json: מטא-דאטה -> נבדקים מול final_canon.
+  * דליפת-מקור ב-ForDB/all_metadata.json: רשומה של ספר *ספריא* עם Sourcefolder שאינו
+    "sefaria" היא שגיאה — שלב seed-המטא-דאטה (SeedAllMetadataPostProcess) מתאים לפי
+    כותרת ודורס את book.sourceId מ-"Sefaria" ל-Dicta/וכו' (updateBookMetadata), וכך
+    "אודות הספר" מציג מקור שגוי. מקורה בדרך כלל ברשומה כפולה (sefaria + לא-ספריא) במטא-דאטה.
   * book_renames.csv: שם ה*מקור* (העמודה השמאלית) מול sources - הספר שמשנים חייב להתקיים
     (שינוי לא "יתום"). שם היעד אינו נבדק בנפרד.
   * כפילויות שם בתוך ה-ZIP: שני קבצי ספרים שונים עם אותו שם מנוקה בתיקיות הנארזות
     יחד ל-otzaria_latest.zip (SAME_ZIP_PREFIXES) מתנגשים ב-DB (book.title זהה) ולכן
     נחשבים שגיאה. DictaToOtzaria/לא ערוך נארז ל-ZIP נפרד ואינו משתתף בבדיקה זו.
 
-יציאה בקוד 1 אם נמצא ולו שם אחד שאינו קיים, או כפילות שם בתיקיות הנארזות - כך ש-CI
-נכשל ב-PR / בכל קומיט. כפילות אינה ניתנת לתיקון אוטומטי (מפילה גם במצב --fix).
+יציאה בקוד 1 אם נמצא ולו שם אחד שאינו קיים, כפילות שם בתיקיות הנארזות, או דליפת-מקור
+ב-all_metadata.json - כך ש-CI נכשל ב-PR / בכל קומיט. אלה אינם ניתנים לתיקון אוטומטי
+(מפילים גם במצב --fix).
 """
 
 import argparse
@@ -230,13 +235,16 @@ def build_sanitized_rename(rename_pairs):
 
 def load_canonical(srename):
     """
-    מחזיר (sources, final_canon, db_final):
+    מחזיר (sources, final_canon, db_final, sefaria_final):
       * sources    = כל שמות המקור (מנוקים): קבצי ספרים נארזים + all_metadata (כל הרשומות) + ספריא חיה.
       * final_canon = sources אחרי החלת שינויי השמות. רשימה רחבה לבדיקות מטא-דאטה.
       * db_final    = השמות שבאמת *מגיעים ל-DB* אחרי שינויי שם: קבצים נארזים בפועל +
                       ספרי ספריא בלבד. ספרי אוצריא נכנסים ל-DB רק כקובץ נארז — ולכן שם
                       במטא-דאטה לבדו (בלי קובץ נארז) אינו נכלל כאן. כך נתפס ספר שהוזז
                       לתיקייה לא-נארזת (כגון KSK) ושומר מטא-דאטה ישנה.
+      * sefaria_final = שמות ספרי *ספריא* בלבד (מנוקים, אחרי שינויי שם). משמש לבדיקת
+                      דליפת-מקור: ספר ספריא הרשום ב-all_metadata.json עם Sourcefolder
+                      לא-"sefaria" יידרס ל-Dicta/וכו' בשלב seed-המטא-דאטה.
     ספרי ספריא נוצרים בבנייה (אין להם קובץ מקומי), לכן הם נלקחים מה-API החי + המטא-דאטה.
     book_renames נבדק מול sources; generations/book_moves מול db_final; השאר מול final_canon.
     """
@@ -266,7 +274,9 @@ def load_canonical(srename):
     final_canon = {srename.get(s, s) for s in sources}
     db_final = {srename.get(s, s) for s in db}
     print(f"[canonical] מקור: {len(sources)} | ב-DB: {len(db)} | סופיים: {len(final_canon)}/{len(db_final)} (אחרי שינויי שם)")
-    return sources, final_canon, db_final
+    # `sefaria` (מנוקה, כולל שינויי-שם) משמש לבדיקת דליפת-מקור ב-all_metadata.json.
+    sefaria_final = {srename.get(s, s) for s in sefaria}
+    return sources, final_canon, db_final, sefaria_final
 
 
 def fetch_sefaria_titles():
@@ -359,7 +369,7 @@ def main():
 
     rename_pairs = load_rename_pairs()
     srename = build_sanitized_rename(rename_pairs)
-    sources, final_canon, db_final = load_canonical(srename)
+    sources, final_canon, db_final, sefaria_final = load_canonical(srename)
 
     # failures[file] = list of (line/identifier, raw_name, checked_name)
     failures = {}
@@ -389,12 +399,12 @@ def main():
     # 2) generations.csv + 4) book_moves.csv - עמודות "שם ספר"/"name". חייבים להתאים
     #    בדיוק ל-book.title שב-DB (db_final); ספר שאינו נארז (כגון שהוזז ל-KSK) ייתפס.
     #    ב--fix מסירים אוטומטית את השורות היתומות במקום להפיל; אחרת בודקים ומפילים.
-    removed = []  # [(file_label, name)] שהוסרו אוטומטית במצב --fix
+    removed = []  # [(file_label, name, reason)] שהוסרו אוטומטית במצב --fix
     fixable = [("ForDB/generations.csv", GENERATIONS, "שם ספר"),
                ("ForDB/book_moves.csv", BOOK_MOVES, "name")]
     for file_label, path, col in fixable:
         if args.fix:
-            removed += [(file_label, n) for n in remove_orphans(path, col, db_final, srename)]
+            removed += [(file_label, n, "orphan") for n in remove_orphans(path, col, db_final, srename)]
         else:
             header, rows = read_csv_rows(path, has_header=True)
             c_idx = col_index(header, col)
@@ -409,27 +419,54 @@ def main():
         if len(row) > t_idx:
             check_db_name("ForDB/sefaria_metadata_changes.csv", f"שורה {line_no}", row[t_idx], final_canon)
 
-    # 5) ForDB/all_metadata.json - שדה "title" (מטא-דאטה -> final_canon)
-    for idx, entry in enumerate(read_json(FORDB_METADATA)):
-        check_db_name("ForDB/all_metadata.json", f"רשומה {idx}", entry.get("title"), final_canon)
+    # 5) ForDB/all_metadata.json - שדה "title" (מטא-דאטה -> final_canon), ובמקביל בדיקת
+    #    "דליפת-מקור": רשומה של ספר *ספריא* עם Sourcefolder שאינו "sefaria". שלב
+    #    seed-המטא-דאטה (SeedAllMetadataPostProcess) מתאים לפי כותרת וקורא ל-
+    #    updateBookMetadata(sourceId=...) שדורס את book.sourceId מ-"Sefaria" ל-Dicta/
+    #    MoreBooks/וכו' — ואז "אודות הספר" באפליקציה מציג מקור שגוי. רשומות ספריא אמורות
+    #    להיות מסוננות מ-ForDB (Sourcefolder=="sefaria" מסונן ביצירתו); רשומה לא-ספריא
+    #    לספר ספריא היא כפילות תקועה. ב--fix מוסרת אוטומטית (ראו 5b); אחרת מפילה את הריצה.
+    fordb_meta = read_json(FORDB_METADATA)
+    source_leaks = []  # [(idx, title, sourcefolder)]
+    for idx, entry in enumerate(fordb_meta):
+        title = entry.get("title")
+        check_db_name("ForDB/all_metadata.json", f"רשומה {idx}", title, final_canon)
+        sf = entry.get("Sourcefolder")
+        if title and sf and sf != "sefaria":
+            clean = sanitize_title(title)
+            if clean in sefaria_final or srename.get(clean, clean) in sefaria_final:
+                source_leaks.append((idx, title, sf))
 
     # 6) כפילויות שמות בתוך otzaria_latest.zip: שני קבצי ספרים שונים עם אותו שם מנוקה
     #    בתיקיות הנארזות לאותו ZIP יתנגשו ב-DB (book.title זהה). אינו ניתן לתיקון
     #    אוטומטי (אי אפשר להחליט איזה עותק להסיר) ולכן מפיל את הריצה גם במצב --fix.
     duplicates = find_packaged_duplicates()
 
+    # 5b) הסרה אוטומטית של דליפות-מקור מ-ForDB/all_metadata.json (רק ב--fix): מוחקים את
+    #     הרשומה הכפולה הלא-ספריא של ספר ספריא, כדי ש-seed-המטא-דאטה לא ידרוס את המקור.
+    #     שומר על פורמט הקובץ (indent=2, ensure_ascii=False, ללא ASCII-escape לעברית).
+    #     ב-check-mode (PR) לא מוסרים — source_leaks יישאר ויפיל את הריצה (חוסם מיזוג).
+    if args.fix and source_leaks:
+        drop = {idx for idx, _t, _sf in source_leaks}
+        kept = [e for i, e in enumerate(fordb_meta) if i not in drop]
+        with open(FORDB_METADATA, "w", encoding="utf-8") as fh:
+            json.dump(kept, fh, ensure_ascii=False, indent=2)
+            fh.write("\n")
+        removed += [("ForDB/all_metadata.json", t, "sefaria_duplicate") for _i, t, _sf in source_leaks]
+        source_leaks = []  # תוקנו — לא נכשלים עליהם בהמשך הדוח
+
     # ----- הסרה אוטומטית (--fix): כותבים דוח של מה שהוסר עבור ה-commit וההודעה בפורום -----
     if args.fix and removed:
         with open(REMOVED_REPORT, "w", encoding="utf-8") as fh:
-            json.dump([{"file": f, "name": n} for f, n in removed], fh, ensure_ascii=False, indent=2)
-        print(f"\n🧹 הוסרו אוטומטית {len(removed)} שורות יתומות (דוח: {os.path.basename(REMOVED_REPORT)}):")
-        for f, n in removed:
-            print(f"     - {f}: {n!r}")
+            json.dump([{"file": f, "name": n, "reason": r} for f, n, r in removed], fh, ensure_ascii=False, indent=2)
+        print(f"\n🧹 סה\"כ הוסרו אוטומטית {len(removed)} רשומות (דוח: {os.path.basename(REMOVED_REPORT)}):")
+        for f, n, r in removed:
+            print(f"     - [{r}] {f}: {n!r}")
 
     # ----- דוח -----
     total = sum(len(v) for v in failures.values())
-    if total == 0 and not duplicates:
-        print("\n✅ כל שמות הספרים ב-ForDB קיימים ברשימת הספרים הקנונית, ואין כפילויות שם בתיקיות הנארזות.")
+    if total == 0 and not duplicates and not source_leaks:
+        print("\n✅ כל שמות הספרים ב-ForDB קיימים ברשימת הספרים הקנונית, אין כפילויות שם בתיקיות הנארזות, ואין דליפת-מקור.")
         return 0
 
     if total:
@@ -451,6 +488,15 @@ def main():
             print(f"  🔁 {name!r}:")
             for path in duplicates[name]:
                 print(f"     - {path}")
+        print()
+
+    if source_leaks:
+        print(f"\n❌ נמצאו {len(source_leaks)} רשומות ב-ForDB/all_metadata.json של ספרי *ספריא* עם Sourcefolder שאינו 'sefaria'.")
+        print("   שלב seed-המטא-דאטה מתאים לפי כותרת ודורס את מקור הספר מ-'Sefaria' לערך שברשומה")
+        print("   (updateBookMetadata → book.sourceId), כך ש'אודות הספר' מציג מקור שגוי (למשל 'דיקטה').")
+        print("   ב-push ל-main הרשומות הכפולות מוסרות אוטומטית (--fix) ומוכרזות בפורום; כאן (PR) חוסם מיזוג:\n")
+        for idx, title, sf in sorted(source_leaks, key=lambda x: x[1]):
+            print(f"     - רשומה {idx}: {title!r}  (Sourcefolder={sf!r} → אמור להיות 'sefaria')")
         print()
 
     return 1

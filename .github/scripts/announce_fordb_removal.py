@@ -29,19 +29,38 @@ def heb_date():
         return datetime.now(tz=TZ).strftime("%Y-%m-%d")
 
 
-def build_content(removed):
-    by_file = {}
-    for r in removed:
-        by_file.setdefault(r["file"], []).append(r["name"])
-    parts = [
-        "# הסרה אוטומטית של שורות ForDB\n",
-        f"**{heb_date()}**\n",
-        "\nה-CI הסיר אוטומטית את השורות הבאות מקבצי ForDB, כי הספרים אינם קיימים ב-DB "
+# כותרת + נוסח פתיחה לכל סיבת-הסרה. רשומה ללא "reason" נחשבת "orphan" (תאימות לאחור).
+REASON_SECTIONS = {
+    "orphan": (
+        "שורות שהוסרו — ספרים שאינם ב-DB",
+        "ה-CI הסיר אוטומטית את השורות הבאות מקבצי ForDB, כי הספרים אינם קיימים ב-DB "
         "(לא נארזו לספרייה — למשל ספר שהוזז לתיקייה לא-נארזת). אם ספר אמור היה להיכלל, "
-        "יש לארוז אותו לנתיב תקין ולהחזיר את השורה:\n",
-    ]
-    for f in sorted(by_file):
-        parts.append(f"\n## {f}:\n" + "\n".join(f"* {n}" for n in sorted(by_file[f])) + "\n")
+        "יש לארוז אותו לנתיב תקין ולהחזיר את השורה:",
+    ),
+    "sefaria_duplicate": (
+        "מידע שהוסר — הספר כבר קיים בספריא",
+        "המידע הבא הוסר אוטומטית מ-ForDB/all_metadata.json כי הספר כבר קיים בספריא "
+        "(מקורו ספריא). רשומת מטא-דאטה כפולה עם מקור אחר (למשל 'דיקטה') הייתה דורסת את "
+        "מקור הספר המוצג ב'אודות הספר', ולכן הוסרה:",
+    ),
+}
+
+
+def build_content(removed):
+    # קיבוץ לפי סיבה ואז לפי קובץ.
+    by_reason = {}
+    for r in removed:
+        reason = r.get("reason", "orphan")
+        by_reason.setdefault(reason, {}).setdefault(r["file"], []).append(r["name"])
+    parts = ["# הסרה אוטומטית של רשומות ForDB\n", f"**{heb_date()}**\n"]
+    for reason in sorted(by_reason):
+        title, intro = REASON_SECTIONS.get(
+            reason, (f"רשומות שהוסרו ({reason})", "ה-CI הסיר אוטומטית את הרשומות הבאות מקבצי ForDB:")
+        )
+        parts.append(f"\n## {title}\n\n{intro}\n")
+        by_file = by_reason[reason]
+        for f in sorted(by_file):
+            parts.append(f"\n### {f}:\n" + "\n".join(f"* {n}" for n in sorted(by_file[f])) + "\n")
     repo, sha = os.getenv("GITHUB_REPOSITORY"), os.getenv("FORDB_COMMIT_SHA")
     if repo and sha:
         parts.append(f"\n[הקומיט](https://github.com/{repo}/commit/{sha})\n")
