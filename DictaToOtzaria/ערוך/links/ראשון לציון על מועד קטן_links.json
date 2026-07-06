@@ -37,7 +37,7 @@
   },
   {
     "line_index_1": 5,
-    "line_index_2": 3,
+    "line_index_2": 2415,
     "heRef_2": "שבת ק״ג",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -91,7 +91,7 @@
   },
   {
     "line_index_1": 12,
-    "line_index_2": 3,
+    "line_index_2": 313,
     "heRef_2": "שבת ט״ו",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -109,7 +109,7 @@
   },
   {
     "line_index_1": 13,
-    "line_index_2": 3,
+    "line_index_2": 2490,
     "heRef_2": "מנחות ע״ב",
     "path_2": "מנחות.txt",
     "Conection Type": "linker",
@@ -118,7 +118,7 @@
   },
   {
     "line_index_1": 14,
-    "line_index_2": 3,
+    "line_index_2": 1253,
     "heRef_2": "עירובין ל״ד",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -127,7 +127,7 @@
   },
   {
     "line_index_1": 14,
-    "line_index_2": 3,
+    "line_index_2": 254,
     "heRef_2": "סוכה י׳",
     "path_2": "סוכה.txt",
     "Conection Type": "linker",
@@ -136,7 +136,7 @@
   },
   {
     "line_index_1": 17,
-    "line_index_2": 3,
+    "line_index_2": 356,
     "heRef_2": "סוכה י״ג ב",
     "path_2": "סוכה.txt",
     "Conection Type": "linker",

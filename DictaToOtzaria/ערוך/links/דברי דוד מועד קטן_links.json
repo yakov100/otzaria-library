@@ -1,7 +1,7 @@
 [
   {
     "line_index_1": 9,
-    "line_index_2": 3,
+    "line_index_2": 169,
     "heRef_2": "בבא קמא כ״ו ב",
     "path_2": "בבא קמא.txt",
     "Conection Type": "linker",
@@ -19,7 +19,7 @@
   },
   {
     "line_index_1": 11,
-    "line_index_2": 3,
+    "line_index_2": 31,
     "heRef_2": "עבודה זרה ג׳ א",
     "path_2": "עבודה זרה.txt",
     "Conection Type": "linker",
@@ -55,7 +55,7 @@
   },
   {
     "line_index_1": 50,
-    "line_index_2": 3,
+    "line_index_2": 2514,
     "heRef_2": "חולין פ״ג א",
     "path_2": "חולין.txt",
     "Conection Type": "linker",
@@ -64,7 +64,7 @@
   },
   {
     "line_index_1": 55,
-    "line_index_2": 3,
+    "line_index_2": 76,
     "heRef_2": "מועד קטן י״ד",
     "path_2": "מועד קטן.txt",
     "Conection Type": "linker",

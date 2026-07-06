@@ -19,7 +19,7 @@
   },
   {
     "line_index_1": 4,
-    "line_index_2": 3,
+    "line_index_2": 1953,
     "heRef_2": "שבת ע״ט ב",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -73,7 +73,7 @@
   },
   {
     "line_index_1": 5,
-    "line_index_2": 4,
+    "line_index_2": 71,
     "heRef_2": "תוספות על מגילה ט׳ א",
     "path_2": "תוספות על מגילה.txt",
     "Conection Type": "linker",
@@ -100,7 +100,7 @@
   },
   {
     "line_index_1": 9,
-    "line_index_2": 3,
+    "line_index_2": 1120,
     "heRef_2": "מנחות ל״ב ב",
     "path_2": "מנחות.txt",
     "Conection Type": "linker",
@@ -127,7 +127,7 @@
   },
   {
     "line_index_1": 13,
-    "line_index_2": 3,
+    "line_index_2": 1459,
     "heRef_2": "שבת ס״א",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -136,7 +136,7 @@
   },
   {
     "line_index_1": 13,
-    "line_index_2": 3,
+    "line_index_2": 169,
     "heRef_2": "ערכין ו׳",
     "path_2": "ערכין.txt",
     "Conection Type": "linker",

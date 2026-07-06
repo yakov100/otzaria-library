@@ -10,7 +10,7 @@
   },
   {
     "line_index_1": 9,
-    "line_index_2": 3,
+    "line_index_2": 2401,
     "heRef_2": "יומא פ״ז",
     "path_2": "יומא.txt",
     "Conection Type": "linker",
@@ -19,7 +19,7 @@
   },
   {
     "line_index_1": 10,
-    "line_index_2": 3,
+    "line_index_2": 2401,
     "heRef_2": "יומא פ״ז א",
     "path_2": "יומא.txt",
     "Conection Type": "linker",
@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 10,
-    "line_index_2": 3,
+    "line_index_2": 1259,
     "heRef_2": "ברכות כ״ז",
     "path_2": "ברכות.txt",
     "Conection Type": "linker",
@@ -55,7 +55,7 @@
   },
   {
     "line_index_1": 41,
-    "line_index_2": 3,
+    "line_index_2": 1120,
     "heRef_2": "ברכות כ״ד",
     "path_2": "ברכות.txt",
     "Conection Type": "linker",
@@ -73,7 +73,7 @@
   },
   {
     "line_index_1": 91,
-    "line_index_2": 3,
+    "line_index_2": 1277,
     "heRef_2": "ברכות כ״ז ב",
     "path_2": "ברכות.txt",
     "Conection Type": "linker",
@@ -82,7 +82,7 @@
   },
   {
     "line_index_1": 96,
-    "line_index_2": 3,
+    "line_index_2": 2401,
     "heRef_2": "יומא פ״ז",
     "path_2": "יומא.txt",
     "Conection Type": "linker",
@@ -109,7 +109,7 @@
   },
   {
     "line_index_1": 145,
-    "line_index_2": 3,
+    "line_index_2": 1425,
     "heRef_2": "יומא נ״ה",
     "path_2": "יומא.txt",
     "Conection Type": "linker",
@@ -118,7 +118,7 @@
   },
   {
     "line_index_1": 208,
-    "line_index_2": 3,
+    "line_index_2": 1461,
     "heRef_2": "עירובין מ׳ ב",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -127,7 +127,7 @@
   },
   {
     "line_index_1": 211,
-    "line_index_2": 3,
+    "line_index_2": 1372,
     "heRef_2": "סנהדרין ל״ח",
     "path_2": "סנהדרין.txt",
     "Conection Type": "linker",
@@ -154,7 +154,7 @@
   },
   {
     "line_index_1": 299,
-    "line_index_2": 3,
+    "line_index_2": 2086,
     "heRef_2": "עבודה זרה ע׳",
     "path_2": "עבודה זרה.txt",
     "Conection Type": "linker",
@@ -163,7 +163,7 @@
   },
   {
     "line_index_1": 299,
-    "line_index_2": 3,
+    "line_index_2": 2086,
     "heRef_2": "עבודה זרה ע׳ א",
     "path_2": "עבודה זרה.txt",
     "Conection Type": "linker",
@@ -172,7 +172,7 @@
   },
   {
     "line_index_1": 412,
-    "line_index_2": 3,
+    "line_index_2": 2866,
     "heRef_2": "עירובין ע״ט א",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -190,7 +190,7 @@
   },
   {
     "line_index_1": 430,
-    "line_index_2": 3,
+    "line_index_2": 2584,
     "heRef_2": "בבא מציעא פ״א",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "linker",
@@ -199,7 +199,7 @@
   },
   {
     "line_index_1": 431,
-    "line_index_2": 3,
+    "line_index_2": 697,
     "heRef_2": "בבא מציעא כ״א",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "linker",
@@ -253,7 +253,7 @@
   },
   {
     "line_index_1": 751,
-    "line_index_2": 3,
+    "line_index_2": 83,
     "heRef_2": "יבמות ה׳",
     "path_2": "יבמות.txt",
     "Conection Type": "linker",
@@ -280,7 +280,7 @@
   },
   {
     "line_index_1": 789,
-    "line_index_2": 3,
+    "line_index_2": 2109,
     "heRef_2": "קידושין ס״ח ב",
     "path_2": "קידושין.txt",
     "Conection Type": "linker",
@@ -316,7 +316,7 @@
   },
   {
     "line_index_1": 1052,
-    "line_index_2": 3,
+    "line_index_2": 235,
     "heRef_2": "ראש השנה ט׳ ב",
     "path_2": "ראש השנה.txt",
     "Conection Type": "linker",
@@ -325,7 +325,7 @@
   },
   {
     "line_index_1": 1109,
-    "line_index_2": 3,
+    "line_index_2": 1688,
     "heRef_2": "נדה מ״ה א",
     "path_2": "נדה.txt",
     "Conection Type": "linker",
@@ -370,7 +370,7 @@
   },
   {
     "line_index_1": 1212,
-    "line_index_2": 3,
+    "line_index_2": 1109,
     "heRef_2": "כתובות מ״ד ב",
     "path_2": "כתובות.txt",
     "Conection Type": "linker",
@@ -442,7 +442,7 @@
   },
   {
     "line_index_1": 1456,
-    "line_index_2": 3,
+    "line_index_2": 1557,
     "heRef_2": "גיטין נ׳ ב",
     "path_2": "גיטין.txt",
     "Conection Type": "linker",
@@ -451,7 +451,7 @@
   },
   {
     "line_index_1": 1466,
-    "line_index_2": 3,
+    "line_index_2": 1141,
     "heRef_2": "בבא בתרא קמ״ו ב",
     "path_2": "בבא בתרא.txt",
     "Conection Type": "linker",
@@ -460,7 +460,7 @@
   },
   {
     "line_index_1": 1617,
-    "line_index_2": 3,
+    "line_index_2": 1580,
     "heRef_2": "בבא בתרא קס״ז ב",
     "path_2": "בבא בתרא.txt",
     "Conection Type": "linker",
@@ -469,7 +469,7 @@
   },
   {
     "line_index_1": 1722,
-    "line_index_2": 3,
+    "line_index_2": 204,
     "heRef_2": "סוכה ח׳",
     "path_2": "סוכה.txt",
     "Conection Type": "linker",
@@ -478,7 +478,7 @@
   },
   {
     "line_index_1": 1723,
-    "line_index_2": 3,
+    "line_index_2": 70,
     "heRef_2": "בבא בתרא ע״ד",
     "path_2": "בבא בתרא.txt",
     "Conection Type": "linker",
@@ -550,7 +550,7 @@
   },
   {
     "line_index_1": 2353,
-    "line_index_2": 3,
+    "line_index_2": 766,
     "heRef_2": "בבא בתרא קכ״ז ב",
     "path_2": "בבא בתרא.txt",
     "Conection Type": "linker",
@@ -559,7 +559,7 @@
   },
   {
     "line_index_1": 2419,
-    "line_index_2": 3,
+    "line_index_2": 114,
     "heRef_2": "בבא קמא נ״ה",
     "path_2": "בבא קמא.txt",
     "Conection Type": "linker",
@@ -568,7 +568,7 @@
   },
   {
     "line_index_1": 2452,
-    "line_index_2": 3,
+    "line_index_2": 1498,
     "heRef_2": "כתובות נ״ז ב",
     "path_2": "כתובות.txt",
     "Conection Type": "linker",
@@ -586,7 +586,7 @@
   },
   {
     "line_index_1": 2466,
-    "line_index_2": 3,
+    "line_index_2": 245,
     "heRef_2": "נזיר י״ב",
     "path_2": "נזיר.txt",
     "Conection Type": "linker",
@@ -613,7 +613,7 @@
   },
   {
     "line_index_1": 2638,
-    "line_index_2": 3,
+    "line_index_2": 931,
     "heRef_2": "ערכין כ״ו",
     "path_2": "ערכין.txt",
     "Conection Type": "linker",
@@ -631,7 +631,7 @@
   },
   {
     "line_index_1": 2638,
-    "line_index_2": 3,
+    "line_index_2": 2316,
     "heRef_2": "גיטין ע׳ ב",
     "path_2": "גיטין.txt",
     "Conection Type": "linker",
@@ -667,7 +667,7 @@
   },
   {
     "line_index_1": 2686,
-    "line_index_2": 3,
+    "line_index_2": 215,
     "heRef_2": "בבא קמא כ״ז ב",
     "path_2": "בבא קמא.txt",
     "Conection Type": "linker",
@@ -685,7 +685,7 @@
   },
   {
     "line_index_1": 2721,
-    "line_index_2": 3,
+    "line_index_2": 275,
     "heRef_2": "בבא מציעא צ״ט ב",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "linker",
@@ -694,7 +694,7 @@
   },
   {
     "line_index_1": 2729,
-    "line_index_2": 3,
+    "line_index_2": 341,
     "heRef_2": "קידושין י״ג",
     "path_2": "קידושין.txt",
     "Conection Type": "linker",
@@ -703,7 +703,7 @@
   },
   {
     "line_index_1": 2757,
-    "line_index_2": 3,
+    "line_index_2": 161,
     "heRef_2": "ברכות ה׳ ב",
     "path_2": "ברכות.txt",
     "Conection Type": "linker",
@@ -712,7 +712,7 @@
   },
   {
     "line_index_1": 2781,
-    "line_index_2": 3,
+    "line_index_2": 3475,
     "heRef_2": "פסחים קי״ב ב",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -721,7 +721,7 @@
   },
   {
     "line_index_1": 2794,
-    "line_index_2": 3,
+    "line_index_2": 645,
     "heRef_2": "פסחים כ״א ב",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -730,7 +730,7 @@
   },
   {
     "line_index_1": 2876,
-    "line_index_2": 3,
+    "line_index_2": 12,
     "heRef_2": "עבודה זרה כ״ב ב",
     "path_2": "עבודה זרה.txt",
     "Conection Type": "linker",
@@ -748,7 +748,7 @@
   },
   {
     "line_index_1": 2941,
-    "line_index_2": 3,
+    "line_index_2": 1267,
     "heRef_2": "גיטין מ״ב ב",
     "path_2": "גיטין.txt",
     "Conection Type": "linker",
@@ -757,7 +757,7 @@
   },
   {
     "line_index_1": 2968,
-    "line_index_2": 3,
+    "line_index_2": 154,
     "heRef_2": "גיטין ז׳",
     "path_2": "גיטין.txt",
     "Conection Type": "linker",
@@ -784,7 +784,7 @@
   },
   {
     "line_index_1": 3082,
-    "line_index_2": 3,
+    "line_index_2": 1599,
     "heRef_2": "קידושין נ״ב",
     "path_2": "קידושין.txt",
     "Conection Type": "linker",
@@ -829,7 +829,7 @@
   },
   {
     "line_index_1": 3212,
-    "line_index_2": 3,
+    "line_index_2": 2304,
     "heRef_2": "כתובות פ״ה",
     "path_2": "כתובות.txt",
     "Conection Type": "linker",
@@ -892,7 +892,7 @@
   },
   {
     "line_index_1": 3329,
-    "line_index_2": 3,
+    "line_index_2": 1452,
     "heRef_2": "פסחים מ״ז",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -910,7 +910,7 @@
   },
   {
     "line_index_1": 3336,
-    "line_index_2": 3,
+    "line_index_2": 2293,
     "heRef_2": "פסחים ע״ד ב",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -919,7 +919,7 @@
   },
   {
     "line_index_1": 3345,
-    "line_index_2": 3,
+    "line_index_2": 3627,
     "heRef_2": "שבת קמ״ב א",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -946,7 +946,7 @@
   },
   {
     "line_index_1": 3345,
-    "line_index_2": 3,
+    "line_index_2": 3627,
     "heRef_2": "שבת קמ״ב",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -964,7 +964,7 @@
   },
   {
     "line_index_1": 3345,
-    "line_index_2": 3,
+    "line_index_2": 3627,
     "heRef_2": "שבת קמ״ב",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -973,7 +973,7 @@
   },
   {
     "line_index_1": 3346,
-    "line_index_2": 3,
+    "line_index_2": 3627,
     "heRef_2": "שבת קמ״ב א",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -1009,7 +1009,7 @@
   },
   {
     "line_index_1": 3435,
-    "line_index_2": 3,
+    "line_index_2": 785,
     "heRef_2": "בכורות כ״ד",
     "path_2": "בכורות.txt",
     "Conection Type": "linker",
@@ -1018,7 +1018,7 @@
   },
   {
     "line_index_1": 3436,
-    "line_index_2": 3,
+    "line_index_2": 1364,
     "heRef_2": "בכורות מ׳ א",
     "path_2": "בכורות.txt",
     "Conection Type": "linker",
@@ -1027,7 +1027,7 @@
   },
   {
     "line_index_1": 3525,
-    "line_index_2": 3,
+    "line_index_2": 2341,
     "heRef_2": "פסחים ע״ו",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -1036,7 +1036,7 @@
   },
   {
     "line_index_1": 3557,
-    "line_index_2": 3,
+    "line_index_2": 139,
     "heRef_2": "עבודה זרה ס״ו",
     "path_2": "עבודה זרה.txt",
     "Conection Type": "linker",
@@ -1063,7 +1063,7 @@
   },
   {
     "line_index_1": 3652,
-    "line_index_2": 3,
+    "line_index_2": 1512,
     "heRef_2": "שבת ס״ב ב",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -1072,7 +1072,7 @@
   },
   {
     "line_index_1": 3653,
-    "line_index_2": 3,
+    "line_index_2": 1863,
     "heRef_2": "שבת ע״ה א",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -1099,7 +1099,7 @@
   },
   {
     "line_index_1": 3666,
-    "line_index_2": 3,
+    "line_index_2": 2094,
     "heRef_2": "ברכות מ״ו ב",
     "path_2": "ברכות.txt",
     "Conection Type": "linker",

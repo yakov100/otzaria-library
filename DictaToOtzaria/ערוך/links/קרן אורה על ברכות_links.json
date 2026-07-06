@@ -1,7 +1,7 @@
 [
   {
     "line_index_1": 41,
-    "line_index_2": 3,
+    "line_index_2": 1184,
     "heRef_2": "סוכה מ״ו",
     "path_2": "סוכה.txt",
     "Conection Type": "linker",
@@ -10,7 +10,7 @@
   },
   {
     "line_index_1": 41,
-    "line_index_2": 3,
+    "line_index_2": 1424,
     "heRef_2": "מנחות מ״ג",
     "path_2": "מנחות.txt",
     "Conection Type": "linker",
@@ -19,7 +19,7 @@
   },
   {
     "line_index_1": 47,
-    "line_index_2": 3,
+    "line_index_2": 56,
     "heRef_2": "חגיגה ד׳",
     "path_2": "חגיגה.txt",
     "Conection Type": "linker",
@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 48,
-    "line_index_2": 3,
+    "line_index_2": 525,
     "heRef_2": "חגיגה י״ח",
     "path_2": "חגיגה.txt",
     "Conection Type": "linker",
@@ -37,7 +37,7 @@
   },
   {
     "line_index_1": 87,
-    "line_index_2": 3,
+    "line_index_2": 3255,
     "heRef_2": "זבחים ק׳",
     "path_2": "זבחים.txt",
     "Conection Type": "linker",
@@ -46,7 +46,7 @@
   },
   {
     "line_index_1": 90,
-    "line_index_2": 3,
+    "line_index_2": 93,
     "heRef_2": "מגילה ד׳",
     "path_2": "מגילה.txt",
     "Conection Type": "linker",
@@ -55,7 +55,7 @@
   },
   {
     "line_index_1": 91,
-    "line_index_2": 3,
+    "line_index_2": 684,
     "heRef_2": "מגילה י״ח א",
     "path_2": "מגילה.txt",
     "Conection Type": "linker",
@@ -64,7 +64,7 @@
   },
   {
     "line_index_1": 111,
-    "line_index_2": 3,
+    "line_index_2": 881,
     "heRef_2": "ברכות י״ח",
     "path_2": "ברכות.txt",
     "Conection Type": "linker",
@@ -73,7 +73,7 @@
   },
   {
     "line_index_1": 136,
-    "line_index_2": 4,
+    "line_index_2": 1061,
     "heRef_2": "תוספות על חולין צ״ו",
     "path_2": "תוספות על חולין.txt",
     "Conection Type": "linker",
@@ -91,7 +91,7 @@
   },
   {
     "line_index_1": 141,
-    "line_index_2": 3,
+    "line_index_2": 1217,
     "heRef_2": "פסחים מ״א",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -100,7 +100,7 @@
   },
   {
     "line_index_1": 141,
-    "line_index_2": 3,
+    "line_index_2": 1101,
     "heRef_2": "פסחים ל״ז ב",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",

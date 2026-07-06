@@ -1,7 +1,7 @@
 [
   {
     "line_index_1": 3,
-    "line_index_2": 4,
+    "line_index_2": 162,
     "heRef_2": "תוספות על ברכות י״ח א",
     "path_2": "תוספות על ברכות.txt",
     "Conection Type": "linker",
@@ -19,7 +19,7 @@
   },
   {
     "line_index_1": 3,
-    "line_index_2": 4,
+    "line_index_2": 162,
     "heRef_2": "תוספות על ברכות י״ח א",
     "path_2": "תוספות על ברכות.txt",
     "Conection Type": "linker",
@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 3,
-    "line_index_2": 3,
+    "line_index_2": 1343,
     "heRef_2": "מנחות מ״א א",
     "path_2": "מנחות.txt",
     "Conection Type": "linker",
@@ -37,7 +37,7 @@
   },
   {
     "line_index_1": 5,
-    "line_index_2": 3,
+    "line_index_2": 2380,
     "heRef_2": "נדה ס״א ב",
     "path_2": "נדה.txt",
     "Conection Type": "linker",
@@ -46,7 +46,7 @@
   },
   {
     "line_index_1": 5,
-    "line_index_2": 3,
+    "line_index_2": 1020,
     "heRef_2": "מגילה כ״ו ב",
     "path_2": "מגילה.txt",
     "Conection Type": "linker",

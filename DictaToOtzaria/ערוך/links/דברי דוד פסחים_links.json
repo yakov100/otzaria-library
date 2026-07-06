@@ -1,7 +1,7 @@
 [
   {
     "line_index_1": 4,
-    "line_index_2": 3,
+    "line_index_2": 1332,
     "heRef_2": "פסחים מ״ג ב",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 7,
-    "line_index_2": 4,
+    "line_index_2": 850,
     "heRef_2": "תוספות על זבחים ע״ט א",
     "path_2": "תוספות על זבחים.txt",
     "Conection Type": "linker",
@@ -37,7 +37,7 @@
   },
   {
     "line_index_1": 9,
-    "line_index_2": 4,
+    "line_index_2": 249,
     "heRef_2": "תוספות על סוכה כ״ו א",
     "path_2": "תוספות על סוכה.txt",
     "Conection Type": "linker",
@@ -73,7 +73,7 @@
   },
   {
     "line_index_1": 15,
-    "line_index_2": 3,
+    "line_index_2": 2555,
     "heRef_2": "זבחים ע״ח א",
     "path_2": "זבחים.txt",
     "Conection Type": "linker",
@@ -91,7 +91,7 @@
   },
   {
     "line_index_1": 26,
-    "line_index_2": 3,
+    "line_index_2": 2576,
     "heRef_2": "זבחים ע״ט א",
     "path_2": "זבחים.txt",
     "Conection Type": "linker",
@@ -100,7 +100,7 @@
   },
   {
     "line_index_1": 26,
-    "line_index_2": 3,
+    "line_index_2": 2995,
     "heRef_2": "חולין צ״ז א",
     "path_2": "חולין.txt",
     "Conection Type": "linker",
@@ -127,7 +127,7 @@
   },
   {
     "line_index_1": 41,
-    "line_index_2": 3,
+    "line_index_2": 747,
     "heRef_2": "נזיר ל״ו ב",
     "path_2": "נזיר.txt",
     "Conection Type": "linker",
@@ -145,7 +145,7 @@
   },
   {
     "line_index_1": 52,
-    "line_index_2": 3,
+    "line_index_2": 3019,
     "heRef_2": "חולין צ״ח",
     "path_2": "חולין.txt",
     "Conection Type": "linker",

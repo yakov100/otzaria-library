@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 14,
-    "line_index_2": 4,
+    "line_index_2": 19,
     "heRef_2": "תוספות על בבא מציעא ג׳ א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "linker",
@@ -118,7 +118,7 @@
   },
   {
     "line_index_1": 66,
-    "line_index_2": 3,
+    "line_index_2": 285,
     "heRef_2": "ערכין ט׳ א",
     "path_2": "ערכין.txt",
     "Conection Type": "linker",
@@ -136,7 +136,7 @@
   },
   {
     "line_index_1": 72,
-    "line_index_2": 3,
+    "line_index_2": 233,
     "heRef_2": "פסחים ט׳",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -163,7 +163,7 @@
   },
   {
     "line_index_1": 80,
-    "line_index_2": 3,
+    "line_index_2": 282,
     "heRef_2": "נדה י׳",
     "path_2": "נדה.txt",
     "Conection Type": "linker",
@@ -208,7 +208,7 @@
   },
   {
     "line_index_1": 122,
-    "line_index_2": 3,
+    "line_index_2": 478,
     "heRef_2": "סנהדרין י״ח",
     "path_2": "סנהדרין.txt",
     "Conection Type": "linker",
@@ -235,7 +235,7 @@
   },
   {
     "line_index_1": 181,
-    "line_index_2": 4,
+    "line_index_2": 62,
     "heRef_2": "תוספות על מכות ז׳ א",
     "path_2": "תוספות על מכות.txt",
     "Conection Type": "linker",
@@ -244,7 +244,7 @@
   },
   {
     "line_index_1": 185,
-    "line_index_2": 3,
+    "line_index_2": 873,
     "heRef_2": "סוטה כ״ו",
     "path_2": "סוטה.txt",
     "Conection Type": "linker",

@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 5,
-    "line_index_2": 3,
+    "line_index_2": 792,
     "heRef_2": "סוכה ל״א א",
     "path_2": "סוכה.txt",
     "Conection Type": "linker",
@@ -91,7 +91,7 @@
   },
   {
     "line_index_1": 17,
-    "line_index_2": 3,
+    "line_index_2": 38,
     "heRef_2": "ברכות ג׳ א",
     "path_2": "ברכות.txt",
     "Conection Type": "linker",
@@ -100,7 +100,7 @@
   },
   {
     "line_index_1": 18,
-    "line_index_2": 3,
+    "line_index_2": 1974,
     "heRef_2": "עירובין נ״ג ב",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -109,7 +109,7 @@
   },
   {
     "line_index_1": 19,
-    "line_index_2": 3,
+    "line_index_2": 771,
     "heRef_2": "ביצה כ״ה ב",
     "path_2": "ביצה.txt",
     "Conection Type": "linker",
@@ -136,7 +136,7 @@
   },
   {
     "line_index_1": 21,
-    "line_index_2": 4,
+    "line_index_2": 492,
     "heRef_2": "תוספות על ברכות מ״ז א",
     "path_2": "תוספות על ברכות.txt",
     "Conection Type": "linker",
@@ -145,7 +145,7 @@
   },
   {
     "line_index_1": 21,
-    "line_index_2": 3,
+    "line_index_2": 3317,
     "heRef_2": "פסחים ק״ו א",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -199,7 +199,7 @@
   },
   {
     "line_index_1": 29,
-    "line_index_2": 3,
+    "line_index_2": 2289,
     "heRef_2": "גיטין ע׳ א",
     "path_2": "גיטין.txt",
     "Conection Type": "linker",

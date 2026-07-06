@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 23,
-    "line_index_2": 3,
+    "line_index_2": 2246,
     "heRef_2": "שבת צ״ו א",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -55,7 +55,7 @@
   },
   {
     "line_index_1": 76,
-    "line_index_2": 4,
+    "line_index_2": 328,
     "heRef_2": "תוספות על עירובין ל׳",
     "path_2": "תוספות על עירובין.txt",
     "Conection Type": "linker",
@@ -64,7 +64,7 @@
   },
   {
     "line_index_1": 91,
-    "line_index_2": 3,
+    "line_index_2": 863,
     "heRef_2": "זבחים כ״ג",
     "path_2": "זבחים.txt",
     "Conection Type": "linker",
@@ -82,7 +82,7 @@
   },
   {
     "line_index_1": 114,
-    "line_index_2": 3,
+    "line_index_2": 815,
     "heRef_2": "כתובות ל״ב ב",
     "path_2": "כתובות.txt",
     "Conection Type": "linker",
@@ -91,7 +91,7 @@
   },
   {
     "line_index_1": 121,
-    "line_index_2": 3,
+    "line_index_2": 3547,
     "heRef_2": "עירובין צ״ח",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -100,7 +100,7 @@
   },
   {
     "line_index_1": 125,
-    "line_index_2": 3,
+    "line_index_2": 824,
     "heRef_2": "עירובין כ״ב",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -109,7 +109,7 @@
   },
   {
     "line_index_1": 125,
-    "line_index_2": 3,
+    "line_index_2": 365,
     "heRef_2": "עירובין י״ב",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -127,7 +127,7 @@
   },
   {
     "line_index_1": 126,
-    "line_index_2": 3,
+    "line_index_2": 735,
     "heRef_2": "עירובין כ׳",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -136,7 +136,7 @@
   },
   {
     "line_index_1": 127,
-    "line_index_2": 3,
+    "line_index_2": 735,
     "heRef_2": "עירובין כ׳ א",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -163,7 +163,7 @@
   },
   {
     "line_index_1": 151,
-    "line_index_2": 3,
+    "line_index_2": 310,
     "heRef_2": "בבא בתרא קי״ב",
     "path_2": "בבא בתרא.txt",
     "Conection Type": "linker",
@@ -172,7 +172,7 @@
   },
   {
     "line_index_1": 152,
-    "line_index_2": 3,
+    "line_index_2": 845,
     "heRef_2": "בבא בתרא ק״ל",
     "path_2": "בבא בתרא.txt",
     "Conection Type": "linker",

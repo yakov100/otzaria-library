@@ -10,7 +10,7 @@
   },
   {
     "line_index_1": 4,
-    "line_index_2": 3,
+    "line_index_2": 97,
     "heRef_2": "בבא קמא ע״ד ב",
     "path_2": "בבא קמא.txt",
     "Conection Type": "linker",
@@ -19,7 +19,7 @@
   },
   {
     "line_index_1": 4,
-    "line_index_2": 3,
+    "line_index_2": 795,
     "heRef_2": "ברכות ט״ז",
     "path_2": "ברכות.txt",
     "Conection Type": "linker",
@@ -37,7 +37,7 @@
   },
   {
     "line_index_1": 4,
-    "line_index_2": 3,
+    "line_index_2": 2401,
     "heRef_2": "יומא פ״ז א",
     "path_2": "יומא.txt",
     "Conection Type": "linker",
@@ -46,7 +46,7 @@
   },
   {
     "line_index_1": 4,
-    "line_index_2": 3,
+    "line_index_2": 197,
     "heRef_2": "בבא קמא פ״ז א",
     "path_2": "בבא קמא.txt",
     "Conection Type": "linker",

@@ -10,7 +10,7 @@
   },
   {
     "line_index_1": 4,
-    "line_index_2": 3,
+    "line_index_2": 1175,
     "heRef_2": "ערכין ל״ב ב",
     "path_2": "ערכין.txt",
     "Conection Type": "linker",
@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 5,
-    "line_index_2": 3,
+    "line_index_2": 869,
     "heRef_2": "נזיר מ״ב א",
     "path_2": "נזיר.txt",
     "Conection Type": "linker",
@@ -37,7 +37,7 @@
   },
   {
     "line_index_1": 5,
-    "line_index_2": 3,
+    "line_index_2": 65,
     "heRef_2": "הוריות ג׳ ב",
     "path_2": "הוריות.txt",
     "Conection Type": "linker",

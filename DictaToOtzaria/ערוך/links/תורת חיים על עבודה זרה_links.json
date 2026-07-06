@@ -10,7 +10,7 @@
   },
   {
     "line_index_1": 11,
-    "line_index_2": 3,
+    "line_index_2": 29,
     "heRef_2": "שבת ג׳",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -55,7 +55,7 @@
   },
   {
     "line_index_1": 82,
-    "line_index_2": 3,
+    "line_index_2": 258,
     "heRef_2": "סנהדרין י״א",
     "path_2": "סנהדרין.txt",
     "Conection Type": "linker",
@@ -109,7 +109,7 @@
   },
   {
     "line_index_1": 119,
-    "line_index_2": 3,
+    "line_index_2": 680,
     "heRef_2": "עירובין י״ט",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -127,7 +127,7 @@
   },
   {
     "line_index_1": 161,
-    "line_index_2": 3,
+    "line_index_2": 696,
     "heRef_2": "יומא כ״ט",
     "path_2": "יומא.txt",
     "Conection Type": "linker",
@@ -136,7 +136,7 @@
   },
   {
     "line_index_1": 170,
-    "line_index_2": 3,
+    "line_index_2": 1006,
     "heRef_2": "בכורות ל״א",
     "path_2": "בכורות.txt",
     "Conection Type": "linker",
@@ -154,7 +154,7 @@
   },
   {
     "line_index_1": 185,
-    "line_index_2": 3,
+    "line_index_2": 1023,
     "heRef_2": "חולין ל״ה",
     "path_2": "חולין.txt",
     "Conection Type": "linker",
@@ -208,7 +208,7 @@
   },
   {
     "line_index_1": 223,
-    "line_index_2": 3,
+    "line_index_2": 1492,
     "heRef_2": "סנהדרין מ״א",
     "path_2": "סנהדרין.txt",
     "Conection Type": "linker",
@@ -253,7 +253,7 @@
   },
   {
     "line_index_1": 235,
-    "line_index_2": 3,
+    "line_index_2": 1466,
     "heRef_2": "מנחות מ״ד",
     "path_2": "מנחות.txt",
     "Conection Type": "linker",
@@ -298,7 +298,7 @@
   },
   {
     "line_index_1": 261,
-    "line_index_2": 4,
+    "line_index_2": 858,
     "heRef_2": "תוספות על חולין ע״ח א",
     "path_2": "תוספות על חולין.txt",
     "Conection Type": "linker",
@@ -307,7 +307,7 @@
   },
   {
     "line_index_1": 271,
-    "line_index_2": 3,
+    "line_index_2": 1361,
     "heRef_2": "סוכה נ״ג",
     "path_2": "סוכה.txt",
     "Conection Type": "linker",
@@ -325,7 +325,7 @@
   },
   {
     "line_index_1": 299,
-    "line_index_2": 3,
+    "line_index_2": 1779,
     "heRef_2": "חולין ס׳",
     "path_2": "חולין.txt",
     "Conection Type": "linker",

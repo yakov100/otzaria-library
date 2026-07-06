@@ -1,7 +1,7 @@
 [
   {
     "line_index_1": 4,
-    "line_index_2": 3,
+    "line_index_2": 440,
     "heRef_2": "בבא קמא קי״ג",
     "path_2": "בבא קמא.txt",
     "Conection Type": "linker",
@@ -19,7 +19,7 @@
   },
   {
     "line_index_1": 9,
-    "line_index_2": 3,
+    "line_index_2": 1184,
     "heRef_2": "קידושין ל״ח",
     "path_2": "קידושין.txt",
     "Conection Type": "linker",
@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 13,
-    "line_index_2": 3,
+    "line_index_2": 1045,
     "heRef_2": "פסחים ל״ו א",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -46,7 +46,7 @@
   },
   {
     "line_index_1": 19,
-    "line_index_2": 3,
+    "line_index_2": 432,
     "heRef_2": "חגיגה ט״ו",
     "path_2": "חגיגה.txt",
     "Conection Type": "linker",
@@ -55,7 +55,7 @@
   },
   {
     "line_index_1": 19,
-    "line_index_2": 3,
+    "line_index_2": 432,
     "heRef_2": "חגיגה ט״ו א",
     "path_2": "חגיגה.txt",
     "Conection Type": "linker",

@@ -1,7 +1,7 @@
 [
   {
     "line_index_1": 10,
-    "line_index_2": 3,
+    "line_index_2": 2373,
     "heRef_2": "פסחים ע״ז",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -28,7 +28,7 @@
   },
   {
     "line_index_1": 15,
-    "line_index_2": 4,
+    "line_index_2": 495,
     "heRef_2": "תוספות על פסחים מ״ו",
     "path_2": "תוספות על פסחים.txt",
     "Conection Type": "linker",
@@ -55,7 +55,7 @@
   },
   {
     "line_index_1": 30,
-    "line_index_2": 3,
+    "line_index_2": 139,
     "heRef_2": "עבודה זרה ל״ו",
     "path_2": "עבודה זרה.txt",
     "Conection Type": "linker",
@@ -64,7 +64,7 @@
   },
   {
     "line_index_1": 30,
-    "line_index_2": 3,
+    "line_index_2": 139,
     "heRef_2": "עבודה זרה ל״ו א",
     "path_2": "עבודה זרה.txt",
     "Conection Type": "linker",
@@ -82,7 +82,7 @@
   },
   {
     "line_index_1": 30,
-    "line_index_2": 3,
+    "line_index_2": 1044,
     "heRef_2": "גיטין ל״ו",
     "path_2": "גיטין.txt",
     "Conection Type": "linker",
@@ -100,7 +100,7 @@
   },
   {
     "line_index_1": 30,
-    "line_index_2": 3,
+    "line_index_2": 39,
     "heRef_2": "מועד קטן ג׳",
     "path_2": "מועד קטן.txt",
     "Conection Type": "linker",
@@ -109,7 +109,7 @@
   },
   {
     "line_index_1": 30,
-    "line_index_2": 3,
+    "line_index_2": 925,
     "heRef_2": "ראש השנה ל״א",
     "path_2": "ראש השנה.txt",
     "Conection Type": "linker",
@@ -118,7 +118,7 @@
   },
   {
     "line_index_1": 30,
-    "line_index_2": 3,
+    "line_index_2": 228,
     "heRef_2": "מועד קטן ח׳",
     "path_2": "מועד קטן.txt",
     "Conection Type": "linker",
@@ -127,7 +127,7 @@
   },
   {
     "line_index_1": 37,
-    "line_index_2": 3,
+    "line_index_2": 1898,
     "heRef_2": "חולין ס״ה",
     "path_2": "חולין.txt",
     "Conection Type": "linker",
@@ -181,7 +181,7 @@
   },
   {
     "line_index_1": 41,
-    "line_index_2": 3,
+    "line_index_2": 1046,
     "heRef_2": "שבת נ׳",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -253,7 +253,7 @@
   },
   {
     "line_index_1": 69,
-    "line_index_2": 3,
+    "line_index_2": 2891,
     "heRef_2": "שבת קכ״ג",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -298,7 +298,7 @@
   },
   {
     "line_index_1": 81,
-    "line_index_2": 3,
+    "line_index_2": 1425,
     "heRef_2": "פסחים מ״ו",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -316,7 +316,7 @@
   },
   {
     "line_index_1": 84,
-    "line_index_2": 3,
+    "line_index_2": 128,
     "heRef_2": "כתובות ז׳",
     "path_2": "כתובות.txt",
     "Conection Type": "linker",
@@ -325,7 +325,7 @@
   },
   {
     "line_index_1": 87,
-    "line_index_2": 3,
+    "line_index_2": 3069,
     "heRef_2": "שבת קכ״ח",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -334,7 +334,7 @@
   },
   {
     "line_index_1": 93,
-    "line_index_2": 3,
+    "line_index_2": 773,
     "heRef_2": "מגילה כ׳",
     "path_2": "מגילה.txt",
     "Conection Type": "linker",
@@ -433,7 +433,7 @@
   },
   {
     "line_index_1": 107,
-    "line_index_2": 3,
+    "line_index_2": 1425,
     "heRef_2": "פסחים מ״ו",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -442,7 +442,7 @@
   },
   {
     "line_index_1": 107,
-    "line_index_2": 3,
+    "line_index_2": 1425,
     "heRef_2": "פסחים מ״ו א",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -451,7 +451,7 @@
   },
   {
     "line_index_1": 108,
-    "line_index_2": 3,
+    "line_index_2": 1425,
     "heRef_2": "פסחים מ״ו א",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -460,7 +460,7 @@
   },
   {
     "line_index_1": 108,
-    "line_index_2": 3,
+    "line_index_2": 1425,
     "heRef_2": "פסחים מ״ו א",
     "path_2": "פסחים.txt",
     "Conection Type": "linker",
@@ -541,7 +541,7 @@
   },
   {
     "line_index_1": 143,
-    "line_index_2": 3,
+    "line_index_2": 502,
     "heRef_2": "חגיגה י״ז",
     "path_2": "חגיגה.txt",
     "Conection Type": "linker",
@@ -559,7 +559,7 @@
   },
   {
     "line_index_1": 146,
-    "line_index_2": 3,
+    "line_index_2": 1074,
     "heRef_2": "נזיר נ״א",
     "path_2": "נזיר.txt",
     "Conection Type": "linker",
@@ -604,7 +604,7 @@
   },
   {
     "line_index_1": 150,
-    "line_index_2": 3,
+    "line_index_2": 116,
     "heRef_2": "ראש השנה ו׳",
     "path_2": "ראש השנה.txt",
     "Conection Type": "linker",
@@ -640,7 +640,7 @@
   },
   {
     "line_index_1": 160,
-    "line_index_2": 3,
+    "line_index_2": 596,
     "heRef_2": "שבת כ״ט",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -703,7 +703,7 @@
   },
   {
     "line_index_1": 183,
-    "line_index_2": 3,
+    "line_index_2": 1443,
     "heRef_2": "עירובין מ׳",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -730,7 +730,7 @@
   },
   {
     "line_index_1": 217,
-    "line_index_2": 4,
+    "line_index_2": 256,
     "heRef_2": "תוספות על שבת י״ט",
     "path_2": "תוספות על שבת.txt",
     "Conection Type": "linker",
@@ -766,7 +766,7 @@
   },
   {
     "line_index_1": 217,
-    "line_index_2": 3,
+    "line_index_2": 357,
     "heRef_2": "חולין י״ד",
     "path_2": "חולין.txt",
     "Conection Type": "linker",
@@ -775,7 +775,7 @@
   },
   {
     "line_index_1": 229,
-    "line_index_2": 3,
+    "line_index_2": 989,
     "heRef_2": "שבת מ״ח",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -802,7 +802,7 @@
   },
   {
     "line_index_1": 231,
-    "line_index_2": 3,
+    "line_index_2": 4018,
     "heRef_2": "שבת קנ״ה",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -811,7 +811,7 @@
   },
   {
     "line_index_1": 234,
-    "line_index_2": 3,
+    "line_index_2": 948,
     "heRef_2": "שבת מ״ו",
     "path_2": "שבת.txt",
     "Conection Type": "linker",
@@ -982,7 +982,7 @@
   },
   {
     "line_index_1": 289,
-    "line_index_2": 3,
+    "line_index_2": 139,
     "heRef_2": "עבודה זרה מ״ו",
     "path_2": "עבודה זרה.txt",
     "Conection Type": "linker",
@@ -1009,7 +1009,7 @@
   },
   {
     "line_index_1": 296,
-    "line_index_2": 3,
+    "line_index_2": 150,
     "heRef_2": "עירובין ו׳",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",

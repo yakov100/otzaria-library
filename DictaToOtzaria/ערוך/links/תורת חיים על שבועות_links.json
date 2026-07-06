@@ -64,7 +64,7 @@
   },
   {
     "line_index_1": 60,
-    "line_index_2": 3,
+    "line_index_2": 372,
     "heRef_2": "חגיגה י״ג",
     "path_2": "חגיגה.txt",
     "Conection Type": "linker",
@@ -91,7 +91,7 @@
   },
   {
     "line_index_1": 65,
-    "line_index_2": 3,
+    "line_index_2": 613,
     "heRef_2": "כריתות י״ד",
     "path_2": "כריתות.txt",
     "Conection Type": "linker",
@@ -100,7 +100,7 @@
   },
   {
     "line_index_1": 77,
-    "line_index_2": 3,
+    "line_index_2": 539,
     "heRef_2": "עירובין ט״ז",
     "path_2": "עירובין.txt",
     "Conection Type": "linker",
@@ -127,7 +127,7 @@
   },
   {
     "line_index_1": 121,
-    "line_index_2": 3,
+    "line_index_2": 1076,
     "heRef_2": "כריתות כ״ה",
     "path_2": "כריתות.txt",
     "Conection Type": "linker",
@@ -136,7 +136,7 @@
   },
   {
     "line_index_1": 150,
-    "line_index_2": 3,
+    "line_index_2": 1054,
     "heRef_2": "בבא מציעא ל״א",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "linker",
@@ -145,7 +145,7 @@
   },
   {
     "line_index_1": 175,
-    "line_index_2": 3,
+    "line_index_2": 1088,
     "heRef_2": "קידושין ל״ה",
     "path_2": "קידושין.txt",
     "Conection Type": "linker",
@@ -154,7 +154,7 @@
   },
   {
     "line_index_1": 180,
-    "line_index_2": 3,
+    "line_index_2": 1212,
     "heRef_2": "סוטה ל״ו",
     "path_2": "סוטה.txt",
     "Conection Type": "linker",
@@ -172,7 +172,7 @@
   },
   {
     "line_index_1": 184,
-    "line_index_2": 3,
+    "line_index_2": 740,
     "heRef_2": "נדרים ל״ז",
     "path_2": "נדרים.txt",
     "Conection Type": "linker",
