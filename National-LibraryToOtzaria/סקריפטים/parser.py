@@ -374,13 +374,19 @@ for code_mefaresh_id, mef_entry in all_mef.items():
                             if not otzaria_line:
                                 print(f"Missing link for {book.strip()}, {halachot.strip()}, {perek.strip()}, {ot.strip()}")
                                 continue
+                            # הקובץ נקרא על שם המפרש, ולכן הוא צד ה-source. מנקודת
+                            # מבטו, משנה תורה הוא ה"מקור" (source) שעליו הוא מפרש —
+                            # לכן הסוג הוא "source" ולא "commentary". הגנרטור הופך
+                            # קישור-source לכיוון הקנוני (רמב"ם→מפרש, COMMENTARY),
+                            # והאפליקציה מציגה את המפרש תחת "מפרשים" של הרמב"ם ואת
+                            # הרמב"ם תחת "מקור" של המפרש (issue Otzaria/otzaria#531).
                             dict_links.append(
                                 {
                                     "line_index_1": lines,
                                     "heRef_2": f"{otzaria_book_name}, {otzaria_halachot}, {otzaria_perek}, {otzaria_ot}",
                                     "path_2": f"משנה תורה, {otzaria_halachot}.txt",
                                     "line_index_2": otzaria_line,
-                                    "Conection Type": "commentary"
+                                    "Conection Type": "source"
                                 })
                             dict_rambam = rambam_links if not in_extra else rambam_extra_books_links
                             dict_rambam[f"משנה תורה, {otzaria_halachot}"].append({
