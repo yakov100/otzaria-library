@@ -239,6 +239,19 @@ citing book uses that pattern — and do not limit that scan to the word `בד"�
   intermediate book — this is the same trap as check 6/F9, so cross-reference that scan when
   sampling these lines. Judge continuity from the wording; do not require a fixed trigger list.
 
+After a matcher/parser/scoring change, add a **change-sensitive stratified sample** in addition
+to the regular random sample:
+
+- Sample at least 20–30 lines from every textual pattern whose routing or extraction logic
+  changed (for example `שם` + a second `<b>` span, or bare `<b>בד"ה</b>`).
+- Compare old target versus new target for every changed entry; do not inspect only the lines
+  named in the bug report that motivated the code change.
+- Review every new low-confidence item, every resolved/unresolved status change, and every
+  manual override. A decrease in `unresolved` is not automatically an improvement if guesses
+  were merely forced into the output.
+- Import-ready requires zero semantic `major` findings in these changed-pattern samples. Report
+  the observed accuracy percentage per pattern; do not merge it into the ordinary random sample.
+
 For each sample: read citing line + target line (+ nearby DB lines). Judge dibbur/subject
 overlap.
 

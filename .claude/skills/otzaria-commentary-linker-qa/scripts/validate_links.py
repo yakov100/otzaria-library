@@ -125,7 +125,8 @@ def is_front_matter(line: str, *, byline_max_len: int, line_index: int, lines: l
         return False
     if PLACEHOLDER_RE.search(s) or (s.startswith("@@@") and "חסר" in s):
         return True
-    if COLOPHON_RE.match(s):
+    plain = re.sub(r"<[^>]+>", "", s).strip()
+    if COLOPHON_RE.match(plain):
         return True
     # Short non-heading line immediately after <h1> is usually an author byline
     if (
@@ -194,17 +195,30 @@ def guess_book_title(target_path: Path, target_lines: list[str]) -> str:
     return target_path.stem
 
 
+def title_variants(title: str) -> list[str]:
+    variants = [title]
+    if title.startswith("רשי "):
+        variants.append('רש"י ' + title[4:])
+    if title.startswith("רשבם "):
+        variants.append('רשב"ם ' + title[5:])
+    return list(dict.fromkeys(variants))
+
+
 def resolve_book_id(conn: sqlite3.Connection, title: str) -> int | None:
-    row = conn.execute(
-        "SELECT id, title FROM book WHERE title = ? LIMIT 1", (title,)
-    ).fetchone()
-    if row:
-        return int(row[0])
-    rows = conn.execute(
-        "SELECT id, title FROM book WHERE title LIKE ? LIMIT 5", (f"%{title}%",)
-    ).fetchall()
-    if len(rows) == 1:
-        return int(rows[0][0])
+    for variant in title_variants(title):
+        row = conn.execute(
+            "SELECT id, title FROM book WHERE title = ? LIMIT 1", (variant,)
+        ).fetchone()
+        if row:
+            return int(row[0])
+    rows_by_id = {}
+    for variant in title_variants(title):
+        for row in conn.execute(
+            "SELECT id, title FROM book WHERE title LIKE ? LIMIT 5", (f"%{variant}%",)
+        ).fetchall():
+            rows_by_id[int(row[0])] = row
+    if len(rows_by_id) == 1:
+        return next(iter(rows_by_id))
     return None
 
 
@@ -213,7 +227,7 @@ def path_title(path2: str) -> str:
 
 
 def is_intermediate_path(path2: str) -> bool:
-    return any(x in path2 for x in ('רש"י', "תוספות", "תוס'", "ישנים", 'רשב"ם'))
+    return any(x in path2 for x in ('רש"י', "רשי", "תוספות", "תוס'", "ישנים", 'רשב"ם', "רשבם"))
 
 
 def super_kind(line: str) -> str | None:

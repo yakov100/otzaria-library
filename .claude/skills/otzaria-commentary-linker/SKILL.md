@@ -143,7 +143,26 @@ following hold:
    found, and exactly which specific lines (if any) were low-confidence guesses worth
    spot-checking — plus any front-matter lines you deliberately skipped and why. The JSON file
    is the deliverable; re-importing it into `seforim.db` is a separate, later step — use
-   `otzaria-db-linker` when the user asks to write the links into the live DB.
+    `otzaria-db-linker` when the user asks to write the links into the live DB.
+
+### Automated matcher contract: full coverage without hiding guesses
+
+When a script produces the links, distinguish **coverage** from **approval**:
+
+- The final `_links.json` still has full coverage and only the normal link fields. Do not add
+  confidence/debug keys to link entries; the app schema is not a QA metadata channel.
+- Write weak, short-anchor, tied, or otherwise uncertain decisions to a separate QA JSON/report
+  (`--qa-report` in `linker/dibur_matcher.py`) with the citing line, chosen target, scores,
+  evidence class, and reason for review.
+- An unresolved content line blocks a final production artifact. Resolve it semantically or
+  supply a reviewed override. `--allow-incomplete` is only for an explicitly named intermediate
+  review artifact, never for an import-ready file.
+- Reviewed manual decisions belong in a deterministic override JSON, not only in generated
+  output. The format is an object keyed by citing `line_index_1`; each value is either a complete
+  five-field link entry or `null` for a verified legitimate skip. Re-running must reapply and
+  report every override.
+- A `null` override does not prove that a line is skippable. QA must still confirm it is a
+  heading/front-matter/placeholder/colophon under criterion 1.
 
 ## What you need to know to get there
 
@@ -239,6 +258,12 @@ itself a `super_commentary` onto Rashi/Tosafot, any such continuation — whethe
 "בד"ה" or with any other connective that names no new subject — inherits that same
 Rashi/Tosafot target, not the Gemara. See "Continuation lines within a super-commentary run"
 below for the full rule.
+
+For an explicit cross-reference outside the current section, keep the current-section window
+as the default and broaden the search only when the citing wording actually names or clearly
+signals the other location. Record that decision for QA. Never turn a failed in-section match
+into an unrestricted whole-book search automatically: a generic short dibbur will often find a
+plausible but unrelated occurrence elsewhere.
 
 **Ordering for display:** When multiple citing-book lines target the same target line and book
 (`line_index_2` + `path_2` identical), **keep them consecutive in the JSON file** (one right
