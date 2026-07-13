@@ -98,13 +98,21 @@ def build_daf_index(lines: List[Line]) -> Dict[Optional[str], List[Line]]:
 
 
 FIXED_KNOWN_LABELS = {
-    "שם", "בדה", "דה", "באד", "בגמרא", "גמרא", "ובזה", "אכן", "ועוד", "עוד",
+    "שם", "באד", "בגמרא", "גמרא", "ובזה", "אכן", "ועוד", "עוד",
     "והנה", "בתוספ", "ותוספ", "תוספות", "בתוספות", "שוב", "במתניתן", "במשנה",
     "משנה", "מתני", "ולפז", "ודע", "ברשי", "ורשי", "רשי", "תוס", "ותוס",
     "וראיתי", "אבל", "אנ", "ונל", "ועפ", "גם", "ונלענד", "ונלעד", "אמנם",
     "וכן", "קק", "ושם", "והיוצא", "אלא", "לכאורה", "נל", "ויל", "הן אמת",
     "רדה", "תודה", "רשבם", "ברשבם", "ורשבם",
 }
+
+# "בד\"ה"/"ד\"ה" must NEVER be treated as a genuine (strippable) label -- it IS
+# the dibur-hamatchil marker itself, and stripping it away as a generic label
+# (as an earlier version of this script did) throws away the exact signal that
+# should route the line through detect_super_commentary_opener instead. This
+# exclusion applies even if "דה"/"בדה" would otherwise qualify via
+# build_frequent_labels (it recurs very often as a sole leading label).
+_DH_MARKER_KEYS = {"דה", "בדה"}
 
 
 def _norm_label_key(label: str) -> str:
@@ -189,6 +197,7 @@ _NAME_DH_PATTERNS = [
     (re.compile(r'^תוד"ה\s+(.+)$'), "tosafot"),
 ]
 _BARE_DH_RE = re.compile(r'^ב?ד"ה\s+(.+)$')
+_BOLD_BARE_DH_RE = re.compile(r'^<b>ב?ד"ה</b>\s*(.+)$')
 _ATTRIB_ABBR_RE = re.compile(r'^(?:א[א-ת]"[א-ת]|בגמ\'?)\s+(?:כו\'?\s+)?(.+)$')
 
 
@@ -200,6 +209,9 @@ def detect_super_commentary_opener(
         if m:
             return key, m.group(1).strip()
     m = _BARE_DH_RE.match(text)
+    if m and active_intermediate:
+        return active_intermediate, m.group(1).strip()
+    m = _BOLD_BARE_DH_RE.match(text)
     if m and active_intermediate:
         return active_intermediate, m.group(1).strip()
     return None
@@ -227,6 +239,24 @@ def candidate_own_lemma(content: str) -> str:
     if m:
         return m.group(1)
     return content
+
+
+def extract_fresh_quote(rest: str) -> str:
+    """Collect ALL leading consecutive <b>...</b> spans in `rest` (used only
+    after we've already determined the first span is NOT a recognized label
+    and NOT a book-switch keyword -- i.e. it's a real quoted phrase, not a
+    label). Concatenates their contents and truncates at the first period/
+    colon, same convention as every other dibur extraction in this module."""
+    parts = []
+    remaining = rest
+    while True:
+        m = B_LABEL_RE.match(remaining)
+        if not m:
+            break
+        parts.append(m.group(1).strip())
+        remaining = remaining[m.end():]
+    quote = " ".join(p for p in parts if p)
+    return truncate_lemma(quote)
 
 
 def score_candidate(dibur: str, content: str) -> int:
@@ -361,7 +391,7 @@ def match_citing_book(
     heref_lookup = heref_lookup or {}
 
     citing_lines = parse_book(citing_path)
-    known_labels = set(FIXED_KNOWN_LABELS) | build_frequent_labels(citing_lines)
+    known_labels = (set(FIXED_KNOWN_LABELS) | build_frequent_labels(citing_lines)) - _DH_MARKER_KEYS
 
     base_lines = parse_book(base_path)
     base_daf_index = build_daf_index(base_lines)
@@ -474,15 +504,66 @@ def match_citing_book(
         if label and not label_named_new_book and is_pure_continuation_label(label):
             book_key = active_intermediate or "base"
             prev = last_line.get(book_key, 0)
+            cands, _title, _path, _counts = pools_for(book_key)
+            conn_type = "super_commentary" if book_key != "base" else "commentary"
+            rest_stripped = rest.lstrip()
+
+            # Fix (this version), part A: a PURE_CONTINUATION_LABEL like "שם"
+            # is sometimes immediately followed by an explicit sub-opener, e.g.
+            # "<b>שם</b> <b>ד"ה</b> אלא מליקה..." -- resolve that exactly like
+            # any other super-commentary opener (same resolve_dibur pipeline),
+            # searching forward from wherever that book last matched (NOT
+            # gated on whether the plain continuation-inherit anchor is still
+            # in the current daf window -- confirmed real case: line 2592).
+            sub_opener = detect_super_commentary_opener(rest_stripped, active_intermediate)
+            if sub_opener:
+                opener_book_key, opener_dibur = sub_opener
+                resolved_key = opener_book_key if opener_book_key in intermediate_books else "base"
+                opener_cands, _t, _p, _c = pools_for(resolved_key)
+                best, amb, end_idx = resolve_dibur(
+                    opener_dibur, opener_cands, last_line.get(resolved_key, 0), ln.line_index
+                )
+                if best is not None:
+                    opener_conn = "super_commentary" if opener_book_key in intermediate_books else "commentary"
+                    push_entry(ln.line_index, best, resolved_key, opener_conn, low_conf=amb, end_line_index=end_idx)
+                    continue
+
+            # Fix (this version), part B: otherwise, the label may be followed
+            # by ANOTHER bold span that is NOT itself a recognized label and
+            # NOT a book-switch keyword -- i.e. a real fresh quoted phrase from
+            # the currently-active book (confirmed real case: line 3238
+            # "<b>שם</b> <b>לחברתה</b> <b>לעולם</b><b>:</b>" is not "continue
+            # exactly where line 3237 left off" -- it quotes a DIFFERENT,
+            # later phrase from the same Gemara sugya). Try to resolve that
+            # fresh quote as a real dibur (searching forward from the previous
+            # anchor) before falling back to blind inheritance.
+            m2 = B_LABEL_RE.match(rest_stripped)
+            fresh_quote = None
+            if m2:
+                second_raw = m2.group(1)
+                norm2 = second_raw.replace('"', "").replace("'", "")
+                key2 = _norm_label_key(second_raw)
+                is_book_switch = ("גמרא" in norm2 or "משנה" in norm2
+                                   or "תוס" in norm2 or "רש" in norm2)
+                if not is_book_switch and key2 not in known_labels:
+                    fresh_quote = extract_fresh_quote(rest_stripped)
+
+            if fresh_quote and cands:
+                best, amb, end_idx = resolve_dibur(fresh_quote, cands, prev, ln.line_index)
+                if best is not None:
+                    push_entry(ln.line_index, best, book_key, conn_type, low_conf=amb, end_line_index=end_idx)
+                    continue
+
+            # Fix (this version), part C: only now fall back to plain blind
+            # inheritance of the previous anchor line, and only NOW report
+            # unresolved if that anchor cannot be found either.
             if prev == 0:
                 result.unresolved.append((ln.line_index, "continuation-label with no prior anchor to inherit"))
                 continue
-            cands, _title, _path, _counts = pools_for(book_key)
             prev_line_obj = next((c for c in cands if c.line_index == prev), None)
             if prev_line_obj is None:
                 result.unresolved.append((ln.line_index, "continuation-label target line no longer in daf window"))
                 continue
-            conn_type = "super_commentary" if book_key != "base" else "commentary"
             push_entry(ln.line_index, prev_line_obj, book_key, conn_type, low_conf=False)
             continue
 
@@ -613,7 +694,7 @@ def main():
     result = match_citing_book(args.citing, args.target_title, args.target, intermediate, heref_lookup)
 
     citing_lines_for_check = parse_book(args.citing)
-    known_labels = set(FIXED_KNOWN_LABELS) | build_frequent_labels(citing_lines_for_check)
+    known_labels = (set(FIXED_KNOWN_LABELS) | build_frequent_labels(citing_lines_for_check)) - _DH_MARKER_KEYS
     flagged = self_check_super_commentary(args.citing, result.entries, known_labels)
 
     if args.merge_into:
